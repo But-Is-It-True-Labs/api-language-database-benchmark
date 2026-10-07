@@ -21,12 +21,12 @@ if ($parts === false) {
 }
 
 $host = $parts['host'] ?? '';
-$port = $parts['port'] ?? 5432;
+$port = $parts['port'] ?? 3306;
 $user = $parts['user'] ?? '';
 $pass = $parts['pass'] ?? '';
 $db   = ltrim($parts['path'] ?? '', '/');
 
-$dsn = "pgsql:host={$host};port={$port};dbname={$db}";
+$dsn = "mysql:host={$host};port={$port};dbname={$db};charset=utf8mb4";
 
 try {
     $pdo = new PDO(
