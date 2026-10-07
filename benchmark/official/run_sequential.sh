@@ -3,8 +3,8 @@
 set -u
 set -o pipefail
 
-DB="${1:?Usage: $0 cassandra|postgres limited|full}"
-MODE="${2:?Usage: $0 cassandra|postgres limited|full}"
+DB="${1:?Usage: $0 cassandra|postgres|mariadb limited|full}"
+MODE="${2:?Usage: $0 cassandra|postgres|mariadb limited|full}"
 
 NETWORK="api_benchmark_network"
 RUNNER="api-benchmark-runner"
@@ -37,6 +37,9 @@ case "$DB" in
     ;;
   postgres)
     DB_CONTAINER="benchmark_postgres"
+    ;;
+  mariadb)
+    DB_CONTAINER="benchmark_mariadb"
     ;;
   *)
     echo "Unknown database: $DB"
