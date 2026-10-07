@@ -4,7 +4,8 @@ USER root
 
 RUN apk add --no-cache \
     build-base \
-    musl-dev
+    musl-dev \
+    mariadb-connector-c-dev
 
 WORKDIR /src
 
@@ -22,7 +23,8 @@ FROM alpine:3.20
 
 RUN apk add --no-cache \
     libgcc \
-    libstdc++
+    libstdc++ \
+    mariadb-connector-c
 
 COPY --from=build \
     /src/zig-out/bin/benchmark-zig-api \
