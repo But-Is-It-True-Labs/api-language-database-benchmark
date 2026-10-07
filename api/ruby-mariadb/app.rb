@@ -1,5 +1,6 @@
 require "roda"
-require "pg"
+require "mysql2"
+require "uri"
 require "json"
 require "time"
 
@@ -11,13 +12,24 @@ class App < Roda
   plugin :json_parser
 
   def self.connection
-    Thread.current[:pg_connection] ||= PG.connect(DATABASE_URL)
+    Thread.current[:mysql_connection] ||= begin
+      uri = URI.parse(DATABASE_URL)
+      Mysql2::Client.new(
+        host: uri.host,
+        port: uri.port || 3306,
+        username: URI.decode_www_form_component(uri.user || ""),
+        password: URI.decode_www_form_component(uri.password || ""),
+        database: uri.path.sub(%r{^/}, ""),
+        reconnect: true,
+        cast: true
+      )
+    end
   end
 
   route do |r|
     r.on "health" do
       r.get do
-        self.class.connection.exec("SELECT 1")
+        self.class.connection.query("SELECT 1")
         { status: "ok" }
       rescue
         response.status = 503
@@ -28,16 +40,15 @@ class App < Roda
     r.on "parent", Integer do |id|
       r.is do
         r.get do
-          result = self.class.connection.exec_params(
-            <<~SQL,
+          result = self.class.connection.prepare(
+            <<~SQL
               SELECT id, account_number, status, created_at, payload
               FROM benchmark_parent
-              WHERE id = $1
+              WHERE id = ?
             SQL
-            [id]
-          )
+          ).execute(id)
 
-          if result.ntuples == 0
+          if result.count == 0
             response.status = 404
             next({ error: "parent not found" })
           end
@@ -55,15 +66,14 @@ class App < Roda
       end
 
       r.get "children" do
-        result = self.class.connection.exec_params(
-          <<~SQL,
+        result = self.class.connection.prepare(
+          <<~SQL
             SELECT id, parent_id, sequence_number, value_number, payload
             FROM benchmark_child
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY id
           SQL
-          [id]
-        )
+          ).execute(id)
 
         result.map do |row|
           {
@@ -77,16 +87,15 @@ class App < Roda
       end
 
       r.get "events" do
-        result = self.class.connection.exec_params(
-          <<~SQL,
+        result = self.class.connection.prepare(
+          <<~SQL
             SELECT id, parent_id, event_type, event_time, payload
             FROM benchmark_event
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY event_time DESC, id DESC
             LIMIT 20
           SQL
-          [id]
-        )
+          ).execute(id)
 
         result.map do |row|
           {
@@ -100,40 +109,37 @@ class App < Roda
       end
 
       r.get "bundle" do
-        parent_result = self.class.connection.exec_params(
-          <<~SQL,
+        parent_result = self.class.connection.prepare(
+          <<~SQL
             SELECT id, account_number, status, created_at, payload
             FROM benchmark_parent
-            WHERE id = $1
+            WHERE id = ?
           SQL
-          [id]
-        )
+          ).execute(id)
 
-        if parent_result.ntuples == 0
+        if parent_result.count == 0
           response.status = 404
           next({ error: "parent not found" })
         end
 
-        child_result = self.class.connection.exec_params(
-          <<~SQL,
+        child_result = self.class.connection.prepare(
+          <<~SQL
             SELECT id, parent_id, sequence_number, value_number, payload
             FROM benchmark_child
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY id
           SQL
-          [id]
-        )
+          ).execute(id)
 
-        event_result = self.class.connection.exec_params(
-          <<~SQL,
+        event_result = self.class.connection.prepare(
+          <<~SQL
             SELECT id, parent_id, event_type, event_time, payload
             FROM benchmark_event
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY event_time DESC, id DESC
             LIMIT 20
           SQL
-          [id]
-        )
+          ).execute(id)
 
         p = parent_result[0]
 
@@ -171,16 +177,15 @@ class App < Roda
 
     r.on "account", Integer, "parents" do |account_id|
       r.get do
-        result = self.class.connection.exec_params(
-          <<~SQL,
+        result = self.class.connection.prepare(
+          <<~SQL
             SELECT id, account_number, status, created_at, payload
             FROM benchmark_parent
-            WHERE account_number = $1
+            WHERE account_number = ?
             ORDER BY id
             LIMIT 50
           SQL
-          [account_id]
-        )
+          ).execute(account_id)
 
         result.map do |row|
           {
@@ -198,11 +203,11 @@ class App < Roda
       r.post do
         body = r.params
 
-        self.class.connection.exec_params(
+        self.class.connection.prepare(
           <<~SQL,
             INSERT INTO benchmark_event
             (id, parent_id, event_type, event_time, payload)
-            VALUES ($1, $2, $3, CURRENT_TIMESTAMP, $4)
+            VALUES (?, ?, ?, CURRENT_TIMESTAMP, ?)
           SQL
           [
             body["id"].to_i,
