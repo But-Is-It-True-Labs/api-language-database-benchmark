@@ -1,18 +1,9 @@
 const std = @import("std");
 const zap = @import("zap");
-const pg = @import("pg");
 
-const pool_size = 50;
-
-var db_pool: *pg.Pool = undefined;
-
-const Parent = struct {
-    id: i64,
-    account_number: i64,
-    status: []const u8,
-    created_at: []const u8,
-    payload: []const u8,
-};
+const c = @cImport({
+    @cInclude("mariadb_bridge.h");
+});
 
 fn send500(r: zap.Request) void {
     r.setStatus(.internal_server_error);
@@ -28,19 +19,15 @@ fn send404(r: zap.Request) void {
     ) catch {};
 }
 
-fn health(r: zap.Request) void {
-    var row = (db_pool.row(
-        "SELECT 1",
-        .{},
-    ) catch {
-        send500(r);
-        return;
-    }) orelse {
-        send500(r);
-        return;
-    };
+fn cSlice(ptr: [*c]const u8) []const u8 {
+    return std.mem.span(@as([*:0]const u8, @ptrCast(ptr)));
+}
 
-    defer row.deinit() catch {};
+fn health(r: zap.Request) void {
+    if (c.mariadb_bridge_health() != 1) {
+        send500(r);
+        return;
+    }
 
     r.sendJson(
         \\{"status":"ok"}
@@ -48,11 +35,7 @@ fn health(r: zap.Request) void {
 }
 
 fn parent(r: zap.Request, id_text: []const u8) void {
-    const id = std.fmt.parseInt(
-        i64,
-        id_text,
-        10,
-    ) catch {
+    const id = std.fmt.parseInt(i64, id_text, 10) catch {
         r.setStatus(.bad_request);
         r.sendJson(
             \\{"error":"invalid parent id"}
@@ -60,65 +43,30 @@ fn parent(r: zap.Request, id_text: []const u8) void {
         return;
     };
 
-    var row = (db_pool.row(
-        \\SELECT
-        \\    id,
-        \\    account_number,
-        \\    status,
-        \\    created_at,
-        \\    payload
-        \\FROM benchmark_parent
-        \\WHERE id = $1
-    ,
-        .{id},
-    ) catch {
+    const rc = c.mariadb_bridge_parent(id);
+    if (rc < 0) {
         send500(r);
         return;
-    }) orelse {
+    }
+    if (rc == 0) {
         send404(r);
         return;
-    };
+    }
 
-    defer row.deinit() catch {};
+    const status = cSlice(c.mariadb_bridge_parent_status());
+    const created_at = cSlice(c.mariadb_bridge_parent_created_at());
+    const payload = cSlice(c.mariadb_bridge_parent_payload());
 
-    const result = Parent{
-        .id = row.get(i64, 0) catch {
-            send500(r);
-            return;
-        },
-
-        .account_number = row.get(i64, 1) catch {
-            send500(r);
-            return;
-        },
-
-        .status = row.get([]const u8, 2) catch {
-            send500(r);
-            return;
-        },
-
-        .created_at = row.get([]const u8, 3) catch {
-            send500(r);
-            return;
-        },
-
-        .payload = row.get([]const u8, 4) catch {
-            send500(r);
-            return;
-        },
-    };
-
-    var json_buffer: [1024]u8 = undefined;
-
+    var json_buffer: [4096]u8 = undefined;
     const body = std.fmt.bufPrint(
         &json_buffer,
         "{{\"id\":{d},\"account_number\":{d},\"status\":\"{s}\",\"created_at\":\"{s}\",\"payload\":\"{s}\"}}",
         .{
-            result.id,
-            result.account_number,
-            result.status,
-            result.created_at,
-            result.payload,
+            c.mariadb_bridge_parent_id(),
+            c.mariadb_bridge_parent_account_number(),
+            status,
+            created_at,
+            payload,
         },
     ) catch {
         send500(r);
@@ -140,18 +88,12 @@ fn onRequest(r: zap.Request) !void {
     }
 
     const prefix = "/parent/";
-
     if (std.mem.startsWith(u8, path, prefix)) {
         const id_text = path[prefix.len..];
-
-        if (
-            id_text.len == 0 or
-            std.mem.indexOfScalar(u8, id_text, '/') != null
-        ) {
+        if (id_text.len == 0 or std.mem.indexOfScalar(u8, id_text, '/') != null) {
             send404(r);
             return;
         }
-
         parent(r, id_text);
         return;
     }
@@ -159,70 +101,29 @@ fn onRequest(r: zap.Request) !void {
     send404(r);
 }
 
-fn env(
-    map: *const std.process.Environ.Map,
-    key: []const u8,
-    fallback: []const u8,
-) []const u8 {
+fn env(map: *const std.process.Environ.Map, key: []const u8, fallback: []const u8) []const u8 {
     return map.get(key) orelse fallback;
 }
 
 pub fn main(init: std.process.Init) !void {
-    const host = env(
-        init.environ_map,
-        "PGHOST",
-        "benchmark_postgres",
-    );
+    const allocator = std.heap.smp_allocator;
+
+    const host = try allocator.dupeZ(u8, env(init.environ_map, "MYSQLHOST", "benchmark_mariadb"));
+    defer allocator.free(host);
+    const user = try allocator.dupeZ(u8, env(init.environ_map, "MYSQLUSER", "benchmark"));
+    defer allocator.free(user);
+    const password = try allocator.dupeZ(u8, env(init.environ_map, "MYSQLPASSWORD", "benchmark_password"));
+    defer allocator.free(password);
+    const database = try allocator.dupeZ(u8, env(init.environ_map, "MYSQLDATABASE", "benchmark"));
+    defer allocator.free(database);
 
     const port = try std.fmt.parseInt(
         u16,
-        env(
-            init.environ_map,
-            "PGPORT",
-            "5432",
-        ),
+        env(init.environ_map, "MYSQLPORT", "3306"),
         10,
     );
 
-    const username = env(
-        init.environ_map,
-        "PGUSER",
-        "benchmark",
-    );
-
-    const password = env(
-        init.environ_map,
-        "PGPASSWORD",
-        "benchmark_password",
-    );
-
-    const database = env(
-        init.environ_map,
-        "PGDATABASE",
-        "benchmark",
-    );
-
-    db_pool = try pg.Pool.init(
-        init.io,
-        std.heap.smp_allocator,
-        .{
-            .size = pool_size,
-
-            .connect = .{
-                .host = host,
-                .port = port,
-            },
-
-            .auth = .{
-                .username = username,
-                .password = password,
-                .database = database,
-                .timeout = 10_000,
-            },
-        },
-    );
-
-    defer db_pool.deinit();
+    _ = c.mariadb_bridge_init(host.ptr, port, user.ptr, password.ptr, database.ptr);
 
     var listener = zap.HttpListener.init(.{
         .port = 8080,
@@ -234,8 +135,8 @@ pub fn main(init: std.process.Init) !void {
     try listener.listen();
 
     std.debug.print(
-        "Zig/Zap benchmark API listening on :8080\nPostgreSQL pool: {d}\n",
-        .{pool_size},
+        "Zig/Zap MariaDB benchmark API listening on :8080\n",
+        .{},
     );
 
     zap.start(.{
