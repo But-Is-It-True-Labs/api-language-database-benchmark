@@ -1,6 +1,6 @@
 module main
 
-import db.pg
+import db.mysql
 import os
 import strconv
 import veb
@@ -13,7 +13,7 @@ pub struct Context {
 
 pub struct App {
 pub:
-	pool chan &pg.DB
+	pool chan &mysql.DB
 }
 
 pub struct ParentResponse {
@@ -25,9 +25,9 @@ pub:
 	payload        string
 }
 
-fn row_value(row pg.Row, index int) string {
-	if value := row.vals[index] {
-		return value
+fn row_value(row mysql.Row, index int) string {
+	if index >= 0 && index < row.vals.len {
+		return row.vals[index]
 	}
 	return ''
 }
@@ -36,11 +36,11 @@ fn parse_i64(value string) i64 {
 	return strconv.parse_int(value, 10, 64) or { 0 }
 }
 
-fn acquire(pool chan &pg.DB) &pg.DB {
+fn acquire(pool chan &mysql.DB) &mysql.DB {
 	return <-pool
 }
 
-fn release(pool chan &pg.DB, db &pg.DB) {
+fn release(pool chan &mysql.DB, db &mysql.DB) {
 	pool <- db
 }
 
@@ -72,7 +72,7 @@ pub fn (app &App) parent(mut ctx Context, id string) veb.Result {
 	rows := db.exec_param(
 		'SELECT id, account_number, status, created_at, payload
 		 FROM benchmark_parent
-		 WHERE id = ($1)',
+		 WHERE id = ?',
 		id
 	) or {
 		return ctx.text('query failed')
@@ -94,21 +94,21 @@ pub fn (app &App) parent(mut ctx Context, id string) veb.Result {
 }
 
 fn main() {
-	host := os.getenv('PGHOST')
-	port := os.getenv('PGPORT').int()
-	user := os.getenv('PGUSER')
-	password := os.getenv('PGPASSWORD')
-	database_name := os.getenv('PGDATABASE')
+	host := os.getenv('MYSQLHOST')
+	port := os.getenv('MYSQLPORT').int()
+	user := os.getenv('MYSQLUSER')
+	password := os.getenv('MYSQLPASSWORD')
+	database_name := os.getenv('MYSQLDATABASE')
 
-	pool := chan &pg.DB{
+	pool := chan &mysql.DB{
 		cap: pool_size
 	}
 
 	for _ in 0 .. pool_size {
-		mut database := pg.connect(pg.Config{
+		mut database := mysql.connect(mysql.Config{
 			host: host
 			port: port
-			user: user
+			username: user
 			password: password
 			dbname: database_name
 		}) or {
@@ -123,7 +123,7 @@ fn main() {
 	}
 
 	println('V benchmark API')
-	println('PostgreSQL pool size: ${pool_size}')
+	println('MariaDB pool size: ${pool_size}')
 
 	mut server_app := app
 
