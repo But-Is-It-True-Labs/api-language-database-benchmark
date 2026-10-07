@@ -2,6 +2,7 @@
 
 #include <mysql/mysql.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 static char g_host[256] = "benchmark_mariadb";
