@@ -53,7 +53,7 @@ class App < Roda
             next({ error: "parent not found" })
           end
 
-          row = result[0]
+          row = result.first
 
           {
             id: row["id"].to_i,
@@ -141,7 +141,7 @@ class App < Roda
           SQL
           ).execute(id)
 
-        p = parent_result[0]
+        p = parent_result.first
 
         {
           parent: {
@@ -204,17 +204,16 @@ class App < Roda
         body = r.params
 
         self.class.connection.prepare(
-          <<~SQL,
+          <<~SQL
             INSERT INTO benchmark_event
             (id, parent_id, event_type, event_time, payload)
             VALUES (?, ?, ?, CURRENT_TIMESTAMP, ?)
           SQL
-          [
-            body["id"].to_i,
-            body["parent_id"].to_i,
-            body["event_type"],
-            body["payload"]
-          ]
+        ).execute(
+          body["id"].to_i,
+          body["parent_id"].to_i,
+          body["event_type"],
+          body["payload"]
         )
 
         response.status = 201
