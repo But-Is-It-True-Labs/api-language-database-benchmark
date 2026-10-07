@@ -2,7 +2,7 @@ FROM nimlang/nim:2.2.4 AS build
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       libpq-dev \
+       default-libmysqlclient-dev \
        gcc \
        git \
     && rm -rf /var/lib/apt/lists/*
@@ -28,7 +28,7 @@ FROM debian:bookworm-slim
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       libpq5 \
+       libmariadb3 \
        ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
