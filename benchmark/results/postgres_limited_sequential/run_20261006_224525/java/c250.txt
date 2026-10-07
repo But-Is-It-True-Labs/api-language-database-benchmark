@@ -1,0 +1,23 @@
+========================================
+JAVA + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:27:23 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.369s
+Requests:     47038
+Errors:       0
+Requests/sec: 1548.87
+
+Average:      159.502836ms
+p50:          112.905261ms
+p95:          432.306684ms
+p99:          600.646364ms
+Max:          996.593006ms
+========================================

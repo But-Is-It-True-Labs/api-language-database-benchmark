@@ -1,0 +1,23 @@
+========================================
+GO + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 21:24:08 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_cassandra:8080/parent/50000
+Concurrency:  50
+Duration:     30.117s
+Requests:     48157
+Errors:       0
+Requests/sec: 1598.97
+
+Average:      30.827064ms
+p50:          26.441022ms
+p95:          70.234135ms
+p99:          100.594314ms
+Max:          210.045048ms
+========================================

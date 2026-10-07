@@ -1,0 +1,23 @@
+========================================
+NODE + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:02:03 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.317s
+Requests:     14461
+Errors:       190
+Requests/sec: 477.00
+
+Average:      513.964955ms
+p50:          308.198931ms
+p95:          755.132912ms
+p99:          10.000816385s
+Max:          10.130659632s
+========================================

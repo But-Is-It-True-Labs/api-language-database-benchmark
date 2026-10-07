@@ -1,0 +1,10 @@
+{
+  "name": "benchmark-node-cassandra-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "cassandra-driver": "4.7.2",
+    "fastify": "^5.0.0"
+  }
+}

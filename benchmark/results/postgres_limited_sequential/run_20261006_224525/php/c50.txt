@@ -1,0 +1,23 @@
+========================================
+PHP + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:13:07 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.184s
+Requests:     10662
+Errors:       0
+Requests/sec: 353.24
+
+Average:      140.644151ms
+p50:          118.713943ms
+p95:          313.658448ms
+p99:          462.107787ms
+Max:          1.102710775s
+========================================

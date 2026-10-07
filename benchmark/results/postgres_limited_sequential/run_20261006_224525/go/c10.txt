@@ -1,0 +1,23 @@
+========================================
+GO + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 22:47:05 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.043s
+Requests:     44774
+Errors:       0
+Requests/sec: 1490.32
+
+Average:      6.633929ms
+p50:          4.496655ms
+p95:          19.568101ms
+p99:          32.477436ms
+Max:          138.290194ms
+========================================

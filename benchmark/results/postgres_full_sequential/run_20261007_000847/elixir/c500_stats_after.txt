@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                        CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O         PIDS
+fac66dda9eb3   benchmark_elixir_postgres   8.50%     166MiB / 90GiB      0.18%     74MB / 81.1MB     34.1MB / 8.19kB   43
+d668473a85e5   benchmark_postgres          1.88%     168MiB / 90GiB      0.18%     1.33GB / 2.52GB   32.5MB / 623kB    56

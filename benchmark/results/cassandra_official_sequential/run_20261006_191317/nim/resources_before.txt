@@ -1,0 +1,1 @@
+Name=/benchmark_nim_cassandra CPUs=2000000000 Memory=2147483648 Swap=2147483648 Status=running OOMKilled=false RestartCount=0

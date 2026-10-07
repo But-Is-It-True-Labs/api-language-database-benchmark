@@ -1,0 +1,1 @@
+Name=/benchmark_nim_cassandra Status=exited ExitCode=1 OOMKilled=false RestartCount=0

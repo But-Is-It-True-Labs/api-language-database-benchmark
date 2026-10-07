@@ -1,0 +1,24 @@
+cabal-version: 3.0
+name: benchmark-haskell-cassandra-api
+version: 0.1.0.0
+build-type: Simple
+
+executable benchmark-haskell-cassandra-api
+  main-is: Main.hs
+
+  default-language:
+    GHC2021
+
+  ghc-options:
+    -O2
+    -threaded
+    -rtsopts
+
+  build-depends:
+      base >=4.17 && <5
+    , aeson
+    , cql-io >=2.0 && <2.1
+    , scotty
+    , http-types
+    , text
+    , time

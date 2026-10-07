@@ -1,0 +1,23 @@
+========================================
+V + POSTGRES FULL OFFICIAL
+========================================
+UTC:
+Wed Oct  7 01:12:12 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.01s
+Requests:     6592
+Errors:       0
+Requests/sec: 219.66
+
+Average:      4.330644ms
+p50:          1.99105ms
+p95:          14.500052ms
+p99:          28.868678ms
+Max:          77.048974ms
+========================================

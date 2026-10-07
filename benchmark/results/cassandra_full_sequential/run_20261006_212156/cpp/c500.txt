@@ -1,0 +1,23 @@
+========================================
+CPP + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 21:58:20 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_cassandra:8080/parent/50000
+Concurrency:  500
+Duration:     30.421s
+Requests:     96914
+Errors:       0
+Requests/sec: 3185.74
+
+Average:      154.629651ms
+p50:          141.453505ms
+p95:          314.422489ms
+p99:          428.301257ms
+Max:          2.20355309s
+========================================

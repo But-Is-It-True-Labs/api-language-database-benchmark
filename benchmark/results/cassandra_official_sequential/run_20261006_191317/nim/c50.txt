@@ -1,0 +1,23 @@
+========================================
+NIM + CASSANDRA OFFICIAL
+========================================
+UTC:
+Tue Oct  6 20:22:00 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_cassandra:8080/parent/50000
+Concurrency:  50
+Duration:     30.138s
+Requests:     49896
+Errors:       0
+Requests/sec: 1655.56
+
+Average:      29.761076ms
+p50:          26.066559ms
+p95:          62.098518ms
+p99:          91.842866ms
+Max:          256.722588ms
+========================================

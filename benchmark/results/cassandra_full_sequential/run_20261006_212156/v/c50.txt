@@ -1,0 +1,23 @@
+========================================
+V + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 22:27:31 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_cassandra:8080/parent/50000
+Concurrency:  50
+Duration:     30.169s
+Requests:     20695
+Errors:       0
+Requests/sec: 685.98
+
+Average:      72.533067ms
+p50:          65.9522ms
+p95:          158.938889ms
+p99:          210.103757ms
+Max:          320.474722ms
+========================================

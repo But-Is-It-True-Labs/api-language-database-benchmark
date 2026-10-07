@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                         CPU %     MEM USAGE / LIMIT   MEM %     NET I/O         BLOCK I/O        PIDS
+71c09bf89f85   benchmark_haskell_postgres   0.00%     99.61MiB / 2GiB     4.86%     117MB / 134MB   19.4MB / 0B      15
+d668473a85e5   benchmark_postgres           1.08%     187.1MiB / 8GiB     2.28%     480MB / 889MB   30.4MB / 623kB   56

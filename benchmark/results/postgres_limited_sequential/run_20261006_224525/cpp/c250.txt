@@ -1,0 +1,23 @@
+========================================
+CPP + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:20:57 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.733s
+Requests:     12180
+Errors:       0
+Requests/sec: 396.32
+
+Average:      623.489686ms
+p50:          601.252807ms
+p95:          1.103971583s
+p99:          1.322182376s
+Max:          1.565826277s
+========================================

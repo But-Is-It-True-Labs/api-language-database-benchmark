@@ -1,0 +1,32 @@
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50

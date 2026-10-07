@@ -1,0 +1,6 @@
+(node:1) [DEP0047] DeprecationWarning: The `util.isDate` API is deprecated.  Please use `arg instanceof Date` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Node/Fastify Cassandra benchmark API listening on :8080
+(node:1) [DEP0047] DeprecationWarning: The `util.isDate` API is deprecated.  Please use `arg instanceof Date` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Node/Fastify Cassandra benchmark API listening on :8080

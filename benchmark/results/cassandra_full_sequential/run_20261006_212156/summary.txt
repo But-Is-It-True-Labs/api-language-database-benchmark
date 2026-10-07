@@ -1,0 +1,941 @@
+==========================================================
+CASSANDRA FULL SEQUENTIAL SUMMARY
+==========================================================
+
+================ GO ================
+
+C=1
+Requests:     3639
+Errors:       0
+Requests/sec: 121.24
+Average:      8.123476ms
+p50:          5.782111ms
+p95:          20.328189ms
+p99:          31.396443ms
+Max:          76.744355ms
+
+C=10
+Requests:     29832
+Errors:       0
+Requests/sec: 993.51
+Average:      9.969806ms
+p50:          7.181563ms
+p95:          26.85806ms
+p99:          42.857899ms
+Max:          179.153976ms
+
+C=50
+Requests:     48157
+Errors:       0
+Requests/sec: 1598.97
+Average:      30.827064ms
+p50:          26.441022ms
+p95:          70.234135ms
+p99:          100.594314ms
+Max:          210.045048ms
+
+C=100
+Requests:     61319
+Errors:       0
+Requests/sec: 2035.86
+Average:      48.199033ms
+p50:          42.006517ms
+p95:          105.568384ms
+p99:          146.203189ms
+Max:          360.076228ms
+
+C=250
+Requests:     96655
+Errors:       0
+Requests/sec: 3210.19
+Average:      74.689925ms
+p50:          63.43923ms
+p95:          168.291313ms
+p99:          265.43254ms
+Max:          583.801169ms
+
+C=500
+Requests:     132614
+Errors:       0
+Requests/sec: 4373.84
+Average:      104.083245ms
+p50:          87.636451ms
+p95:          238.444283ms
+p99:          385.405045ms
+Max:          893.591089ms
+
+C=1000
+Requests:     141931
+Errors:       0
+Requests/sec: 4675.21
+Average:      182.76789ms
+p50:          160.330623ms
+p95:          387.10915ms
+p99:          614.489103ms
+Max:          1.149791823s
+
+================ RUST ================
+
+C=1
+Requests:     6146
+Errors:       0
+Requests/sec: 204.67
+Average:      4.783159ms
+p50:          2.801558ms
+p95:          14.322673ms
+p99:          23.620529ms
+Max:          55.844768ms
+
+C=10
+Requests:     28494
+Errors:       0
+Requests/sec: 949.50
+Average:      10.42147ms
+p50:          7.833846ms
+p95:          26.320712ms
+p99:          40.403138ms
+Max:          84.332535ms
+
+C=50
+Requests:     66386
+Errors:       0
+Requests/sec: 2207.54
+Average:      22.105937ms
+p50:          17.881988ms
+p95:          50.951544ms
+p99:          77.660725ms
+Max:          179.383721ms
+
+C=100
+Requests:     91955
+Errors:       0
+Requests/sec: 3054.87
+Average:      31.807466ms
+p50:          27.546392ms
+p95:          66.88095ms
+p99:          102.737738ms
+Max:          274.278699ms
+
+C=250
+Requests:     123351
+Errors:       0
+Requests/sec: 4100.68
+Average:      58.098643ms
+p50:          50.864587ms
+p95:          126.631367ms
+p99:          191.952232ms
+Max:          337.256225ms
+
+C=500
+Requests:     129185
+Errors:       0
+Requests/sec: 4290.01
+Average:      106.015638ms
+p50:          91.484198ms
+p95:          225.857932ms
+p99:          376.928719ms
+Max:          1.048059178s
+
+C=1000
+Requests:     186884
+Errors:       96
+Requests/sec: 4668.95
+Average:      140.544109ms
+p50:          119.043054ms
+p95:          282.706594ms
+p99:          422.688355ms
+Max:          10.345259657s
+
+================ NODE ================
+
+C=1
+Requests:     2017
+Errors:       0
+Requests/sec: 67.20
+Average:      14.518602ms
+p50:          12.41785ms
+p95:          32.467033ms
+p99:          45.275952ms
+Max:          86.789607ms
+
+C=10
+Requests:     10078
+Errors:       0
+Requests/sec: 335.21
+Average:      29.70268ms
+p50:          23.573872ms
+p95:          70.736826ms
+p99:          126.406518ms
+Max:          304.149236ms
+
+C=50
+Requests:     30009
+Errors:       0
+Requests/sec: 997.12
+Average:      49.836992ms
+p50:          43.683586ms
+p95:          109.66756ms
+p99:          145.486426ms
+Max:          292.809743ms
+
+C=100
+Requests:     32574
+Errors:       0
+Requests/sec: 1082.82
+Average:      91.76888ms
+p50:          81.358955ms
+p95:          189.902984ms
+p99:          315.946851ms
+Max:          515.746729ms
+
+C=250
+Requests:     40059
+Errors:       0
+Requests/sec: 1313.52
+Average:      189.247684ms
+p50:          163.235119ms
+p95:          317.92945ms
+p99:          585.16997ms
+Max:          7.849621911s
+
+C=500
+Requests:     41642
+Errors:       658
+Requests/sec: 1334.82
+Average:      356.183016ms
+p50:          166.962143ms
+p95:          404.276154ms
+p99:          10.001929078s
+Max:          10.217546001s
+
+C=1000
+Requests:     34951
+Errors:       1237
+Requests/sec: 1023.41
+Average:      855.852002ms
+p50:          483.2295ms
+p95:          1.012637935s
+p99:          10.01295143s
+Max:          10.148151968s
+
+================ PYTHON ================
+
+C=1
+Requests:     1734
+Errors:       0
+Requests/sec: 57.73
+Average:      16.594143ms
+p50:          14.817196ms
+p95:          34.495018ms
+p99:          43.654049ms
+Max:          59.012705ms
+
+C=10
+Requests:     5130
+Errors:       0
+Requests/sec: 170.82
+Average:      58.037182ms
+p50:          53.539834ms
+p95:          108.107469ms
+p99:          149.488623ms
+Max:          247.701317ms
+
+C=50
+Requests:     7247
+Errors:       0
+Requests/sec: 240.19
+Average:      207.466936ms
+p50:          190.309892ms
+p95:          367.165851ms
+p99:          473.676046ms
+Max:          1.503986836s
+
+C=100
+Requests:     6510
+Errors:       0
+Requests/sec: 213.88
+Average:      464.704117ms
+p50:          412.157298ms
+p95:          745.099287ms
+p99:          1.158285349s
+Max:          5.349351069s
+
+C=250
+Requests:     6595
+Errors:       303
+Requests/sec: 216.79
+Average:      1.094647962s
+p50:          673.252135ms
+p95:          4.390928372s
+p99:          10.093167779s
+Max:          10.166900787s
+
+C=500
+Requests:     6167
+Errors:       1140
+Requests/sec: 160.72
+Average:      2.231638832s
+p50:          582.717543ms
+p95:          10.013503512s
+p99:          10.084991126s
+Max:          10.132027716s
+
+C=1000
+Requests:     6871
+Errors:       2326
+Requests/sec: 171.05
+Average:      3.487315526s
+p50:          1.400216895s
+p95:          10.081979635s
+p99:          10.217882859s
+Max:          10.254200724s
+
+================ PHP ================
+
+C=1
+Requests:     1959
+Errors:       0
+Requests/sec: 65.20
+Average:      15.196835ms
+p50:          12.31413ms
+p95:          34.25575ms
+p99:          47.223388ms
+Max:          316.905742ms
+
+C=10
+Requests:     11425
+Errors:       0
+Requests/sec: 380.58
+Average:      26.13315ms
+p50:          22.276571ms
+p95:          57.749389ms
+p99:          87.739663ms
+Max:          302.771927ms
+
+C=50
+Requests:     17658
+Errors:       0
+Requests/sec: 587.00
+Average:      84.573203ms
+p50:          74.709339ms
+p95:          174.865449ms
+p99:          253.206739ms
+Max:          1.113331535s
+
+C=100
+Requests:     19952
+Errors:       0
+Requests/sec: 661.11
+Average:      150.246436ms
+p50:          140.823106ms
+p95:          267.856437ms
+p99:          364.99109ms
+Max:          1.007111248s
+
+C=250
+Requests:     20076
+Errors:       0
+Requests/sec: 661.05
+Average:      375.255219ms
+p50:          353.245707ms
+p95:          618.430323ms
+p99:          779.245378ms
+Max:          1.211451519s
+
+C=500
+Requests:     19049
+Errors:       0
+Requests/sec: 620.10
+Average:      796.982513ms
+p50:          805.410152ms
+p95:          1.067927829s
+p99:          1.258892762s
+Max:          2.067317308s
+
+C=1000
+Requests:     20338
+Errors:       0
+Requests/sec: 648.28
+Average:      1.502785307s
+p50:          1.439309429s
+p95:          1.881699062s
+p99:          2.794126167s
+Max:          3.723090386s
+
+================ CPP ================
+
+C=1
+Requests:     4744
+Errors:       0
+Requests/sec: 158.08
+Average:      6.214351ms
+p50:          4.157548ms
+p95:          17.063315ms
+p99:          27.317606ms
+Max:          118.57933ms
+
+C=10
+Requests:     19878
+Errors:       0
+Requests/sec: 662.16
+Average:      14.990413ms
+p50:          11.072689ms
+p95:          40.915241ms
+p99:          64.640659ms
+Max:          154.775656ms
+
+C=50
+Requests:     37931
+Errors:       0
+Requests/sec: 1256.15
+Average:      39.517075ms
+p50:          25.542156ms
+p95:          124.413899ms
+p99:          221.676419ms
+Max:          576.771725ms
+
+C=100
+Requests:     59984
+Errors:       0
+Requests/sec: 1990.50
+Average:      49.608758ms
+p50:          32.412636ms
+p95:          150.888505ms
+p99:          286.338353ms
+Max:          869.58408ms
+
+C=250
+Requests:     83700
+Errors:       0
+Requests/sec: 2756.61
+Average:      89.543012ms
+p50:          72.911292ms
+p95:          216.746027ms
+p99:          328.875431ms
+Max:          821.422088ms
+
+C=500
+Requests:     96914
+Errors:       0
+Requests/sec: 3185.74
+Average:      154.629651ms
+p50:          141.453505ms
+p95:          314.422489ms
+p99:          428.301257ms
+Max:          2.20355309s
+
+C=1000
+Requests:     79439
+Errors:       304
+Requests/sec: 2193.39
+Average:      386.925755ms
+p50:          210.726022ms
+p95:          1.321923201s
+p99:          1.809983116s
+Max:          10.075360514s
+
+================ JAVA ================
+
+C=1
+Requests:     2296
+Errors:       0
+Requests/sec: 76.49
+Average:      12.894926ms
+p50:          9.630293ms
+p95:          32.428505ms
+p99:          48.090631ms
+Max:          140.176859ms
+
+C=10
+Requests:     19723
+Errors:       0
+Requests/sec: 657.08
+Average:      15.091426ms
+p50:          11.297399ms
+p95:          40.227755ms
+p99:          66.034495ms
+Max:          226.388277ms
+
+C=50
+Requests:     47007
+Errors:       0
+Requests/sec: 1560.56
+Average:      31.494039ms
+p50:          26.990839ms
+p95:          68.600854ms
+p99:          101.309403ms
+Max:          416.227308ms
+
+C=100
+Requests:     67681
+Errors:       0
+Requests/sec: 2252.84
+Average:      43.599221ms
+p50:          39.795926ms
+p95:          84.898567ms
+p99:          115.879338ms
+Max:          173.704984ms
+
+C=250
+Requests:     103550
+Errors:       0
+Requests/sec: 3422.18
+Average:      70.376893ms
+p50:          63.633119ms
+p95:          139.562575ms
+p99:          189.357007ms
+Max:          365.777975ms
+
+C=500
+Requests:     130671
+Errors:       0
+Requests/sec: 4333.38
+Average:      109.478649ms
+p50:          99.910145ms
+p95:          215.316317ms
+p99:          302.403296ms
+Max:          697.451198ms
+
+C=1000
+Requests:     163299
+Errors:       0
+Requests/sec: 5401.35
+Average:      171.55518ms
+p50:          151.669624ms
+p95:          347.860689ms
+p99:          541.799291ms
+Max:          940.660041ms
+
+================ ELIXIR ================
+
+C=1
+Requests:     2272
+Errors:       0
+Requests/sec: 75.73
+Average:      12.911133ms
+p50:          10.700129ms
+p95:          28.907295ms
+p99:          41.120782ms
+Max:          72.128908ms
+
+C=10
+Requests:     13631
+Errors:       0
+Requests/sec: 453.50
+Average:      21.584219ms
+p50:          17.413633ms
+p95:          52.726954ms
+p99:          81.867504ms
+Max:          226.740053ms
+
+C=50
+Requests:     21478
+Errors:       0
+Requests/sec: 713.49
+Average:      68.432205ms
+p50:          55.411918ms
+p95:          168.689049ms
+p99:          237.098412ms
+Max:          517.574669ms
+
+C=100
+Requests:     22700
+Errors:       0
+Requests/sec: 753.37
+Average:      130.263647ms
+p50:          113.744736ms
+p95:          278.605398ms
+p99:          423.914927ms
+Max:          871.549355ms
+
+C=250
+Requests:     22519
+Errors:       0
+Requests/sec: 732.92
+Average:      334.051233ms
+p50:          235.598401ms
+p95:          1.017708645s
+p99:          1.324717311s
+Max:          2.271321254s
+
+C=500
+Requests:     22586
+Errors:       0
+Requests/sec: 727.39
+Average:      672.742409ms
+p50:          294.104802ms
+p95:          3.37018062s
+p99:          5.335013102s
+Max:          6.42606529s
+
+C=1000
+Requests:     30891
+Errors:       296
+Requests/sec: 960.14
+Average:      974.234298ms
+p50:          763.380222ms
+p95:          1.827940827s
+p99:          6.139553747s
+Max:          10.312913821s
+
+================ RUBY ================
+
+C=1
+Requests:     2275
+Errors:       0
+Requests/sec: 75.76
+Average:      12.999909ms
+p50:          10.432435ms
+p95:          30.686105ms
+p99:          44.766158ms
+Max:          84.88635ms
+
+C=10
+Requests:     5163
+Errors:       0
+Requests/sec: 171.71
+Average:      58.051946ms
+p50:          53.146781ms
+p95:          102.508252ms
+p99:          134.737133ms
+Max:          221.515988ms
+
+C=50
+Requests:     8099
+Errors:       0
+Requests/sec: 267.70
+Average:      185.816446ms
+p50:          176.786816ms
+p95:          291.911675ms
+p99:          380.366947ms
+Max:          955.611829ms
+
+C=100
+Requests:     9667
+Errors:       0
+Requests/sec: 318.04
+Average:      312.512211ms
+p50:          298.825585ms
+p95:          437.69661ms
+p99:          607.036523ms
+Max:          2.246882611s
+
+C=250
+Requests:     9519
+Errors:       0
+Requests/sec: 310.24
+Average:      797.670147ms
+p50:          769.244503ms
+p95:          1.108784974s
+p99:          2.566820457s
+Max:          3.188782007s
+
+C=500
+Requests:     9451
+Errors:       0
+Requests/sec: 297.45
+Average:      1.632058572s
+p50:          1.506432603s
+p95:          2.1377649s
+p99:          6.947274686s
+Max:          8.028414997s
+
+C=1000
+Requests:     8758
+Errors:       18
+Requests/sec: 223.97
+Average:      3.615766419s
+p50:          3.570149867s
+p95:          5.585734556s
+p99:          8.477631453s
+Max:          10.141567682s
+
+================ HASKELL ================
+
+C=1
+Requests:     3959
+Errors:       0
+Requests/sec: 131.93
+Average:      7.427427ms
+p50:          4.979214ms
+p95:          20.728346ms
+p99:          31.717882ms
+Max:          60.608192ms
+
+C=10
+Requests:     17115
+Errors:       0
+Requests/sec: 570.15
+Average:      17.442953ms
+p50:          13.459282ms
+p95:          45.617928ms
+p99:          69.340951ms
+Max:          159.40182ms
+
+C=50
+Requests:     24263
+Errors:       0
+Requests/sec: 806.86
+Average:      61.543224ms
+p50:          47.48796ms
+p95:          164.842438ms
+p99:          214.735716ms
+Max:          377.66978ms
+
+C=100
+Requests:     15894
+Errors:       0
+Requests/sec: 527.88
+Average:      188.829143ms
+p50:          188.680121ms
+p95:          346.007649ms
+p99:          397.27013ms
+Max:          503.8169ms
+
+C=250
+Requests:     13757
+Errors:       0
+Requests/sec: 450.89
+Average:      549.53444ms
+p50:          523.242507ms
+p95:          881.178195ms
+p99:          1.124208802s
+Max:          1.780783183s
+
+C=500
+Requests:     17138
+Errors:       0
+Requests/sec: 546.91
+Average:      895.364322ms
+p50:          946.053701ms
+p95:          1.276721024s
+p99:          2.864438305s
+Max:          3.725497953s
+
+C=1000
+Requests:     16858
+Errors:       31
+Requests/sec: 420.30
+Average:      1.907031275s
+p50:          1.811484529s
+p95:          2.635966955s
+p99:          2.975219676s
+Max:          10.022323847s
+
+================ V ================
+
+C=1
+Requests:     3581
+Errors:       0
+Requests/sec: 119.32
+Average:      8.231385ms
+p50:          5.611139ms
+p95:          22.110075ms
+p99:          39.219889ms
+Max:          122.590873ms
+
+C=10
+Requests:     13481
+Errors:       0
+Requests/sec: 448.62
+Average:      22.173912ms
+p50:          17.021096ms
+p95:          58.902476ms
+p99:          84.094212ms
+Max:          197.27054ms
+
+C=50
+Requests:     20695
+Errors:       0
+Requests/sec: 685.98
+Average:      72.533067ms
+p50:          65.9522ms
+p95:          158.938889ms
+p99:          210.103757ms
+Max:          320.474722ms
+
+C=100
+Requests:     17307
+Errors:       0
+Requests/sec: 572.13
+Average:      173.922996ms
+p50:          164.341332ms
+p95:          329.650773ms
+p99:          406.693982ms
+Max:          580.499232ms
+
+C=250
+Requests:     21906
+Errors:       0
+Requests/sec: 714.29
+Average:      345.541698ms
+p50:          327.22665ms
+p95:          605.574726ms
+p99:          741.673373ms
+Max:          915.019266ms
+
+C=500
+Requests:     18296
+Errors:       0
+Requests/sec: 589.57
+Average:      835.442081ms
+p50:          808.134693ms
+p95:          1.244408232s
+p99:          1.449120942s
+Max:          2.074091727s
+
+C=1000
+Requests:     19542
+Errors:       105
+Requests/sec: 486.68
+Average:      1.578685797s
+p50:          1.539501966s
+p95:          2.194570572s
+p99:          2.523032359s
+Max:          10.081560913s
+
+================ NIM ================
+
+C=1
+Requests:     4343
+Errors:       0
+Requests/sec: 144.61
+Average:      6.779896ms
+p50:          4.385741ms
+p95:          18.605584ms
+p99:          31.120908ms
+Max:          73.723112ms
+
+C=10
+Requests:     25433
+Errors:       0
+Requests/sec: 846.19
+Average:      11.708504ms
+p50:          9.017142ms
+p95:          29.611275ms
+p99:          44.437571ms
+Max:          133.930066ms
+
+C=50
+Requests:     50403
+Errors:       0
+Requests/sec: 1677.98
+Average:      29.401039ms
+p50:          25.889906ms
+p95:          62.161488ms
+p99:          85.299437ms
+Max:          261.495262ms
+
+C=100
+Requests:     71200
+Errors:       0
+Requests/sec: 2366.06
+Average:      41.555145ms
+p50:          36.430095ms
+p95:          88.906874ms
+p99:          130.769424ms
+Max:          284.092052ms
+
+C=250
+Requests:     76417
+Errors:       0
+Requests/sec: 2539.70
+Average:      96.998807ms
+p50:          89.041588ms
+p95:          187.094824ms
+p99:          231.553677ms
+Max:          350.639876ms
+
+C=500
+Requests:     86447
+Errors:       0
+Requests/sec: 2833.45
+Average:      173.725592ms
+p50:          161.375759ms
+p95:          321.210945ms
+p99:          438.139031ms
+Max:          625.756031ms
+
+C=1000
+Requests:     612
+Errors:       355491
+Requests/sec: 20.12
+Average:      84.702993ms
+p50:          43.36338ms
+p95:          149.949018ms
+p99:          302.944861ms
+Max:          10.036617069s
+
+================ ZIG ================
+
+C=1
+Requests:     4388
+Errors:       0
+Requests/sec: 146.19
+Average:      6.717991ms
+p50:          4.619684ms
+p95:          18.820874ms
+p99:          28.111745ms
+Max:          80.193126ms
+
+C=10
+Requests:     19383
+Errors:       0
+Requests/sec: 645.13
+Average:      15.367535ms
+p50:          12.298555ms
+p95:          37.699807ms
+p99:          57.925113ms
+Max:          125.460421ms
+
+C=50
+Requests:     39449
+Errors:       0
+Requests/sec: 1312.30
+Average:      37.586441ms
+p50:          32.345964ms
+p95:          84.031908ms
+p99:          122.562942ms
+Max:          437.90348ms
+
+C=100
+Requests:     59225
+Errors:       0
+Requests/sec: 1968.30
+Average:      50.326708ms
+p50:          45.477242ms
+p95:          102.148732ms
+p99:          142.714635ms
+Max:          351.000759ms
+
+C=250
+Requests:     60430
+Errors:       0
+Requests/sec: 1995.90
+Average:      123.967188ms
+p50:          117.31319ms
+p95:          218.590006ms
+p99:          284.456282ms
+Max:          2.64917635s
+
+C=500
+Requests:     58059
+Errors:       29
+Requests/sec: 1911.19
+Average:      259.080784ms
+p50:          232.053579ms
+p95:          432.375907ms
+p99:          582.814255ms
+Max:          10.011320989s
+
+C=1000
+Requests:     65372
+Errors:       698
+Requests/sec: 1924.70
+Average:      464.916329ms
+p50:          308.88589ms
+p95:          513.225045ms
+p99:          10.000314201s
+Max:          10.04785937s
+
+UTC_FINISH=Tue Oct  6 22:44:25 UTC 2026

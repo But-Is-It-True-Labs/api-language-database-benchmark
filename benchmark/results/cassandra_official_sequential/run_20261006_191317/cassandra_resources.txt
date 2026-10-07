@@ -1,0 +1,1 @@
+Name=/benchmark_cassandra CPUs=4000000000 Memory=8589934592 Swap=8589934592 Status=running

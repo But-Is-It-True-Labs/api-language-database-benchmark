@@ -1,0 +1,23 @@
+========================================
+JAVA + CASSANDRA OFFICIAL
+========================================
+UTC:
+Tue Oct  6 19:51:03 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_cassandra:8080/parent/50000
+Concurrency:  10
+Duration:     30.024s
+Requests:     15701
+Errors:       0
+Requests/sec: 522.95
+
+Average:      19.022282ms
+p50:          15.154738ms
+p95:          47.061465ms
+p99:          69.336721ms
+Max:          137.599334ms
+========================================

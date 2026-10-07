@@ -1,0 +1,23 @@
+========================================
+NODE + POSTGRES FULL OFFICIAL
+========================================
+UTC:
+Wed Oct  7 00:23:27 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.184s
+Requests:     17529
+Errors:       0
+Requests/sec: 580.75
+
+Average:      85.656336ms
+p50:          59.37314ms
+p95:          230.389071ms
+p99:          365.978188ms
+Max:          988.477967ms
+========================================

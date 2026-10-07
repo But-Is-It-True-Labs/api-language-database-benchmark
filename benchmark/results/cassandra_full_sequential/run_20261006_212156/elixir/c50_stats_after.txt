@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                         CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+509206e54fbf   benchmark_elixir_cassandra   1.83%     98.04MiB / 90GiB    0.11%     22.7MB / 24.8MB   0B / 8.19kB      43
+0010348565e5   benchmark_cassandra          101.70%   4.483GiB / 90GiB    4.98%     664MB / 2.55GB    16.6MB / 191MB   168

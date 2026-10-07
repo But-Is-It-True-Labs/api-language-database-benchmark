@@ -1,0 +1,4 @@
+fastapi
+uvicorn[standard]
+orjson
+cassandra-driver==3.30.1

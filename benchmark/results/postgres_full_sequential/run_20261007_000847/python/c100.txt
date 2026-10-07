@@ -1,0 +1,23 @@
+========================================
+PYTHON + POSTGRES FULL OFFICIAL
+========================================
+UTC:
+Wed Oct  7 00:30:28 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.19s
+Requests:     10924
+Errors:       0
+Requests/sec: 361.85
+
+Average:      275.463667ms
+p50:          230.609967ms
+p95:          614.927359ms
+p99:          839.408742ms
+Max:          1.832715651s
+========================================

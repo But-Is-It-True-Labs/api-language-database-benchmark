@@ -1,0 +1,23 @@
+========================================
+NODE + CASSANDRA OFFICIAL
+========================================
+UTC:
+Tue Oct  6 19:26:32 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_cassandra:8080/parent/50000
+Concurrency:  10
+Duration:     30.034s
+Requests:     8068
+Errors:       0
+Requests/sec: 268.63
+
+Average:      37.061119ms
+p50:          30.386749ms
+p95:          89.452859ms
+p99:          136.117885ms
+Max:          377.86281ms
+========================================

@@ -1,0 +1,200 @@
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+22:12:19.186 [info]     supervisor: {<0.344.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.3428.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.269.0>,<0.344.0>,25,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          read_timeout => 60000,
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+22:11:48.071 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Exception.beam. Function: read_file. "]
+
+22:11:48.071 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."]
+
+22:11:48.071 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."]
+
+22:11:48.071 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:48.071 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:48.071 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.RuntimeError.beam. Function: read_file. "]
+
+22:11:48.014 [error] ** Task #PID<0.347.0> terminating
+** Process Label == {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 26}}
+** Started from #PID<0.349.0>
+** When function  == &ThousandIsland.Acceptor.run/1
+**      arguments == [
+  {#PID<0.269.0>, #PID<0.347.0>, 26,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {:"module could not be loaded",
+ [
+   {RuntimeError, :exception, ["Unexpected error in accept: :emfile"], []},
+   {ThousandIsland.Acceptor, :"-accept/6-fun-0-", 7,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 74]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+
+
+22:11:49.992 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:49.992 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. Process: logger."]
+
+22:11:49.993 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:49.997 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/logger/ebin/Elixir.Logger.Translator.beam. Function: read_file. "]
+
+22:11:49.997 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:49.997 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:49.997 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. "]
+
+22:11:49.997 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:49.997 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:50.055 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Exception.beam. Function: read_file. "]
+
+22:11:50.155 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:50.164 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:50.186 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. Process: logger."]
+
+22:11:50.320 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:49.991 [debug] [formatter_crashed: Logger.Formatter, config: %Logger.Formatter{template: ["\n", :time, " ", :metadata, "[", :level, "] ", :message, "\n"], truncate: 8096, metadata: [], colors: %{error: :red, enabled: false, info: :normal, warning: :yellow, debug: :cyan, notice: :normal, emergency: :red, alert: :red, critical: :red}, utc_log?: false}, log_event: %{meta: %{error_logger: %{tag: :error_report, type: :std_error}, pid: #PID<0.50.0>, time: 1791324706639847, gl: #PID<0.46.0>, report_cb: &:logger.format_otp_report/1}, msg: {:report, %{label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."}}, level: :error}, reason: {:error, :undef, [{Inspect.Tuple, :inspect, [{:erl_prim_loader, :file_error}, %Inspect.Opts{base: :decimal, binaries: :infer, char_lists: :infer, charlists: :infer, custom_options: [], inspect_fun: &Inspect.inspect/2, limit: 49, pretty: false, printable_limit: 4096, safe: true, structs: true, syntax_colors: [], width: 80}], []}, {Inspect.List, :keyword, 2, [file: ~c"lib/inspect.ex", line: 366]}, {Inspect.Algebra, :container_each, 6, [file: ~c"lib/inspect/algebra.ex", line: 479]}, {Inspect.Algebra, :container_doc, 6, [file: ~c"lib/inspect/algebra.ex", line: 456]}, {Kernel, :inspect, 2, [file: ~c"lib/kernel.ex", line: 2376]}, {Logger.Formatter, :format_report, 2, [file: ~c"lib/logger/formatter.ex", line: 279]}, {Logger.Formatter, :format, 2, [file: ~c"lib/logger/formatter.ex", line: 217]}]}]
+
+22:11:50.320 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:50.359 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. "]
+
+22:11:50.612 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:50.613 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:50.618 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/logger/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: logger."]
+
+22:11:50.626 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:50.627 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:50.627 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/logger/ebin/Elixir.Logger.Translator.beam. Function: read_file. "]
+
+22:11:50.627 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:50.627 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:50.627 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Exception.beam. Function: read_file. Process: logger."]
+
+22:11:50.627 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:50.631 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:50.636 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Exception.beam. Function: read_file. "]
+
+22:11:50.636 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Inspect.Tuple.beam. Function: read_file. Process: code_server."]
+
+22:11:50.637 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Inspect.Tuple.beam. Function: read_file. Process: code_server."]
+
+22:11:50.637 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Inspect.Tuple.beam. Function: read_file. Process: logger."]
+
+22:11:50.660 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:50.661 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:50.665 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:50.671 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. Process: logger."]
+
+22:11:50.601 [debug] [formatter_crashed: :logger_formatter, config: %{}, log_event: %{meta: %{error_logger: %{tag: :error_report, type: :std_error}, pid: #PID<0.50.0>, time: 1791324706639847, gl: #PID<0.46.0>, report_cb: &:logger.format_otp_report/1}, msg: {~c"FORMATTER CRASH: ~tp", [report: %{label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."}]}, level: :error}, reason: {:error, {:error, [io_lib_pretty: :nofile]}, [{:io_lib, :test_modules_loaded, 3, [file: ~c"io_lib.erl", line: 464]}, {:io_lib, :build_text, 2, [file: ~c"io_lib.erl", line: 452]}, {:logger_formatter, :format_msg, 4, [file: ~c"logger_formatter.erl", line: 482]}, {:logger_formatter, :format, 2, [file: ~c"logger_formatter.erl", line: 325]}]}]
+
+22:11:50.671 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+22:11:50.672 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:50.672 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/logger/ebin/Elixir.Logger.Translator.beam. Function: read_file. "]
+
+22:11:50.672 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:50.672 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. "]
+
+22:11:50.673 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:50.673 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+22:11:50.673 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Exception.beam. Function: read_file. "]
+
+22:11:51.077 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:51.078 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:51.093 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. Process: logger."]
+
+22:11:50.658 [debug] [formatter_crashed: Logger.Formatter, config: %Logger.Formatter{template: ["\n", :time, " ", :metadata, "[", :level, "] ", :message, "\n"], truncate: 8096, metadata: [], colors: %{error: :red, enabled: false, info: :normal, warning: :yellow, debug: :cyan, notice: :normal, emergency: :red, alert: :red, critical: :red}, utc_log?: false}, log_event: %{meta: %{error_logger: %{tag: :error_report, type: :std_error}, pid: #PID<0.50.0>, time: 1791324706639943, gl: #PID<0.46.0>, report_cb: &:logger.format_otp_report/1}, msg: {:report, %{label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."}}, level: :error}, reason: {:error, :undef, [{Inspect.Tuple, :inspect, [{:erl_prim_loader, :file_error}, %Inspect.Opts{base: :decimal, binaries: :infer, char_lists: :infer, charlists: :infer, custom_options: [], inspect_fun: &Inspect.inspect/2, limit: 49, pretty: false, printable_limit: 4096, safe: true, structs: true, syntax_colors: [], width: 80}], []}, {Inspect.List, :keyword, 2, [file: ~c"lib/inspect.ex", line: 366]}, {Inspect.Algebra, :container_each, 6, [file: ~c"lib/inspect/algebra.ex", line: 479]}, {Inspect.Algebra, :container_doc, 6, [file: ~c"lib/inspect/algebra.ex", line: 456]}, {Kernel, :inspect, 2, [file: ~c"lib/kernel.ex", line: 2376]}, {Logger.Formatter, :format_report, 2, [file: ~c"lib/logger/formatter.ex", line: 279]}, {Logger.Formatter, :format, 2, [file: ~c"lib/logger/formatter.ex", line: 217]}]}]
+
+22:11:51.446 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:51.447 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/io_lib_pretty.beam. Function: read_file. Process: code_server."]
+
+22:11:51.448 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/erlang/lib/stdlib-7.3/ebin/io_lib_pretty.beam. Function: read_file. "]
+
+22:11:51.734 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]

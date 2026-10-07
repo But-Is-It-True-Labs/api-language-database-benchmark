@@ -1,0 +1,33 @@
+V Cassandra benchmark API listening on :8080
+[veb] Running multi-threaded app on http://localhost:8080/
+V Cassandra benchmark API listening on :8080
+[veb] Running multi-threaded app on http://localhost:8080/
+listening on http://0.0.0.0:8080/
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available

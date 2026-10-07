@@ -1,0 +1,23 @@
+========================================
+CPP + POSTGRES FULL OFFICIAL
+========================================
+UTC:
+Wed Oct  7 00:41:16 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.037s
+Requests:     12163
+Errors:       0
+Requests/sec: 404.93
+
+Average:      24.389617ms
+p50:          20.908237ms
+p95:          54.3799ms
+p99:          76.336536ms
+Max:          230.073072ms
+========================================

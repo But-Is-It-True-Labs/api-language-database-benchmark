@@ -1,0 +1,21 @@
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50

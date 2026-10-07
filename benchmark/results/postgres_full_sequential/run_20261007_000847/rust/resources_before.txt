@@ -1,0 +1,1 @@
+Name=/benchmark_rust_postgres CPUs=12000000000 Memory=96636764160 Swap=96636764160 Status=running OOMKilled=false RestartCount=0

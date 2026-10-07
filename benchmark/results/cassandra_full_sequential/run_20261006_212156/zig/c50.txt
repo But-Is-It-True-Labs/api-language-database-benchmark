@@ -1,0 +1,23 @@
+========================================
+ZIG + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 22:40:10 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_cassandra:8080/parent/50000
+Concurrency:  50
+Duration:     30.061s
+Requests:     39449
+Errors:       0
+Requests/sec: 1312.30
+
+Average:      37.586441ms
+p50:          32.345964ms
+p95:          84.031908ms
+p99:          122.562942ms
+Max:          437.90348ms
+========================================

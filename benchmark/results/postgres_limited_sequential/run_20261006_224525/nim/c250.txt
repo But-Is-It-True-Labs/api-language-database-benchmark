@@ -1,0 +1,23 @@
+========================================
+NIM + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:58:55 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.136s
+Requests:     75383
+Errors:       0
+Requests/sec: 2501.40
+
+Average:      97.159483ms
+p50:          88.081024ms
+p95:          188.116238ms
+p99:          297.96851ms
+Max:          1.428164346s
+========================================

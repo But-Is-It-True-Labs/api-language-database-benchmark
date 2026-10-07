@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+bfb65047d451   benchmark_java_postgres   0.28%     157.1MiB / 2GiB     7.67%     29.2MB / 31.1MB   50.5MB / 369kB   22
+d668473a85e5   benchmark_postgres        29.28%    186.3MiB / 8GiB     2.27%     347MB / 626MB     29.2MB / 623kB   56

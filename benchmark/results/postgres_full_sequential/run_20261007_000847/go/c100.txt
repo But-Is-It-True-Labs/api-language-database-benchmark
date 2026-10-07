@@ -1,0 +1,23 @@
+========================================
+GO + POSTGRES FULL OFFICIAL
+========================================
+UTC:
+Wed Oct  7 00:11:46 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.087s
+Requests:     103528
+Errors:       0
+Requests/sec: 3440.96
+
+Average:      27.66195ms
+p50:          21.188521ms
+p95:          74.006715ms
+p99:          112.94508ms
+Max:          292.726124ms
+========================================

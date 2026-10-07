@@ -1,0 +1,200 @@
+**      arguments == [
+  {#PID<0.273.0>, #PID<0.5071.0>, 92,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {{:noproc, {GenServer, :call, [nil, {:acceptor_info, 92}, 5000]}},
+ [
+   {GenServer, :call, 3, [file: ~c"lib/gen_server.ex", line: 1121]},
+   {ThousandIsland.Acceptor, :run, 1,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 22]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+
+
+23:35:54.624 [error] ** Task #PID<0.5029.0> terminating
+** Process Label == {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 78}}
+** Started from #PID<0.5031.0>
+** When function  == &ThousandIsland.Acceptor.run/1
+**      arguments == [
+  {#PID<0.273.0>, #PID<0.5029.0>, 78,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {{:noproc, {GenServer, :call, [nil, {:acceptor_info, 78}, 5000]}},
+ [
+   {GenServer, :call, 3, [file: ~c"lib/gen_server.ex", line: 1121]},
+   {ThousandIsland.Acceptor, :run, 1,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 22]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+
+
+23:35:54.627 [error] ** Task #PID<0.5074.0> terminating
+** Process Label == {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 93}}
+** Started from #PID<0.5076.0>
+** When function  == &ThousandIsland.Acceptor.run/1
+**      arguments == [
+  {#PID<0.273.0>, #PID<0.5074.0>, 93,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {{:noproc, {GenServer, :call, [nil, {:acceptor_info, 93}, 5000]}},
+ [
+   {GenServer, :call, 3, [file: ~c"lib/gen_server.ex", line: 1121]},
+   {ThousandIsland.Acceptor, :run, 1,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 22]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+
+
+23:35:54.624 [error] ** Task #PID<0.5032.0> terminating
+** Process Label == {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 79}}
+** Started from #PID<0.5034.0>
+** When function  == &ThousandIsland.Acceptor.run/1
+**      arguments == [
+  {#PID<0.273.0>, #PID<0.5032.0>, 79,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {{:noproc, {GenServer, :call, [nil, {:acceptor_info, 79}, 5000]}},
+ [
+   {GenServer, :call, 3, [file: ~c"lib/gen_server.ex", line: 1121]},
+   {ThousandIsland.Acceptor, :run, 1,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 22]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+
+
+23:35:54.628 [error] ** Task #PID<0.5077.0> terminating
+** Process Label == {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 94}}
+** Started from #PID<0.5079.0>
+** When function  == &ThousandIsland.Acceptor.run/1
+**      arguments == [
+  {#PID<0.273.0>, #PID<0.5077.0>, 94,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {{:noproc, {GenServer, :call, [nil, {:acceptor_info, 94}, 5000]}},
+ [
+   {GenServer, :call, 3, [file: ~c"lib/gen_server.ex", line: 1121]},
+   {ThousandIsland.Acceptor, :run, 1,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 22]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+

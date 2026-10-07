@@ -1,0 +1,23 @@
+========================================
+PHP + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 21:49:38 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_cassandra:8080/parent/50000
+Concurrency:  50
+Duration:     30.082s
+Requests:     17658
+Errors:       0
+Requests/sec: 587.00
+
+Average:      84.573203ms
+p50:          74.709339ms
+p95:          174.865449ms
+p99:          253.206739ms
+Max:          1.113331535s
+========================================

@@ -1,0 +1,23 @@
+========================================
+ELIXIR + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:34:24 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     30.857s
+Requests:     25733
+Errors:       11094
+Requests/sec: 833.95
+
+Average:      589.155033ms
+p50:          328.979125ms
+p95:          1.107499231s
+p99:          6.411009066s
+Max:          7.204260897s
+========================================

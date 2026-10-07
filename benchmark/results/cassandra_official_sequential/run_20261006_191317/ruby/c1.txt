@@ -1,0 +1,23 @@
+========================================
+RUBY + CASSANDRA OFFICIAL
+========================================
+UTC:
+Tue Oct  6 20:02:12 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_cassandra:8080/parent/50000
+Concurrency:  1
+Duration:     30.027s
+Requests:     2289
+Errors:       0
+Requests/sec: 76.23
+
+Average:      12.907538ms
+p50:          10.106905ms
+p95:          30.439632ms
+p99:          44.174777ms
+Max:          99.002863ms
+========================================

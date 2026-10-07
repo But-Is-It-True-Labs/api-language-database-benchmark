@@ -1,0 +1,23 @@
+========================================
+ZIG + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Wed Oct  7 00:02:45 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.041s
+Requests:     27352
+Errors:       0
+Requests/sec: 910.49
+
+Average:      10.853965ms
+p50:          7.190502ms
+p95:          32.466839ms
+p99:          57.102316ms
+Max:          216.861863ms
+========================================

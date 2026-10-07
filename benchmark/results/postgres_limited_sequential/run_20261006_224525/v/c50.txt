@@ -1,0 +1,23 @@
+========================================
+V + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:50:48 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.124s
+Requests:     25765
+Errors:       0
+Requests/sec: 855.30
+
+Average:      58.049615ms
+p50:          48.820671ms
+p95:          141.404273ms
+p99:          201.629897ms
+Max:          469.777385ms
+========================================

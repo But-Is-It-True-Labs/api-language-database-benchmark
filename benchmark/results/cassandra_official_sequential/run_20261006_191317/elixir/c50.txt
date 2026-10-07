@@ -1,0 +1,23 @@
+========================================
+ELIXIR + CASSANDRA OFFICIAL
+========================================
+UTC:
+Tue Oct  6 19:57:47 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_cassandra:8080/parent/50000
+Concurrency:  50
+Duration:     30.2s
+Requests:     11084
+Errors:       0
+Requests/sec: 367.02
+
+Average:      135.010114ms
+p50:          118.282447ms
+p95:          298.767847ms
+p99:          445.018866ms
+Max:          774.861354ms
+========================================

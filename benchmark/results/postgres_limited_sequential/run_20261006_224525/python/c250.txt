@@ -1,0 +1,23 @@
+========================================
+PYTHON + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:08:31 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.486s
+Requests:     10026
+Errors:       0
+Requests/sec: 328.87
+
+Average:      754.998333ms
+p50:          445.534176ms
+p95:          2.418611348s
+p99:          3.872631977s
+Max:          8.036227483s
+========================================

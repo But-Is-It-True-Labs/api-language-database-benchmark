@@ -1,0 +1,1 @@
+Name=/benchmark_v_cassandra Status=running ExitCode=0 OOMKilled=false RestartCount=0

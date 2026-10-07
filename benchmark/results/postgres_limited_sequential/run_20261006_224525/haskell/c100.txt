@@ -1,0 +1,23 @@
+========================================
+HASKELL + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:45:17 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.184s
+Requests:     22710
+Errors:       0
+Requests/sec: 752.38
+
+Average:      132.268173ms
+p50:          126.686028ms
+p95:          245.227678ms
+p99:          330.619039ms
+Max:          509.760956ms
+========================================

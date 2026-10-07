@@ -1,0 +1,23 @@
+========================================
+RUST + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 21:32:46 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_cassandra:8080/parent/50000
+Concurrency:  500
+Duration:     30.113s
+Requests:     129185
+Errors:       0
+Requests/sec: 4290.01
+
+Average:      106.015638ms
+p50:          91.484198ms
+p95:          225.857932ms
+p99:          376.928719ms
+Max:          1.048059178s
+========================================

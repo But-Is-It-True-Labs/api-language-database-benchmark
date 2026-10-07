@@ -1,0 +1,23 @@
+========================================
+RUBY + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 23:36:34 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.023s
+Requests:     4917
+Errors:       0
+Requests/sec: 163.77
+
+Average:      5.95351ms
+p50:          4.337198ms
+p95:          15.357679ms
+p99:          24.852334ms
+Max:          109.438254ms
+========================================

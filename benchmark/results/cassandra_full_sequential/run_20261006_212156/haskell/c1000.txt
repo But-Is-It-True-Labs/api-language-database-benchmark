@@ -1,0 +1,23 @@
+========================================
+HASKELL + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 22:24:20 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_cassandra:8080/parent/50000
+Concurrency:  1000
+Duration:     40.109s
+Requests:     16858
+Errors:       31
+Requests/sec: 420.30
+
+Average:      1.907031275s
+p50:          1.811484529s
+p95:          2.635966955s
+p99:          2.975219676s
+Max:          10.022323847s
+========================================

@@ -1,0 +1,23 @@
+========================================
+RUST + POSTGRES LIMITED OFFICIAL
+========================================
+UTC:
+Tue Oct  6 22:54:05 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.051s
+Requests:     44156
+Errors:       0
+Requests/sec: 1469.38
+
+Average:      33.634447ms
+p50:          28.665989ms
+p95:          74.379192ms
+p99:          113.084292ms
+Max:          862.066222ms
+========================================

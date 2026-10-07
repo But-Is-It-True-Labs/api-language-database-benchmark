@@ -1,0 +1,23 @@
+========================================
+PYTHON + CASSANDRA FULL OFFICIAL
+========================================
+UTC:
+Tue Oct  6 21:43:59 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_cassandra:8080/parent/50000
+Concurrency:  100
+Duration:     30.438s
+Requests:     6510
+Errors:       0
+Requests/sec: 213.88
+
+Average:      464.704117ms
+p50:          412.157298ms
+p95:          745.099287ms
+p99:          1.158285349s
+Max:          5.349351069s
+========================================

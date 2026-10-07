@@ -1,0 +1,23 @@
+========================================
+PHP + POSTGRES FULL OFFICIAL
+========================================
+UTC:
+Wed Oct  7 00:36:44 UTC 2026
+
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.076s
+Requests:     33663
+Errors:       0
+Requests/sec: 1119.27
+
+Average:      88.714276ms
+p50:          80.141865ms
+p95:          175.609196ms
+p99:          235.026351ms
+Max:          539.682922ms
+========================================
