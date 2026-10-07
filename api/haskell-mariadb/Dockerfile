@@ -2,7 +2,7 @@ FROM haskell:9.10.3-bookworm AS build
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       libpq-dev \
+       default-libmysqlclient-dev \
        gcc \
     && rm -rf /var/lib/apt/lists/*
 
@@ -25,7 +25,7 @@ FROM debian:bookworm-slim
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       libpq5 \
+       libmariadb3 \
        ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
