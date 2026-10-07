@@ -1,7 +1,7 @@
 FROM thevlang/vlang AS build
 
 RUN apk add --no-cache \
-    postgresql-dev \
+    mariadb-connector-c-dev \
     musl-dev \
     gc-dev \
     build-base
@@ -20,7 +20,7 @@ RUN v -d new_veb \
 FROM alpine:3.18
 
 RUN apk add --no-cache \
-    libpq \
+    mariadb-connector-c \
     gc \
     libgcc \
     libstdc++
