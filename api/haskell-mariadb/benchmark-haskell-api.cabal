@@ -1,0 +1,23 @@
+cabal-version: 3.0
+name: benchmark-haskell-api
+version: 0.1.0.0
+build-type: Simple
+
+executable benchmark-haskell-api
+  main-is: Main.hs
+  default-language: GHC2021
+
+  ghc-options:
+    -O2
+    -threaded
+    -rtsopts
+
+  build-depends:
+      base >=4.17 && <5
+    , aeson
+    , bytestring
+    , http-types
+    , postgresql-simple
+    , scotty
+    , text
+    , time
