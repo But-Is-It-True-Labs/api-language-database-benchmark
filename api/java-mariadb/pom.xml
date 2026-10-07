@@ -24,14 +24,8 @@
 
         <dependency>
             <groupId>io.vertx</groupId>
-            <artifactId>vertx-pg-client</artifactId>
+            <artifactId>vertx-mysql-client</artifactId>
             <version>${vertx.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.ongres.scram</groupId>
-            <artifactId>scram-client</artifactId>
-            <version>3.2</version>
         </dependency>
 
     </dependencies>
