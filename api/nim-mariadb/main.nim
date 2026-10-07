@@ -1,7 +1,7 @@
 import mummy
 import mummy/routers
 
-import db_connector/db_postgres
+import db_connector/db_mysql
 
 import std/json
 import std/os
@@ -17,18 +17,11 @@ var threadDb {.threadvar.}: DbConn
 
 proc getDb(): DbConn {.gcsafe.} =
   if threadDb == nil:
-    let connInfo =
-      "host=" & getEnv("PGHOST", "benchmark_postgres") &
-      " port=" & getEnv("PGPORT", "5432") &
-      " user=" & getEnv("PGUSER", "benchmark") &
-      " password=" & getEnv("PGPASSWORD", "benchmark_password") &
-      " dbname=" & getEnv("PGDATABASE", "benchmark")
-
-    threadDb = db_postgres.open(
-      "",
-      "",
-      "",
-      connInfo
+    threadDb = db_mysql.open(
+      getEnv("MYSQLHOST", "benchmark_mariadb"),
+      getEnv("MYSQLUSER", "benchmark"),
+      getEnv("MYSQLPASSWORD", "benchmark_password"),
+      getEnv("MYSQLDATABASE", "benchmark")
     )
 
   return threadDb
