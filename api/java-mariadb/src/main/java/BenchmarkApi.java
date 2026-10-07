@@ -6,21 +6,21 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.BodyHandler;
 
-import io.vertx.pgclient.PgConnectOptions;
+import io.vertx.mysqlclient.MySQLConnectOptions;
 
 import io.vertx.sqlclient.PoolOptions;
 import io.vertx.sqlclient.Row;
 import io.vertx.sqlclient.RowSet;
 import io.vertx.sqlclient.Tuple;
 
-import io.vertx.pgclient.PgPool;
+import io.vertx.mysqlclient.MySQLPool;
 
 import java.time.LocalDateTime;
 
 
 public class BenchmarkApi {
 
-    private static PgPool pool;
+    private static MySQLPool pool;
 
 
     private static JsonObject parentJson(Row row) {
@@ -205,7 +205,7 @@ public class BenchmarkApi {
                 created_at,
                 payload
             FROM benchmark_parent
-            WHERE id = $1
+            WHERE id = ?
             """
         )
         .execute(
@@ -271,7 +271,7 @@ public class BenchmarkApi {
                 value_number,
                 payload
             FROM benchmark_child
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY id
             """
         )
@@ -333,7 +333,7 @@ public class BenchmarkApi {
                 event_time,
                 payload
             FROM benchmark_event
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY event_time DESC, id DESC
             LIMIT 20
             """
@@ -396,7 +396,7 @@ public class BenchmarkApi {
                 created_at,
                 payload
             FROM benchmark_parent
-            WHERE account_number = $1
+            WHERE account_number = ?
             ORDER BY id
             LIMIT 50
             """
@@ -459,7 +459,7 @@ public class BenchmarkApi {
                 created_at,
                 payload
             FROM benchmark_parent
-            WHERE id = $1
+            WHERE id = ?
             """
         )
         .execute(
@@ -494,7 +494,7 @@ public class BenchmarkApi {
                     value_number,
                     payload
                 FROM benchmark_child
-                WHERE parent_id = $1
+                WHERE parent_id = ?
                 ORDER BY id
                 """
             )
@@ -522,7 +522,7 @@ public class BenchmarkApi {
                         event_time,
                         payload
                     FROM benchmark_event
-                    WHERE parent_id = $1
+                    WHERE parent_id = ?
                     ORDER BY event_time DESC, id DESC
                     LIMIT 20
                     """
@@ -650,11 +650,11 @@ public class BenchmarkApi {
                 )
                 VALUES
                 (
-                    $1,
-                    $2,
-                    $3,
+                    ?,
+                    ?,
+                    ?,
                     CURRENT_TIMESTAMP,
-                    $4
+                    ?
                 )
                 """
             )
@@ -720,8 +720,8 @@ public class BenchmarkApi {
             );
         }
 
-        PgConnectOptions connect =
-            PgConnectOptions.fromUri(
+        MySQLConnectOptions connect =
+            MySQLConnectOptions.fromUri(
                 databaseUrl
             );
 
@@ -733,7 +733,7 @@ public class BenchmarkApi {
             Vertx.vertx();
 
         pool =
-            PgPool.pool(
+            MySQLPool.pool(
                 vertx,
                 connect,
                 poolOptions
