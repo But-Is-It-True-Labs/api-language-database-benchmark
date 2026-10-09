@@ -1,5 +1,5 @@
 #include <microhttpd.h>
-#include <mysql/mysql.h>
+#include <mysql.h>
 #include <nlohmann/json.hpp>
 
 #include <chrono>

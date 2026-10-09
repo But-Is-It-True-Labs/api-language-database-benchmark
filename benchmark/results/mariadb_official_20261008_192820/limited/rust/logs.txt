@@ -1,0 +1,2 @@
+Rust MariaDB benchmark API listening on :8080
+Rust MariaDB benchmark API listening on :8080

@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_cockroach:8080/parent/50000
+Concurrency:  50
+Duration:     10.067s
+Requests:     6592
+Errors:       5275
+Requests/sec: 654.79
+
+Average:      75.74298ms
+p50:          59.267877ms
+p95:          193.721612ms
+p99:          272.946098ms
+Max:          509.990962ms
+========================================

@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_cockroach:8080/parent/50000
+Concurrency:  50
+Duration:     10.116s
+Requests:     1666
+Errors:       114
+Requests/sec: 164.69
+
+Average:      301.718386ms
+p50:          200.063254ms
+p95:          991.818192ms
+p99:          2.032210329s
+Max:          4.571599527s
+========================================

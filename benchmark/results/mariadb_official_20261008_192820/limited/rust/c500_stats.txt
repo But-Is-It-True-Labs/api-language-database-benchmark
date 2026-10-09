@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+6f04262b0fcd   benchmark_rust_mariadb   0.00%     20.68MiB / 2GiB     1.01%     286MB / 212MB    668kB / 0B       3
+68b200ef121c   benchmark_mariadb        0.02%     193.1MiB / 8GiB     2.36%     465MB / 1.56GB   128MB / 32.8kB   160

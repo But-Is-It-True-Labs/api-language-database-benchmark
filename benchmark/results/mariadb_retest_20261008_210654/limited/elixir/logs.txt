@@ -1,0 +1,3000 @@
+21:59:29.915 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5783.0>},
+              {id,<<"acceptor-64">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,64,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.915 [info]     supervisor: {<0.5786.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5787.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.915 [info]     supervisor: {<0.5786.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5788.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5786.0>,65,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.916 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5786.0>},
+              {id,<<"acceptor-65">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,65,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.916 [info]     supervisor: {<0.5789.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5790.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.916 [info]     supervisor: {<0.5789.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5791.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5789.0>,66,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.949 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5789.0>},
+              {id,<<"acceptor-66">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,66,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.950 [info]     supervisor: {<0.5792.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5793.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.950 [info]     supervisor: {<0.5792.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5794.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5792.0>,67,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.951 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5792.0>},
+              {id,<<"acceptor-67">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,67,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.951 [info]     supervisor: {<0.5795.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5796.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.951 [info]     supervisor: {<0.5795.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5797.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5795.0>,68,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.952 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5795.0>},
+              {id,<<"acceptor-68">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,68,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.952 [info]     supervisor: {<0.5798.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5799.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.953 [info]     supervisor: {<0.5798.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5800.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5798.0>,69,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.953 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5798.0>},
+              {id,<<"acceptor-69">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,69,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.953 [info]     supervisor: {<0.5801.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5802.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.954 [info]     supervisor: {<0.5801.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5803.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5801.0>,70,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.954 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5801.0>},
+              {id,<<"acceptor-70">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,70,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.954 [info]     supervisor: {<0.5804.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5805.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.963 [info]     supervisor: {<0.5804.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5806.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5804.0>,71,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.964 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5804.0>},
+              {id,<<"acceptor-71">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,71,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.964 [info]     supervisor: {<0.5807.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5808.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.965 [info]     supervisor: {<0.5807.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5809.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5807.0>,72,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.965 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5807.0>},
+              {id,<<"acceptor-72">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,72,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.966 [info]     supervisor: {<0.5810.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5811.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.966 [info]     supervisor: {<0.5810.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5812.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5810.0>,73,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.967 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5810.0>},
+              {id,<<"acceptor-73">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,73,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.967 [info]     supervisor: {<0.5813.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5814.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.967 [info]     supervisor: {<0.5813.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5815.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5813.0>,74,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.968 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5813.0>},
+              {id,<<"acceptor-74">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,74,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.968 [info]     supervisor: {<0.5816.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5817.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.969 [info]     supervisor: {<0.5816.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5818.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5816.0>,75,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.969 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5816.0>},
+              {id,<<"acceptor-75">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,75,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.970 [info]     supervisor: {<0.5819.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5820.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.970 [info]     supervisor: {<0.5819.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5821.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5819.0>,76,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.970 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5819.0>},
+              {id,<<"acceptor-76">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,76,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.971 [info]     supervisor: {<0.5822.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5823.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.971 [info]     supervisor: {<0.5822.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5824.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5822.0>,77,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.971 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5822.0>},
+              {id,<<"acceptor-77">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,77,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.972 [info]     supervisor: {<0.5825.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5826.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.972 [info]     supervisor: {<0.5825.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5827.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5825.0>,78,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.973 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5825.0>},
+              {id,<<"acceptor-78">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,78,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.973 [info]     supervisor: {<0.5828.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5829.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.973 [info]     supervisor: {<0.5828.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5830.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5828.0>,79,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:29.974 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5828.0>},
+              {id,<<"acceptor-79">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,79,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.974 [info]     supervisor: {<0.5831.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5832.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:29.974 [info]     supervisor: {<0.5831.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5833.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5831.0>,80,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.017 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5831.0>},
+              {id,<<"acceptor-80">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,80,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.017 [info]     supervisor: {<0.5834.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5835.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.018 [info]     supervisor: {<0.5834.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5836.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5834.0>,81,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.018 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5834.0>},
+              {id,<<"acceptor-81">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,81,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.019 [info]     supervisor: {<0.5837.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5838.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.019 [info]     supervisor: {<0.5837.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5839.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5837.0>,82,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.019 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5837.0>},
+              {id,<<"acceptor-82">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,82,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.020 [info]     supervisor: {<0.5840.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5841.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.020 [info]     supervisor: {<0.5840.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5842.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5840.0>,83,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.021 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5840.0>},
+              {id,<<"acceptor-83">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,83,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.021 [info]     supervisor: {<0.5843.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5844.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.021 [info]     supervisor: {<0.5843.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5845.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5843.0>,84,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.022 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5843.0>},
+              {id,<<"acceptor-84">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,84,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.022 [info]     supervisor: {<0.5846.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5847.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.022 [info]     supervisor: {<0.5846.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5848.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5846.0>,85,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.023 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5846.0>},
+              {id,<<"acceptor-85">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,85,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.024 [info]     supervisor: {<0.5849.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5850.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.024 [info]     supervisor: {<0.5849.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5851.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5849.0>,86,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.024 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5849.0>},
+              {id,<<"acceptor-86">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,86,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.026 [info]     supervisor: {<0.5852.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5853.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.026 [info]     supervisor: {<0.5852.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5854.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5852.0>,87,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.027 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5852.0>},
+              {id,<<"acceptor-87">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,87,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.040 [info]     supervisor: {<0.5855.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5856.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.040 [info]     supervisor: {<0.5855.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5857.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5855.0>,88,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.041 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5855.0>},
+              {id,<<"acceptor-88">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,88,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.041 [info]     supervisor: {<0.5858.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5859.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.042 [info]     supervisor: {<0.5858.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5860.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5858.0>,89,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.043 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5858.0>},
+              {id,<<"acceptor-89">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,89,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.043 [info]     supervisor: {<0.5861.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5862.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.044 [info]     supervisor: {<0.5861.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5863.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5861.0>,90,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.044 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5861.0>},
+              {id,<<"acceptor-90">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,90,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.045 [info]     supervisor: {<0.5864.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5865.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.045 [info]     supervisor: {<0.5864.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5866.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5864.0>,91,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.045 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5864.0>},
+              {id,<<"acceptor-91">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,91,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.046 [info]     supervisor: {<0.5867.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5868.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.046 [info]     supervisor: {<0.5867.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5869.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5867.0>,92,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.046 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5867.0>},
+              {id,<<"acceptor-92">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,92,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.047 [info]     supervisor: {<0.5870.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5871.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.047 [info]     supervisor: {<0.5870.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5872.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5870.0>,93,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.047 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5870.0>},
+              {id,<<"acceptor-93">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,93,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.048 [info]     supervisor: {<0.5873.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5874.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.048 [info]     supervisor: {<0.5873.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5875.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5873.0>,94,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.049 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5873.0>},
+              {id,<<"acceptor-94">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,94,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.049 [info]     supervisor: {<0.5876.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5877.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.050 [info]     supervisor: {<0.5876.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5878.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5876.0>,95,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.055 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5876.0>},
+              {id,<<"acceptor-95">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,95,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.056 [info]     supervisor: {<0.5879.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5880.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.056 [info]     supervisor: {<0.5879.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5881.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5879.0>,96,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.056 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5879.0>},
+              {id,<<"acceptor-96">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,96,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.057 [info]     supervisor: {<0.5882.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5883.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.057 [info]     supervisor: {<0.5882.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5884.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5882.0>,97,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.058 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5882.0>},
+              {id,<<"acceptor-97">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,97,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.065 [info]     supervisor: {<0.5885.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5886.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.066 [info]     supervisor: {<0.5885.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5887.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5885.0>,98,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.066 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5885.0>},
+              {id,<<"acceptor-98">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,98,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.067 [info]     supervisor: {<0.5888.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5889.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.067 [info]     supervisor: {<0.5888.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5890.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5888.0>,99,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.067 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5888.0>},
+              {id,<<"acceptor-99">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,99,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.068 [info]     supervisor: {<0.5891.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5892.0>},
+              {id,connection_sup},
+              {mfargs,
+                  {'Elixir.DynamicSupervisor',start_link,
+                      [[{strategy,one_for_one},{max_children,16384}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.068 [info]     supervisor: {<0.5891.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.5893.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.5591.0>,<0.5891.0>,100,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.068 [info]     supervisor: {<0.5593.0>,'Elixir.ThousandIsland.AcceptorPoolSupervisor'}
+    started: [{pid,<0.5891.0>},
+              {id,<<"acceptor-100">>},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorSupervisor',start_link,
+                      [{<0.5591.0>,100,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.069 [info]     supervisor: {<0.5591.0>,'Elixir.ThousandIsland.Server'}
+    started: [{pid,<0.5593.0>},
+              {id,acceptor_pool_supervisor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.AcceptorPoolSupervisor',start_link,
+                      [{<0.5591.0>,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+
+
+21:59:30.069 [info]     supervisor: {<0.5591.0>,'Elixir.ThousandIsland.Server'}
+    started: [{pid,<0.5894.0>},
+              {id,shutdown_listener},
+              {mfargs,
+                  {'Elixir.ThousandIsland.ShutdownListener',start_link,
+                      [{<0.5591.0>,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+21:59:30.071 [info] Running BenchmarkElixir.Endpoint with Bandit 1.12.5 at 0.0.0.0:8080 (http)
+
+21:59:30.102 [info]     supervisor: {local,'Elixir.BenchmarkElixir.Endpoint'}
+    started: [{pid,<0.5591.0>},
+              {id,{'Elixir.BenchmarkElixir.Endpoint',http}},
+              {mfargs,
+                  {'Elixir.Bandit',start_link,
+                      [[{plug,'Elixir.BenchmarkElixir.Endpoint'},
+                        {display_plug,'Elixir.BenchmarkElixir.Endpoint'},
+                        {scheme,http},
+                        {otp_app,benchmark_elixir_api},
+                        {ip,{0,0,0,0}},
+                        {port,8080}]]}},
+              {restart_type,permanent},
+              {significant,false},
+              {shutdown,infinity},
+              {child_type,supervisor}]
+

@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+3ebdd3bb8867   benchmark_ruby_mariadb   0.02%     47.18MiB / 2GiB     2.30%     33.1MB / 40.6MB   0B / 0B          56
+68b200ef121c   benchmark_mariadb        11.29%    193.4MiB / 8GiB     2.36%     660MB / 2.25GB    128MB / 32.8kB   143

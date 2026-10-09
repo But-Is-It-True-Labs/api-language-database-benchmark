@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.039s
+Requests:     38899
+Errors:       0
+Requests/sec: 1294.97
+
+Average:      38.292659ms
+p50:          30.321775ms
+p95:          100.827474ms
+p99:          153.128415ms
+Max:          257.296049ms
+========================================

@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                                            CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O         PIDS
+a261eb073dd6   official_maria_20261008_210654_limited_elixir   2.16%     86.37MiB / 2GiB     4.22%     74MB / 37.2MB    21.5MB / 8.19kB   43
+6838470e7a71   official_maria_20261008_210654_limited          0.02%     158MiB / 8GiB       1.93%     371MB / 1.28GB   87.8MB / 32.8kB   59

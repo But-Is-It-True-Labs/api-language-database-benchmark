@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_cockroach:8080/parent/50000
+Concurrency:  50
+Duration:     10.071s
+Requests:     12491
+Errors:       8721
+Requests/sec: 1240.23
+
+Average:      39.753005ms
+p50:          31.431974ms
+p95:          96.82323ms
+p99:          147.978729ms
+Max:          279.12236ms
+========================================

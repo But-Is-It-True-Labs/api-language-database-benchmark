@@ -1,0 +1,30 @@
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+
+parent error: ERROR:  No license installed. The maximum number of concurrently open transactions has been reached.
+HINT:  Obtain and install a valid license to continue.
+

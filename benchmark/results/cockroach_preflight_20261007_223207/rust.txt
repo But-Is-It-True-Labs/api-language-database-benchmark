@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_cockroach:8080/parent/50000
+Concurrency:  50
+Duration:     10.181s
+Requests:     7961
+Errors:       5840
+Requests/sec: 781.92
+
+Average:      63.091554ms
+p50:          47.924609ms
+p95:          161.508758ms
+p99:          247.99033ms
+Max:          513.216844ms
+========================================

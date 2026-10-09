@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                                            CPU %     MEM USAGE / LIMIT    MEM %     NET I/O         BLOCK I/O         PIDS
+fdeab0d0d036   official_maria_20261008_210654_unlimited_rust   0.00%     21.23MiB / 94.3GiB   0.02%     294MB / 213MB   0B / 0B           13
+cc8d8f8e3a94   official_maria_20261008_210654_unlimited        0.02%     143MiB / 94.3GiB     0.15%     225MB / 759MB   71.6MB / 8.19kB   66

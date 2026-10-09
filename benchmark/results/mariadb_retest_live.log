@@ -1,0 +1,3609 @@
+Results: /home/kwiener/development/api-benchmark/benchmark/results/mariadb_retest_20261008_210654
+Both profiles will run even if some concurrency levels report errors.
+Stopping running benchmark_* containers...
+
+=================== limited ===================
+Database max_connections=2000
+DB resource settings: 4000000000 8589934592 0 
+
+========== limited / go ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing go at concurrency 1 for 30s
+limited go c1: PASS; rps=154.57; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.025s
+Requests:     4641
+Errors:       0
+Requests/sec: 154.57
+
+Average:      6.29915ms
+p50:          3.796765ms
+p95:          18.636572ms
+p99:          32.09045ms
+Max:          59.668576ms
+========================================
+Testing go at concurrency 10 for 30s
+limited go c10: PASS; rps=843.62; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.037s
+Requests:     25340
+Errors:       0
+Requests/sec: 843.62
+
+Average:      11.753322ms
+p50:          8.56666ms
+p95:          32.361359ms
+p99:          53.280834ms
+Max:          165.66693ms
+========================================
+Testing go at concurrency 50 for 30s
+limited go c50: PASS; rps=1150.32; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.554s
+Requests:     35147
+Errors:       0
+Requests/sec: 1150.32
+
+Average:      42.770177ms
+p50:          32.965609ms
+p95:          109.133029ms
+p99:          166.664785ms
+Max:          743.507119ms
+========================================
+Testing go at concurrency 100 for 30s
+limited go c100: PASS; rps=1443.48; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.135s
+Requests:     43500
+Errors:       0
+Requests/sec: 1443.48
+
+Average:      68.426013ms
+p50:          56.239001ms
+p95:          167.914736ms
+p99:          235.496184ms
+Max:          664.359253ms
+========================================
+Testing go at concurrency 250 for 30s
+limited go c250: PASS; rps=1730.86; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.207s
+Requests:     52285
+Errors:       0
+Requests/sec: 1730.86
+
+Average:      143.32565ms
+p50:          108.482941ms
+p95:          382.147329ms
+p99:          596.891486ms
+Max:          1.447593502s
+========================================
+Testing go at concurrency 500 for 30s
+limited go c500: PASS; rps=1480.88; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.28s
+Requests:     44841
+Errors:       0
+Requests/sec: 1480.88
+
+Average:      335.344423ms
+p50:          237.839266ms
+p95:          954.431328ms
+p99:          1.48578346s
+Max:          3.317855863s
+========================================
+Testing go at concurrency 1000 for 30s
+limited go c1000: PASS; rps=1583.02; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     30.786s
+Requests:     48735
+Errors:       0
+Requests/sec: 1583.02
+
+Average:      621.983088ms
+p50:          429.637432ms
+p95:          1.847366779s
+p99:          2.784109724s
+Max:          6.984937632s
+========================================
+Completed limited/go
+
+========== limited / rust ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing rust at concurrency 1 for 30s
+limited rust c1: PASS; rps=198.28; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.008s
+Requests:     5950
+Errors:       0
+Requests/sec: 198.28
+
+Average:      4.915859ms
+p50:          3.134242ms
+p95:          14.122195ms
+p99:          21.568197ms
+Max:          44.737819ms
+========================================
+Testing rust at concurrency 10 for 30s
+limited rust c10: PASS; rps=636.38; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.036s
+Requests:     19114
+Errors:       0
+Requests/sec: 636.38
+
+Average:      15.607609ms
+p50:          12.425388ms
+p95:          39.910942ms
+p99:          59.49677ms
+Max:          125.202197ms
+========================================
+Testing rust at concurrency 50 for 30s
+limited rust c50: PASS; rps=1294.97; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.039s
+Requests:     38899
+Errors:       0
+Requests/sec: 1294.97
+
+Average:      38.292659ms
+p50:          30.321775ms
+p95:          100.827474ms
+p99:          153.128415ms
+Max:          257.296049ms
+========================================
+Testing rust at concurrency 100 for 30s
+limited rust c100: PASS; rps=1392.10; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.11s
+Requests:     41916
+Errors:       0
+Requests/sec: 1392.10
+
+Average:      71.059195ms
+p50:          61.892639ms
+p95:          158.98305ms
+p99:          214.819764ms
+Max:          336.046641ms
+========================================
+Testing rust at concurrency 250 for 30s
+limited rust c250: PASS; rps=1751.10; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.352s
+Requests:     53149
+Errors:       0
+Requests/sec: 1751.10
+
+Average:      141.88002ms
+p50:          129.501643ms
+p95:          299.257569ms
+p99:          488.260485ms
+Max:          771.064084ms
+========================================
+Testing rust at concurrency 500 for 30s
+limited rust c500: PASS; rps=1599.50; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.913s
+Requests:     49445
+Errors:       0
+Requests/sec: 1599.50
+
+Average:      307.519547ms
+p50:          282.138971ms
+p95:          581.999515ms
+p99:          770.384081ms
+Max:          1.035067671s
+========================================
+Testing rust at concurrency 1000 for 30s
+limited rust c1000: FAILED; rps=1427.64; errors=129
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.165s
+Requests:     44493
+Errors:       129
+Requests/sec: 1427.64
+
+Average:      678.832657ms
+p50:          640.4471ms
+p95:          1.052000445s
+p99:          1.411820492s
+Max:          10.142948018s
+========================================
+Completed limited/rust
+
+========== limited / node ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing node at concurrency 1 for 30s
+limited node c1: PASS; rps=143.52; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.018s
+Requests:     4308
+Errors:       0
+Requests/sec: 143.52
+
+Average:      6.584204ms
+p50:          4.453005ms
+p95:          18.439162ms
+p99:          25.759864ms
+Max:          69.810361ms
+========================================
+Testing node at concurrency 10 for 30s
+limited node c10: PASS; rps=337.88; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.043s
+Requests:     10151
+Errors:       0
+Requests/sec: 337.88
+
+Average:      29.398535ms
+p50:          22.876053ms
+p95:          76.653872ms
+p99:          107.304574ms
+Max:          274.279564ms
+========================================
+Testing node at concurrency 50 for 30s
+limited node c50: PASS; rps=574.26; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.047s
+Requests:     17255
+Errors:       0
+Requests/sec: 574.26
+
+Average:      86.872909ms
+p50:          76.003134ms
+p95:          190.262313ms
+p99:          260.517823ms
+Max:          841.343697ms
+========================================
+Testing node at concurrency 100 for 30s
+limited node c100: PASS; rps=608.00; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.204s
+Requests:     18364
+Errors:       0
+Requests/sec: 608.00
+
+Average:      163.896471ms
+p50:          141.429479ms
+p95:          334.829777ms
+p99:          509.955478ms
+Max:          2.872915007s
+========================================
+Testing node at concurrency 250 for 30s
+limited node c250: FAILED; rps=633.23; errors=4
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.531s
+Requests:     19333
+Errors:       4
+Requests/sec: 633.23
+
+Average:      391.844317ms
+p50:          377.185434ms
+p95:          711.877987ms
+p99:          860.549135ms
+Max:          10.133848173s
+========================================
+Testing node at concurrency 500 for 30s
+limited node c500: FAILED; rps=502.59; errors=799
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.55s
+Requests:     15857
+Errors:       799
+Requests/sec: 502.59
+
+Average:      911.193185ms
+p50:          402.87697ms
+p95:          6.698529466s
+p99:          10.02617368s
+Max:          10.081085736s
+========================================
+Testing node at concurrency 1000 for 30s
+limited node c1000: FAILED; rps=575.77; errors=1273
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     34.076s
+Requests:     19620
+Errors:       1273
+Requests/sec: 575.77
+
+Average:      1.477242347s
+p50:          854.530909ms
+p95:          10.000838827s
+p99:          10.02616524s
+Max:          10.129838375s
+========================================
+Completed limited/node
+
+========== limited / python ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing python at concurrency 1 for 30s
+limited python c1: PASS; rps=144.94; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.026s
+Requests:     4352
+Errors:       0
+Requests/sec: 144.94
+
+Average:      6.507921ms
+p50:          4.010813ms
+p95:          18.010129ms
+p99:          24.815261ms
+Max:          52.685804ms
+========================================
+Testing python at concurrency 10 for 30s
+limited python c10: PASS; rps=319.79; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.079s
+Requests:     9619
+Errors:       0
+Requests/sec: 319.79
+
+Average:      31.099188ms
+p50:          26.642966ms
+p95:          69.380851ms
+p99:          90.960085ms
+Max:          151.714375ms
+========================================
+Testing python at concurrency 50 for 30s
+limited python c50: PASS; rps=311.11; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.051s
+Requests:     9349
+Errors:       0
+Requests/sec: 311.11
+
+Average:      160.309814ms
+p50:          158.541031ms
+p95:          292.193636ms
+p99:          348.937537ms
+Max:          496.084568ms
+========================================
+Testing python at concurrency 100 for 30s
+limited python c100: PASS; rps=270.88; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.324s
+Requests:     8214
+Errors:       0
+Requests/sec: 270.88
+
+Average:      367.884488ms
+p50:          344.765473ms
+p95:          671.153789ms
+p99:          817.526084ms
+Max:          1.004568047s
+========================================
+Testing python at concurrency 250 for 30s
+limited python c250: PASS; rps=283.53; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.502s
+Requests:     8648
+Errors:       0
+Requests/sec: 283.53
+
+Average:      875.684074ms
+p50:          869.160245ms
+p95:          1.223541326s
+p99:          1.584251883s
+Max:          1.942393906s
+========================================
+Testing python at concurrency 500 for 30s
+limited python c500: PASS; rps=272.85; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.076s
+Requests:     8479
+Errors:       0
+Requests/sec: 272.85
+
+Average:      1.81028532s
+p50:          1.759861s
+p95:          2.747230621s
+p99:          3.031356999s
+Max:          3.190912187s
+========================================
+Testing python at concurrency 1000 for 30s
+limited python c1000: FAILED; rps=224.23; errors=15091
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.638s
+Requests:     7094
+Errors:       15091
+Requests/sec: 224.23
+
+Average:      1.400249291s
+p50:          27.427808ms
+p95:          5.0471581s
+p99:          7.129275178s
+Max:          8.06474673s
+========================================
+Completed limited/python
+
+========== limited / php ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing php at concurrency 1 for 30s
+limited php c1: PASS; rps=127.52; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.011s
+Requests:     3827
+Errors:       0
+Requests/sec: 127.52
+
+Average:      7.716428ms
+p50:          5.98407ms
+p95:          18.893998ms
+p99:          26.545277ms
+Max:          61.785583ms
+========================================
+Testing php at concurrency 10 for 30s
+limited php c10: PASS; rps=387.07; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.119s
+Requests:     11658
+Errors:       0
+Requests/sec: 387.07
+
+Average:      25.66201ms
+p50:          17.196108ms
+p95:          73.85229ms
+p99:          102.196346ms
+Max:          301.347432ms
+========================================
+Testing php at concurrency 50 for 30s
+limited php c50: PASS; rps=503.45; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.16s
+Requests:     15184
+Errors:       0
+Requests/sec: 503.45
+
+Average:      98.740721ms
+p50:          91.083199ms
+p95:          219.633529ms
+p99:          337.024098ms
+Max:          924.895915ms
+========================================
+Testing php at concurrency 100 for 30s
+limited php c100: PASS; rps=568.61; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.161s
+Requests:     17150
+Errors:       0
+Requests/sec: 568.61
+
+Average:      174.854858ms
+p50:          174.014952ms
+p95:          319.272642ms
+p99:          430.053988ms
+Max:          712.594158ms
+========================================
+Testing php at concurrency 250 for 30s
+limited php c250: PASS; rps=466.47; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.746s
+Requests:     14342
+Errors:       0
+Requests/sec: 466.47
+
+Average:      530.317564ms
+p50:          516.12371ms
+p95:          774.785924ms
+p99:          915.519624ms
+Max:          1.342119257s
+========================================
+Testing php at concurrency 500 for 30s
+limited php c500: PASS; rps=414.35; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.29s
+Requests:     12965
+Errors:       0
+Requests/sec: 414.35
+
+Average:      1.17892651s
+p50:          1.160518747s
+p95:          1.626159668s
+p99:          1.78343422s
+Max:          2.258853684s
+========================================
+Testing php at concurrency 1000 for 30s
+limited php c1000: PASS; rps=465.24; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.973s
+Requests:     14875
+Errors:       0
+Requests/sec: 465.24
+
+Average:      2.083546306s
+p50:          2.054976031s
+p95:          2.948280014s
+p99:          3.311462581s
+Max:          3.881738108s
+========================================
+Completed limited/php
+
+========== limited / cpp ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing cpp at concurrency 1 for 30s
+limited cpp c1: PASS; rps=127.10; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.016s
+Requests:     3815
+Errors:       0
+Requests/sec: 127.10
+
+Average:      7.694681ms
+p50:          6.185424ms
+p95:          17.725467ms
+p99:          26.63799ms
+Max:          82.05117ms
+========================================
+Testing cpp at concurrency 10 for 30s
+limited cpp c10: PASS; rps=461.65; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.027s
+Requests:     13862
+Errors:       0
+Requests/sec: 461.65
+
+Average:      21.423856ms
+p50:          18.146158ms
+p95:          47.970689ms
+p99:          71.700563ms
+Max:          164.684527ms
+========================================
+Testing cpp at concurrency 50 for 30s
+limited cpp c50: PASS; rps=441.02; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.081s
+Requests:     13266
+Errors:       0
+Requests/sec: 441.02
+
+Average:      112.618868ms
+p50:          96.782594ms
+p95:          248.908051ms
+p99:          366.88071ms
+Max:          509.450589ms
+========================================
+Testing cpp at concurrency 100 for 30s
+limited cpp c100: PASS; rps=417.18; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.172s
+Requests:     12587
+Errors:       0
+Requests/sec: 417.18
+
+Average:      238.664508ms
+p50:          220.457848ms
+p95:          434.632773ms
+p99:          572.030426ms
+Max:          797.159573ms
+========================================
+Testing cpp at concurrency 250 for 30s
+limited cpp c250: PASS; rps=429.36; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.676s
+Requests:     13171
+Errors:       0
+Requests/sec: 429.36
+
+Average:      575.426032ms
+p50:          563.497521ms
+p95:          942.777618ms
+p99:          1.088046892s
+Max:          1.243853416s
+========================================
+Testing cpp at concurrency 500 for 30s
+limited cpp c500: PASS; rps=386.80; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     32.135s
+Requests:     12430
+Errors:       0
+Requests/sec: 386.80
+
+Average:      1.253261316s
+p50:          1.206511609s
+p95:          1.97265402s
+p99:          2.0985021s
+Max:          2.249949542s
+========================================
+Testing cpp at concurrency 1000 for 30s
+limited cpp c1000: PASS; rps=368.45; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     32.9s
+Requests:     12122
+Errors:       0
+Requests/sec: 368.45
+
+Average:      2.586800022s
+p50:          2.59685395s
+p95:          3.496725578s
+p99:          3.774957782s
+Max:          4.096611685s
+========================================
+Completed limited/cpp
+
+========== limited / java ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing java at concurrency 1 for 30s
+limited java c1: PASS; rps=192.66; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.037s
+Requests:     5787
+Errors:       0
+Requests/sec: 192.66
+
+Average:      4.922146ms
+p50:          2.838449ms
+p95:          14.672302ms
+p99:          22.742269ms
+Max:          65.294336ms
+========================================
+Testing java at concurrency 10 for 30s
+limited java c10: PASS; rps=281.35; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.066s
+Requests:     8459
+Errors:       0
+Requests/sec: 281.35
+
+Average:      35.346731ms
+p50:          29.156245ms
+p95:          88.865745ms
+p99:          119.527216ms
+Max:          210.603481ms
+========================================
+Testing java at concurrency 50 for 30s
+limited java c50: PASS; rps=582.88; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.059s
+Requests:     17521
+Errors:       0
+Requests/sec: 582.88
+
+Average:      85.408672ms
+p50:          63.232787ms
+p95:          236.102964ms
+p99:          342.255924ms
+Max:          557.702657ms
+========================================
+Testing java at concurrency 100 for 30s
+limited java c100: PASS; rps=708.69; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.451s
+Requests:     21580
+Errors:       0
+Requests/sec: 708.69
+
+Average:      139.845647ms
+p50:          102.163616ms
+p95:          368.283215ms
+p99:          497.248771ms
+Max:          811.741009ms
+========================================
+Testing java at concurrency 250 for 30s
+limited java c250: PASS; rps=845.87; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.441s
+Requests:     25749
+Errors:       0
+Requests/sec: 845.87
+
+Average:      292.985655ms
+p50:          227.181226ms
+p95:          771.700433ms
+p99:          1.088727841s
+Max:          1.995320614s
+========================================
+Testing java at concurrency 500 for 30s
+limited java c500: PASS; rps=750.19; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.331s
+Requests:     23504
+Errors:       0
+Requests/sec: 750.19
+
+Average:      654.128275ms
+p50:          658.131935ms
+p95:          1.190258347s
+p99:          1.466063532s
+Max:          1.717885636s
+========================================
+Testing java at concurrency 1000 for 30s
+limited java c1000: PASS; rps=608.89; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     32.287s
+Requests:     19659
+Errors:       0
+Requests/sec: 608.89
+
+Average:      1.581161611s
+p50:          1.631390084s
+p95:          2.539895578s
+p99:          2.756469285s
+Max:          3.094040368s
+========================================
+Completed limited/java
+
+========== limited / elixir ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing elixir at concurrency 1 for 30s
+limited elixir c1: PASS; rps=90.81; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.019s
+Requests:     2726
+Errors:       0
+Requests/sec: 90.81
+
+Average:      10.583174ms
+p50:          8.418096ms
+p95:          25.582229ms
+p99:          34.564842ms
+Max:          52.312677ms
+========================================
+Testing elixir at concurrency 10 for 30s
+limited elixir c10: PASS; rps=275.82; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.06s
+Requests:     8291
+Errors:       0
+Requests/sec: 275.82
+
+Average:      35.810007ms
+p50:          28.378366ms
+p95:          89.809107ms
+p99:          146.442721ms
+Max:          396.295393ms
+========================================
+Testing elixir at concurrency 50 for 30s
+limited elixir c50: PASS; rps=360.78; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.148s
+Requests:     10877
+Errors:       0
+Requests/sec: 360.78
+
+Average:      137.638793ms
+p50:          115.411922ms
+p95:          305.409334ms
+p99:          544.311314ms
+Max:          1.245082901s
+========================================
+Testing elixir at concurrency 100 for 30s
+limited elixir c100: PASS; rps=376.43; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.308s
+Requests:     11409
+Errors:       0
+Requests/sec: 376.43
+
+Average:      263.946648ms
+p50:          255.441977ms
+p95:          440.314128ms
+p99:          546.365584ms
+Max:          650.338865ms
+========================================
+Testing elixir at concurrency 250 for 30s
+limited elixir c250: PASS; rps=429.80; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.551s
+Requests:     13131
+Errors:       0
+Requests/sec: 429.80
+
+Average:      576.663711ms
+p50:          100.874716ms
+p95:          3.29332777s
+p99:          4.96808749s
+Max:          5.420402215s
+========================================
+Testing elixir at concurrency 500 for 30s
+limited elixir c500: FAILED; rps=527.68; errors=7104
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.688s
+Requests:     16721
+Errors:       7104
+Requests/sec: 527.68
+
+Average:      920.288366ms
+p50:          525.795207ms
+p95:          4.334767714s
+p99:          5.981199468s
+Max:          6.666414959s
+========================================
+Testing elixir at concurrency 1000 for 30s
+limited elixir c1000: FAILED; rps=852.27; errors=23018
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     35.9s
+Requests:     30596
+Errors:       23018
+Requests/sec: 852.27
+
+Average:      993.318283ms
+p50:          661.738086ms
+p95:          1.978258067s
+p99:          6.500993797s
+Max:          10.263124975s
+========================================
+Completed limited/elixir
+
+========== limited / ruby ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing ruby at concurrency 1 for 30s
+limited ruby c1: PASS; rps=177.62; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.014s
+Requests:     5331
+Errors:       0
+Requests/sec: 177.62
+
+Average:      5.470137ms
+p50:          4.145344ms
+p95:          14.211191ms
+p99:          22.262538ms
+Max:          72.215261ms
+========================================
+Testing ruby at concurrency 10 for 30s
+limited ruby c10: PASS; rps=296.95; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.032s
+Requests:     8918
+Errors:       0
+Requests/sec: 296.95
+
+Average:      33.562413ms
+p50:          30.463907ms
+p95:          62.754118ms
+p99:          89.507978ms
+Max:          248.118431ms
+========================================
+Testing ruby at concurrency 50 for 30s
+limited ruby c50: PASS; rps=331.65; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.137s
+Requests:     9995
+Errors:       0
+Requests/sec: 331.65
+
+Average:      150.393348ms
+p50:          144.642703ms
+p95:          226.972559ms
+p99:          303.61696ms
+Max:          1.227289957s
+========================================
+Testing ruby at concurrency 100 for 30s
+limited ruby c100: PASS; rps=289.63; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.363s
+Requests:     8794
+Errors:       0
+Requests/sec: 289.63
+
+Average:      343.613243ms
+p50:          309.327ms
+p95:          627.062012ms
+p99:          874.787152ms
+Max:          4.031351785s
+========================================
+Testing ruby at concurrency 250 for 30s
+limited ruby c250: FAILED; rps=361.75; errors=20
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.612s
+Requests:     11074
+Errors:       20
+Requests/sec: 361.75
+
+Average:      682.667878ms
+p50:          618.161475ms
+p95:          915.814025ms
+p99:          5.397935166s
+Max:          10.007945547s
+========================================
+Testing ruby at concurrency 500 for 30s
+limited ruby c500: FAILED; rps=297.12; errors=826
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.812s
+Requests:     9452
+Errors:       826
+Requests/sec: 297.12
+
+Average:      1.478943823s
+p50:          665.954659ms
+p95:          10.001710778s
+p99:          10.1240928s
+Max:          10.233704636s
+========================================
+Testing ruby at concurrency 1000 for 30s
+limited ruby c1000: FAILED; rps=258.79; errors=1781
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     37.447s
+Requests:     9691
+Errors:       1781
+Requests/sec: 258.79
+
+Average:      2.786942652s
+p50:          1.625980593s
+p95:          10.017686412s
+p99:          10.218296799s
+Max:          10.45636435s
+========================================
+Completed limited/ruby
+
+========== limited / csharp ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing csharp at concurrency 1 for 30s
+limited csharp c1: PASS; rps=82.72; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.006s
+Requests:     2482
+Errors:       0
+Requests/sec: 82.72
+
+Average:      10.915122ms
+p50:          9.216589ms
+p95:          25.379365ms
+p99:          34.938054ms
+Max:          83.186118ms
+========================================
+Testing csharp at concurrency 10 for 30s
+limited csharp c10: PASS; rps=499.95; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.049s
+Requests:     15023
+Errors:       0
+Requests/sec: 499.95
+
+Average:      19.838791ms
+p50:          16.13139ms
+p95:          46.634239ms
+p99:          69.520779ms
+Max:          257.398395ms
+========================================
+Testing csharp at concurrency 50 for 30s
+limited csharp c50: PASS; rps=714.14; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.085s
+Requests:     21485
+Errors:       0
+Requests/sec: 714.14
+
+Average:      69.494586ms
+p50:          61.783175ms
+p95:          149.467346ms
+p99:          227.343354ms
+Max:          457.160655ms
+========================================
+Testing csharp at concurrency 100 for 30s
+limited csharp c100: PASS; rps=833.44; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.301s
+Requests:     25254
+Errors:       0
+Requests/sec: 833.44
+
+Average:      119.037527ms
+p50:          102.983486ms
+p95:          265.264077ms
+p99:          369.308853ms
+Max:          625.224846ms
+========================================
+Testing csharp at concurrency 250 for 30s
+limited csharp c250: PASS; rps=836.82; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.416s
+Requests:     25453
+Errors:       0
+Requests/sec: 836.82
+
+Average:      296.267296ms
+p50:          275.153986ms
+p95:          507.865154ms
+p99:          649.967886ms
+Max:          863.112162ms
+========================================
+Testing csharp at concurrency 500 for 30s
+limited csharp c500: PASS; rps=846.71; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.508s
+Requests:     25831
+Errors:       0
+Requests/sec: 846.71
+
+Average:      584.825341ms
+p50:          578.75118ms
+p95:          906.058699ms
+p99:          1.132485566s
+Max:          1.634088843s
+========================================
+Testing csharp at concurrency 1000 for 30s
+limited csharp c1000: PASS; rps=826.31; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.596s
+Requests:     26108
+Errors:       0
+Requests/sec: 826.31
+
+Average:      1.184930042s
+p50:          1.174947654s
+p95:          1.608094694s
+p99:          1.952888843s
+Max:          3.137708711s
+========================================
+Completed limited/csharp
+
+========== limited / v ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing v at concurrency 1 for 30s
+limited v c1: PASS; rps=142.98; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.024s
+Requests:     4293
+Errors:       0
+Requests/sec: 142.98
+
+Average:      6.688927ms
+p50:          3.945669ms
+p95:          20.216671ms
+p99:          35.560699ms
+Max:          91.770799ms
+========================================
+Testing v at concurrency 10 for 30s
+limited v c10: PASS; rps=582.94; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.027s
+Requests:     17504
+Errors:       0
+Requests/sec: 582.94
+
+Average:      17.057931ms
+p50:          10.661569ms
+p95:          53.660123ms
+p99:          85.849875ms
+Max:          289.987256ms
+========================================
+Testing v at concurrency 50 for 30s
+limited v c50: PASS; rps=714.45; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.208s
+Requests:     21582
+Errors:       0
+Requests/sec: 714.45
+
+Average:      69.595018ms
+p50:          58.178962ms
+p95:          170.02734ms
+p99:          248.622248ms
+Max:          449.089703ms
+========================================
+Testing v at concurrency 100 for 30s
+limited v c100: PASS; rps=714.64; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.313s
+Requests:     21663
+Errors:       0
+Requests/sec: 714.64
+
+Average:      138.875553ms
+p50:          123.981394ms
+p95:          282.772096ms
+p99:          374.880651ms
+Max:          619.96173ms
+========================================
+Testing v at concurrency 250 for 30s
+limited v c250: FAILED; rps=50.22; errors=145622
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.049s
+Requests:     1509
+Errors:       145622
+Requests/sec: 50.22
+
+Average:      50.755026ms
+p50:          23.149994ms
+p95:          79.197405ms
+p99:          291.563263ms
+Max:          10.011372493s
+========================================
+Restarting crashed v before concurrency 500 (prior failure retained)
+Testing v at concurrency 500 for 30s
+limited v c500: FAILED; rps=14.18; errors=198524
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.104s
+Requests:     427
+Errors:       198524
+Requests/sec: 14.18
+
+Average:      75.23734ms
+p50:          36.262678ms
+p95:          122.040198ms
+p99:          250.046208ms
+Max:          10.140483923s
+========================================
+Restarting crashed v before concurrency 1000 (prior failure retained)
+Testing v at concurrency 1000 for 30s
+limited v c1000: FAILED; rps=516.77; errors=248
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     40.372s
+Requests:     20863
+Errors:       248
+Requests/sec: 516.77
+
+Average:      1.483629985s
+p50:          1.409973094s
+p95:          2.178210412s
+p99:          10.000459594s
+Max:          10.219517131s
+========================================
+Completed limited/v
+
+========== limited / nim ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing nim at concurrency 1 for 30s
+limited nim c1: PASS; rps=337.58; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.011s
+Requests:     10131
+Errors:       0
+Requests/sec: 337.58
+
+Average:      2.863813ms
+p50:          1.72435ms
+p95:          8.328663ms
+p99:          14.389015ms
+Max:          53.585974ms
+========================================
+Testing nim at concurrency 10 for 30s
+limited nim c10: PASS; rps=1228.81; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.023s
+Requests:     36893
+Errors:       0
+Requests/sec: 1228.81
+
+Average:      8.040361ms
+p50:          6.030859ms
+p95:          20.366689ms
+p99:          34.16854ms
+Max:          265.560269ms
+========================================
+Testing nim at concurrency 50 for 30s
+limited nim c50: PASS; rps=1802.63; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.044s
+Requests:     54158
+Errors:       0
+Requests/sec: 1802.63
+
+Average:      27.316108ms
+p50:          23.519825ms
+p95:          58.844736ms
+p99:          87.081857ms
+Max:          197.260183ms
+========================================
+Testing nim at concurrency 100 for 30s
+limited nim c100: PASS; rps=2189.63; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.055s
+Requests:     65809
+Errors:       0
+Requests/sec: 2189.63
+
+Average:      44.89809ms
+p50:          39.804227ms
+p95:          90.052663ms
+p99:          128.995488ms
+Max:          403.543279ms
+========================================
+Testing nim at concurrency 250 for 30s
+limited nim c250: PASS; rps=2505.98; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.103s
+Requests:     75437
+Errors:       0
+Requests/sec: 2505.98
+
+Average:      97.537728ms
+p50:          88.555997ms
+p95:          189.24316ms
+p99:          290.484303ms
+Max:          555.973418ms
+========================================
+Testing nim at concurrency 500 for 30s
+limited nim c500: PASS; rps=2468.50; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.547s
+Requests:     75405
+Errors:       0
+Requests/sec: 2468.50
+
+Average:      197.278395ms
+p50:          178.416149ms
+p95:          387.495795ms
+p99:          580.401536ms
+Max:          2.547800513s
+========================================
+Testing nim at concurrency 1000 for 30s
+limited nim c1000: FAILED; rps=307.83; errors=206254
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     30.497s
+Requests:     9388
+Errors:       206254
+Requests/sec: 307.83
+
+Average:      140.265908ms
+p50:          70.820183ms
+p95:          239.56169ms
+p99:          652.70256ms
+Max:          10.154379177s
+========================================
+Completed limited/nim
+
+========== limited / zig ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing zig at concurrency 1 for 30s
+limited zig c1: PASS; rps=367.19; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.036s
+Requests:     11029
+Errors:       0
+Requests/sec: 367.19
+
+Average:      2.649731ms
+p50:          1.470295ms
+p95:          8.652169ms
+p99:          15.65373ms
+Max:          41.739345ms
+========================================
+Testing zig at concurrency 10 for 30s
+limited zig c10: PASS; rps=861.63; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.03s
+Requests:     25875
+Errors:       0
+Requests/sec: 861.63
+
+Average:      11.48992ms
+p50:          8.223314ms
+p95:          33.127771ms
+p99:          54.053764ms
+Max:          117.711726ms
+========================================
+Testing zig at concurrency 50 for 30s
+limited zig c50: PASS; rps=1317.85; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.108s
+Requests:     39678
+Errors:       0
+Requests/sec: 1317.85
+
+Average:      37.451509ms
+p50:          26.860969ms
+p95:          108.507185ms
+p99:          160.831618ms
+Max:          417.98611ms
+========================================
+Testing zig at concurrency 100 for 30s
+limited zig c100: PASS; rps=1861.01; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.236s
+Requests:     56270
+Errors:       0
+Requests/sec: 1861.01
+
+Average:      52.810682ms
+p50:          41.140289ms
+p95:          139.601096ms
+p99:          209.037519ms
+Max:          544.245655ms
+========================================
+Testing zig at concurrency 250 for 30s
+limited zig c250: PASS; rps=1674.53; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.17s
+Requests:     50520
+Errors:       0
+Requests/sec: 1674.53
+
+Average:      147.5309ms
+p50:          136.783605ms
+p95:          287.607137ms
+p99:          399.024859ms
+Max:          1.504113327s
+========================================
+Testing zig at concurrency 500 for 30s
+limited zig c500: FAILED; rps=1718.76; errors=29
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.292s
+Requests:     52064
+Errors:       29
+Requests/sec: 1718.76
+
+Average:      288.036715ms
+p50:          251.873648ms
+p95:          431.795577ms
+p99:          657.931663ms
+Max:          10.017969588s
+========================================
+Testing zig at concurrency 1000 for 30s
+limited zig c1000: FAILED; rps=1661.38; errors=654
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     33.717s
+Requests:     56017
+Errors:       654
+Requests/sec: 1661.38
+
+Average:      537.170935ms
+p50:          365.155526ms
+p95:          660.084329ms
+p99:          10.001147842s
+Max:          10.087998172s
+========================================
+Completed limited/zig
+
+=================== unlimited ===================
+Database max_connections=2000
+DB resource settings: 0 0 0 
+
+========== unlimited / go ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing go at concurrency 1 for 30s
+unlimited go c1: PASS; rps=156.42; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.002s
+Requests:     4693
+Errors:       0
+Requests/sec: 156.42
+
+Average:      6.247829ms
+p50:          3.587621ms
+p95:          19.697112ms
+p99:          32.943664ms
+Max:          74.462956ms
+========================================
+Testing go at concurrency 10 for 30s
+unlimited go c10: PASS; rps=1037.04; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.03s
+Requests:     31142
+Errors:       0
+Requests/sec: 1037.04
+
+Average:      9.527596ms
+p50:          6.370417ms
+p95:          28.176701ms
+p99:          47.395128ms
+Max:          171.233368ms
+========================================
+Testing go at concurrency 50 for 30s
+unlimited go c50: PASS; rps=1178.48; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.202s
+Requests:     35592
+Errors:       0
+Requests/sec: 1178.48
+
+Average:      41.982091ms
+p50:          31.220896ms
+p95:          114.532306ms
+p99:          175.398896ms
+Max:          589.314281ms
+========================================
+Testing go at concurrency 100 for 30s
+unlimited go c100: PASS; rps=1606.26; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.213s
+Requests:     48530
+Errors:       0
+Requests/sec: 1606.26
+
+Average:      60.841286ms
+p50:          47.492132ms
+p95:          157.218657ms
+p99:          266.170336ms
+Max:          813.483326ms
+========================================
+Testing go at concurrency 250 for 30s
+unlimited go c250: PASS; rps=2166.25; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.256s
+Requests:     65543
+Errors:       0
+Requests/sec: 2166.25
+
+Average:      111.777868ms
+p50:          88.651994ms
+p95:          284.575255ms
+p99:          430.263458ms
+Max:          934.228686ms
+========================================
+Testing go at concurrency 500 for 30s
+unlimited go c500: PASS; rps=2100.84; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.291s
+Requests:     63636
+Errors:       0
+Requests/sec: 2100.84
+
+Average:      230.424723ms
+p50:          172.689676ms
+p95:          641.0151ms
+p99:          964.7398ms
+Max:          2.894759724s
+========================================
+Testing go at concurrency 1000 for 30s
+unlimited go c1000: PASS; rps=2250.55; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     30.705s
+Requests:     69102
+Errors:       0
+Requests/sec: 2250.55
+
+Average:      433.510374ms
+p50:          304.739105ms
+p95:          1.243501185s
+p99:          1.863601051s
+Max:          4.268192232s
+========================================
+Completed unlimited/go
+
+========== unlimited / rust ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing rust at concurrency 1 for 30s
+unlimited rust c1: PASS; rps=204.47; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.004s
+Requests:     6135
+Errors:       0
+Requests/sec: 204.47
+
+Average:      4.771749ms
+p50:          2.786084ms
+p95:          14.052154ms
+p99:          22.33795ms
+Max:          62.351513ms
+========================================
+Testing rust at concurrency 10 for 30s
+unlimited rust c10: PASS; rps=818.12; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.031s
+Requests:     24569
+Errors:       0
+Requests/sec: 818.12
+
+Average:      12.115773ms
+p50:          9.305417ms
+p95:          31.386105ms
+p99:          48.650029ms
+Max:          168.627136ms
+========================================
+Testing rust at concurrency 50 for 30s
+unlimited rust c50: PASS; rps=1701.13; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.078s
+Requests:     51167
+Errors:       0
+Requests/sec: 1701.13
+
+Average:      28.860112ms
+p50:          24.132011ms
+p95:          68.031796ms
+p99:          101.160085ms
+Max:          357.93059ms
+========================================
+Testing rust at concurrency 100 for 30s
+unlimited rust c100: PASS; rps=1771.46; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.116s
+Requests:     53350
+Errors:       0
+Requests/sec: 1771.46
+
+Average:      55.31014ms
+p50:          48.574831ms
+p95:          120.152518ms
+p99:          171.327211ms
+Max:          346.419798ms
+========================================
+Testing rust at concurrency 250 for 30s
+unlimited rust c250: PASS; rps=1907.43; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.249s
+Requests:     57698
+Errors:       0
+Requests/sec: 1907.43
+
+Average:      129.261949ms
+p50:          122.429373ms
+p95:          224.443728ms
+p99:          353.99367ms
+Max:          674.180816ms
+========================================
+Testing rust at concurrency 500 for 30s
+unlimited rust c500: PASS; rps=1750.49; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.444s
+Requests:     53292
+Errors:       0
+Requests/sec: 1750.49
+
+Average:      279.932674ms
+p50:          261.019782ms
+p95:          500.364263ms
+p99:          613.966575ms
+Max:          859.12027ms
+========================================
+Testing rust at concurrency 1000 for 30s
+unlimited rust c1000: FAILED; rps=1814.25; errors=129
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     30.661s
+Requests:     55626
+Errors:       129
+Requests/sec: 1814.25
+
+Average:      540.696545ms
+p50:          484.791219ms
+p95:          904.923029ms
+p99:          1.508381482s
+Max:          10.048176798s
+========================================
+Completed unlimited/rust
+
+========== unlimited / node ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing node at concurrency 1 for 30s
+unlimited node c1: PASS; rps=122.59; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.004s
+Requests:     3678
+Errors:       0
+Requests/sec: 122.59
+
+Average:      7.753228ms
+p50:          5.635919ms
+p95:          20.312339ms
+p99:          30.143011ms
+Max:          100.985958ms
+========================================
+Testing node at concurrency 10 for 30s
+unlimited node c10: PASS; rps=359.27; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.08s
+Requests:     10807
+Errors:       0
+Requests/sec: 359.27
+
+Average:      27.686223ms
+p50:          18.818895ms
+p95:          78.212831ms
+p99:          108.89194ms
+Max:          182.079929ms
+========================================
+Testing node at concurrency 50 for 30s
+unlimited node c50: PASS; rps=491.00; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.137s
+Requests:     14797
+Errors:       0
+Requests/sec: 491.00
+
+Average:      101.390723ms
+p50:          84.339875ms
+p95:          239.688546ms
+p99:          324.79641ms
+Max:          1.301052259s
+========================================
+Testing node at concurrency 100 for 30s
+unlimited node c100: PASS; rps=711.30; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.17s
+Requests:     21460
+Errors:       0
+Requests/sec: 711.30
+
+Average:      140.01008ms
+p50:          121.028479ms
+p95:          298.032507ms
+p99:          410.047033ms
+Max:          756.3833ms
+========================================
+Testing node at concurrency 250 for 30s
+unlimited node c250: FAILED; rps=478.22; errors=310
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.298s
+Requests:     14489
+Errors:       310
+Requests/sec: 478.22
+
+Average:      508.55931ms
+p50:          266.261975ms
+p95:          547.16198ms
+p99:          10.004172636s
+Max:          10.11947605s
+========================================
+Testing node at concurrency 500 for 30s
+unlimited node c500: FAILED; rps=442.60; errors=559
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.927s
+Requests:     14131
+Errors:       559
+Requests/sec: 442.60
+
+Average:      1.036755636s
+p50:          655.135751ms
+p95:          1.494478772s
+p99:          10.013142974s
+Max:          10.177232667s
+========================================
+Testing node at concurrency 1000 for 30s
+unlimited node c1000: FAILED; rps=515.08; errors=1387
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     34.853s
+Requests:     17952
+Errors:       1387
+Requests/sec: 515.08
+
+Average:      1.607120017s
+p50:          825.247037ms
+p95:          10.001191898s
+p99:          10.031247362s
+Max:          10.298173647s
+========================================
+Completed unlimited/node
+
+========== unlimited / python ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing python at concurrency 1 for 30s
+unlimited python c1: PASS; rps=123.17; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.016s
+Requests:     3697
+Errors:       0
+Requests/sec: 123.17
+
+Average:      7.637593ms
+p50:          5.269089ms
+p95:          19.684852ms
+p99:          25.825756ms
+Max:          54.283954ms
+========================================
+Testing python at concurrency 10 for 30s
+unlimited python c10: PASS; rps=278.60; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.086s
+Requests:     8382
+Errors:       0
+Requests/sec: 278.60
+
+Average:      35.590276ms
+p50:          31.542073ms
+p95:          76.818936ms
+p99:          102.38298ms
+Max:          261.329407ms
+========================================
+Testing python at concurrency 50 for 30s
+unlimited python c50: PASS; rps=268.40; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.082s
+Requests:     8074
+Errors:       0
+Requests/sec: 268.40
+
+Average:      185.900386ms
+p50:          176.928843ms
+p95:          357.583155ms
+p99:          429.627473ms
+Max:          502.163627ms
+========================================
+Testing python at concurrency 100 for 30s
+unlimited python c100: PASS; rps=255.10; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.231s
+Requests:     7712
+Errors:       0
+Requests/sec: 255.10
+
+Average:      390.743206ms
+p50:          392.466683ms
+p95:          679.006428ms
+p99:          790.562105ms
+Max:          999.614618ms
+========================================
+Testing python at concurrency 250 for 30s
+unlimited python c250: PASS; rps=282.67; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.406s
+Requests:     8595
+Errors:       0
+Requests/sec: 282.67
+
+Average:      878.508185ms
+p50:          810.569676ms
+p95:          1.473443951s
+p99:          1.85753765s
+Max:          2.038473505s
+========================================
+Testing python at concurrency 500 for 30s
+unlimited python c500: PASS; rps=294.52; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.65s
+Requests:     9027
+Errors:       0
+Requests/sec: 294.52
+
+Average:      1.679472335s
+p50:          1.631817244s
+p95:          2.403080293s
+p99:          3.291064587s
+Max:          3.531535687s
+========================================
+Testing python at concurrency 1000 for 30s
+unlimited python c1000: FAILED; rps=188.19; errors=6528
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     35.591s
+Requests:     6698
+Errors:       6528
+Requests/sec: 188.19
+
+Average:      2.388428086s
+p50:          1.969785017s
+p95:          7.042982441s
+p99:          7.406716314s
+Max:          10.0030142s
+========================================
+Completed unlimited/python
+
+========== unlimited / php ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing php at concurrency 1 for 30s
+unlimited php c1: PASS; rps=88.70; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.035s
+Requests:     2664
+Errors:       0
+Requests/sec: 88.70
+
+Average:      11.10436ms
+p50:          7.899851ms
+p95:          30.01214ms
+p99:          49.762747ms
+Max:          99.065507ms
+========================================
+Testing php at concurrency 10 for 30s
+unlimited php c10: PASS; rps=371.25; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.031s
+Requests:     11149
+Errors:       0
+Requests/sec: 371.25
+
+Average:      26.728304ms
+p50:          20.858799ms
+p95:          68.175515ms
+p99:          106.546545ms
+Max:          242.494015ms
+========================================
+Testing php at concurrency 50 for 30s
+unlimited php c50: PASS; rps=785.27; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.074s
+Requests:     23616
+Errors:       0
+Requests/sec: 785.27
+
+Average:      63.009425ms
+p50:          50.372416ms
+p95:          158.414189ms
+p99:          232.790205ms
+Max:          529.107314ms
+========================================
+Testing php at concurrency 100 for 30s
+unlimited php c100: PASS; rps=815.20; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.204s
+Requests:     24622
+Errors:       0
+Requests/sec: 815.20
+
+Average:      121.195167ms
+p50:          106.63153ms
+p95:          261.875766ms
+p99:          357.511251ms
+Max:          649.632926ms
+========================================
+Testing php at concurrency 250 for 30s
+unlimited php c250: PASS; rps=892.85; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.337s
+Requests:     27086
+Errors:       0
+Requests/sec: 892.85
+
+Average:      277.00607ms
+p50:          258.934736ms
+p95:          478.610819ms
+p99:          575.221787ms
+Max:          794.048783ms
+========================================
+Testing php at concurrency 500 for 30s
+unlimited php c500: PASS; rps=931.02; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.489s
+Requests:     28386
+Errors:       0
+Requests/sec: 931.02
+
+Average:      532.219747ms
+p50:          516.595545ms
+p95:          823.33715ms
+p99:          927.541569ms
+Max:          1.690002288s
+========================================
+Testing php at concurrency 1000 for 30s
+unlimited php c1000: PASS; rps=820.77; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.212s
+Requests:     25618
+Errors:       0
+Requests/sec: 820.77
+
+Average:      1.198679488s
+p50:          1.193840816s
+p95:          1.650561758s
+p99:          1.927278564s
+Max:          3.706311841s
+========================================
+Completed unlimited/php
+
+========== unlimited / cpp ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing cpp at concurrency 1 for 30s
+unlimited cpp c1: PASS; rps=82.35; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.043s
+Requests:     2474
+Errors:       0
+Requests/sec: 82.35
+
+Average:      11.856713ms
+p50:          9.768876ms
+p95:          27.046675ms
+p99:          41.149406ms
+Max:          79.947403ms
+========================================
+Testing cpp at concurrency 10 for 30s
+unlimited cpp c10: PASS; rps=464.86; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.087s
+Requests:     13986
+Errors:       0
+Requests/sec: 464.86
+
+Average:      21.258465ms
+p50:          17.570185ms
+p95:          49.759656ms
+p99:          76.505175ms
+Max:          154.531851ms
+========================================
+Testing cpp at concurrency 50 for 30s
+unlimited cpp c50: PASS; rps=726.66; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.131s
+Requests:     21895
+Errors:       0
+Requests/sec: 726.66
+
+Average:      68.097505ms
+p50:          62.711551ms
+p95:          134.417345ms
+p99:          175.283813ms
+Max:          295.619228ms
+========================================
+Testing cpp at concurrency 100 for 30s
+unlimited cpp c100: PASS; rps=851.02; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.152s
+Requests:     25660
+Errors:       0
+Requests/sec: 851.02
+
+Average:      116.646084ms
+p50:          106.791909ms
+p95:          215.176667ms
+p99:          282.888199ms
+Max:          541.911503ms
+========================================
+Testing cpp at concurrency 250 for 30s
+unlimited cpp c250: PASS; rps=650.20; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.543s
+Requests:     19859
+Errors:       0
+Requests/sec: 650.20
+
+Average:      380.444011ms
+p50:          360.472639ms
+p95:          636.019199ms
+p99:          853.346717ms
+Max:          1.06159007s
+========================================
+Testing cpp at concurrency 500 for 30s
+unlimited cpp c500: PASS; rps=684.54; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.702s
+Requests:     21017
+Errors:       0
+Requests/sec: 684.54
+
+Average:      721.606009ms
+p50:          699.73564ms
+p95:          1.04810154s
+p99:          1.140973916s
+Max:          1.451752251s
+========================================
+Testing cpp at concurrency 1000 for 30s
+unlimited cpp c1000: PASS; rps=649.40; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.638s
+Requests:     20546
+Errors:       0
+Requests/sec: 649.40
+
+Average:      1.502708625s
+p50:          1.514669928s
+p95:          1.899082415s
+p99:          2.003911431s
+Max:          2.663236708s
+========================================
+Completed unlimited/cpp
+
+========== unlimited / java ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing java at concurrency 1 for 30s
+unlimited java c1: PASS; rps=183.18; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.02s
+Requests:     5499
+Errors:       0
+Requests/sec: 183.18
+
+Average:      5.121672ms
+p50:          3.013651ms
+p95:          15.246329ms
+p99:          23.234758ms
+Max:          65.280545ms
+========================================
+Testing java at concurrency 10 for 30s
+unlimited java c10: PASS; rps=325.54; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.307s
+Requests:     9866
+Errors:       0
+Requests/sec: 325.54
+
+Average:      30.490656ms
+p50:          22.342336ms
+p95:          83.713366ms
+p99:          105.524984ms
+Max:          344.730333ms
+========================================
+Testing java at concurrency 50 for 30s
+unlimited java c50: PASS; rps=544.25; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.176s
+Requests:     16423
+Errors:       0
+Requests/sec: 544.25
+
+Average:      91.491127ms
+p50:          64.018449ms
+p95:          258.731826ms
+p99:          341.370629ms
+Max:          666.184653ms
+========================================
+Testing java at concurrency 100 for 30s
+unlimited java c100: PASS; rps=735.37; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.23s
+Requests:     22230
+Errors:       0
+Requests/sec: 735.37
+
+Average:      135.162833ms
+p50:          88.816938ms
+p95:          402.580351ms
+p99:          578.624018ms
+Max:          1.083380583s
+========================================
+Testing java at concurrency 250 for 30s
+unlimited java c250: PASS; rps=908.12; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.231s
+Requests:     27453
+Errors:       0
+Requests/sec: 908.12
+
+Average:      273.462297ms
+p50:          182.966972ms
+p95:          775.970613ms
+p99:          1.029353409s
+Max:          1.474788774s
+========================================
+Testing java at concurrency 500 for 30s
+unlimited java c500: PASS; rps=1078.58; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.499s
+Requests:     32895
+Errors:       0
+Requests/sec: 1078.58
+
+Average:      459.195738ms
+p50:          371.300854ms
+p95:          1.140607315s
+p99:          1.385026835s
+Max:          1.933008527s
+========================================
+Testing java at concurrency 1000 for 30s
+unlimited java c1000: PASS; rps=1268.99; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     30.791s
+Requests:     39074
+Errors:       0
+Requests/sec: 1268.99
+
+Average:      778.023347ms
+p50:          747.939501ms
+p95:          1.570389822s
+p99:          2.015178387s
+Max:          2.380433503s
+========================================
+Completed unlimited/java
+
+========== unlimited / elixir ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing elixir at concurrency 1 for 30s
+unlimited elixir c1: PASS; rps=95.82; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.046s
+Requests:     2879
+Errors:       0
+Requests/sec: 95.82
+
+Average:      10.109252ms
+p50:          7.830499ms
+p95:          25.284321ms
+p99:          39.291723ms
+Max:          85.798721ms
+========================================
+Testing elixir at concurrency 10 for 30s
+unlimited elixir c10: PASS; rps=449.57; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.087s
+Requests:     13526
+Errors:       0
+Requests/sec: 449.57
+
+Average:      21.788094ms
+p50:          17.765158ms
+p95:          51.377022ms
+p99:          82.328895ms
+Max:          185.969726ms
+========================================
+Testing elixir at concurrency 50 for 30s
+unlimited elixir c50: PASS; rps=502.90; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.091s
+Requests:     15133
+Errors:       0
+Requests/sec: 502.90
+
+Average:      98.466998ms
+p50:          83.430547ms
+p95:          207.165558ms
+p99:          341.341349ms
+Max:          1.213783377s
+========================================
+Testing elixir at concurrency 100 for 30s
+unlimited elixir c100: PASS; rps=513.64; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.356s
+Requests:     15592
+Errors:       0
+Requests/sec: 513.64
+
+Average:      192.3042ms
+p50:          182.134368ms
+p95:          349.340375ms
+p99:          425.814698ms
+Max:          628.521336ms
+========================================
+Testing elixir at concurrency 250 for 30s
+unlimited elixir c250: PASS; rps=544.47; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.543s
+Requests:     16630
+Errors:       0
+Requests/sec: 544.47
+
+Average:      455.090193ms
+p50:          446.994243ms
+p95:          997.727505ms
+p99:          1.271603407s
+Max:          1.575764163s
+========================================
+Testing elixir at concurrency 500 for 30s
+unlimited elixir c500: FAILED; rps=698.64; errors=6058
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     31.001s
+Requests:     21659
+Errors:       6058
+Requests/sec: 698.64
+
+Average:      704.425952ms
+p50:          335.444379ms
+p95:          3.30937931s
+p99:          5.006406778s
+Max:          5.623673623s
+========================================
+Testing elixir at concurrency 1000 for 30s
+unlimited elixir c1000: FAILED; rps=922.47; errors=16826
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     32.063s
+Requests:     29577
+Errors:       16826
+Requests/sec: 922.47
+
+Average:      1.034926038s
+p50:          401.667136ms
+p95:          4.687712161s
+p99:          10.001197448s
+Max:          10.515849203s
+========================================
+Completed unlimited/elixir
+
+========== unlimited / ruby ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing ruby at concurrency 1 for 30s
+unlimited ruby c1: PASS; rps=201.29; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.026s
+Requests:     6044
+Errors:       0
+Requests/sec: 201.29
+
+Average:      4.845634ms
+p50:          3.269274ms
+p95:          13.25535ms
+p99:          21.570494ms
+Max:          95.595973ms
+========================================
+Testing ruby at concurrency 10 for 30s
+unlimited ruby c10: PASS; rps=337.18; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.091s
+Requests:     10146
+Errors:       0
+Requests/sec: 337.18
+
+Average:      29.535427ms
+p50:          26.685529ms
+p95:          55.611748ms
+p99:          77.765107ms
+Max:          165.550153ms
+========================================
+Testing ruby at concurrency 50 for 30s
+unlimited ruby c50: PASS; rps=373.82; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.122s
+Requests:     11260
+Errors:       0
+Requests/sec: 373.82
+
+Average:      133.353091ms
+p50:          127.883721ms
+p95:          213.818663ms
+p99:          286.07478ms
+Max:          808.458181ms
+========================================
+Testing ruby at concurrency 100 for 30s
+unlimited ruby c100: PASS; rps=383.55; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.366s
+Requests:     11647
+Errors:       0
+Requests/sec: 383.55
+
+Average:      258.971772ms
+p50:          246.48647ms
+p95:          384.22898ms
+p99:          569.513304ms
+Max:          2.656880858s
+========================================
+Testing ruby at concurrency 250 for 30s
+unlimited ruby c250: FAILED; rps=355.61; errors=37
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.717s
+Requests:     10923
+Errors:       37
+Requests/sec: 355.61
+
+Average:      692.650545ms
+p50:          610.344162ms
+p95:          868.964743ms
+p99:          5.685149689s
+Max:          10.094840025s
+========================================
+Testing ruby at concurrency 500 for 30s
+unlimited ruby c500: FAILED; rps=316.42; errors=775
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     32.087s
+Requests:     10153
+Errors:       775
+Requests/sec: 316.42
+
+Average:      1.410075014s
+p50:          708.215833ms
+p95:          10.00373946s
+p99:          10.037518306s
+Max:          10.065184435s
+========================================
+Testing ruby at concurrency 1000 for 30s
+unlimited ruby c1000: FAILED; rps=271.11; errors=1888
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     39.154s
+Requests:     10615
+Errors:       1888
+Requests/sec: 271.11
+
+Average:      2.581907971s
+p50:          1.128976714s
+p95:          10.033569437s
+p99:          10.157730342s
+Max:          10.227221818s
+========================================
+Completed unlimited/ruby
+
+========== unlimited / csharp ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing csharp at concurrency 1 for 30s
+unlimited csharp c1: PASS; rps=102.55; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.024s
+Requests:     3079
+Errors:       0
+Requests/sec: 102.55
+
+Average:      8.902351ms
+p50:          7.180556ms
+p95:          20.188846ms
+p99:          28.95154ms
+Max:          99.450971ms
+========================================
+Testing csharp at concurrency 10 for 30s
+unlimited csharp c10: PASS; rps=577.64; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.019s
+Requests:     17340
+Errors:       0
+Requests/sec: 577.64
+
+Average:      17.169305ms
+p50:          14.87317ms
+p95:          36.351123ms
+p99:          55.302429ms
+Max:          137.82315ms
+========================================
+Testing csharp at concurrency 50 for 30s
+unlimited csharp c50: PASS; rps=1093.00; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.038s
+Requests:     32831
+Errors:       0
+Requests/sec: 1093.00
+
+Average:      45.354027ms
+p50:          39.308096ms
+p95:          95.769225ms
+p99:          151.990457ms
+Max:          437.007313ms
+========================================
+Testing csharp at concurrency 100 for 30s
+unlimited csharp c100: PASS; rps=1347.12; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.063s
+Requests:     40499
+Errors:       0
+Requests/sec: 1347.12
+
+Average:      73.392738ms
+p50:          67.974012ms
+p95:          137.921005ms
+p99:          184.710047ms
+Max:          374.073715ms
+========================================
+Testing csharp at concurrency 250 for 30s
+unlimited csharp c250: PASS; rps=1288.67; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.179s
+Requests:     38890
+Errors:       0
+Requests/sec: 1288.67
+
+Average:      192.245317ms
+p50:          178.066347ms
+p95:          351.042655ms
+p99:          456.71161ms
+Max:          737.875798ms
+========================================
+Testing csharp at concurrency 500 for 30s
+unlimited csharp c500: PASS; rps=1497.83; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.437s
+Requests:     45589
+Errors:       0
+Requests/sec: 1497.83
+
+Average:      331.497439ms
+p50:          310.909129ms
+p95:          548.811229ms
+p99:          686.068704ms
+Max:          914.524537ms
+========================================
+Testing csharp at concurrency 1000 for 30s
+unlimited csharp c1000: PASS; rps=1178.06; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.241s
+Requests:     36804
+Errors:       0
+Requests/sec: 1178.06
+
+Average:      832.404252ms
+p50:          823.592748ms
+p95:          1.156442358s
+p99:          1.28059971s
+Max:          2.29519695s
+========================================
+Completed unlimited/csharp
+
+========== unlimited / v ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing v at concurrency 1 for 30s
+unlimited v c1: PASS; rps=138.79; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.038s
+Requests:     4169
+Errors:       0
+Requests/sec: 138.79
+
+Average:      6.921756ms
+p50:          4.313808ms
+p95:          19.675449ms
+p99:          34.138056ms
+Max:          72.335096ms
+========================================
+Testing v at concurrency 10 for 30s
+unlimited v c10: PASS; rps=545.07; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.044s
+Requests:     16376
+Errors:       0
+Requests/sec: 545.07
+
+Average:      18.215524ms
+p50:          12.400003ms
+p95:          54.333825ms
+p99:          86.162028ms
+Max:          192.193875ms
+========================================
+Testing v at concurrency 50 for 30s
+unlimited v c50: PASS; rps=730.02; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.153s
+Requests:     22012
+Errors:       0
+Requests/sec: 730.02
+
+Average:      68.162824ms
+p50:          58.716801ms
+p95:          161.139321ms
+p99:          216.518131ms
+Max:          435.763112ms
+========================================
+Testing v at concurrency 100 for 30s
+unlimited v c100: FAILED; rps=482.78; errors=1981
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.494s
+Requests:     14722
+Errors:       1981
+Requests/sec: 482.78
+
+Average:      181.857013ms
+p50:          114.79644ms
+p95:          258.882664ms
+p99:          406.338619ms
+Max:          10.012507647s
+========================================
+Restarting crashed v before concurrency 250 (prior failure retained)
+Testing v at concurrency 250 for 30s
+unlimited v c250: PASS; rps=745.76; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.509s
+Requests:     22752
+Errors:       0
+Requests/sec: 745.76
+
+Average:      332.420907ms
+p50:          317.419464ms
+p95:          565.020677ms
+p99:          772.872152ms
+Max:          1.108726516s
+========================================
+Testing v at concurrency 500 for 30s
+unlimited v c500: FAILED; rps=521.95; errors=3362
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     36.44s
+Requests:     19020
+Errors:       3362
+Requests/sec: 521.95
+
+Average:      811.990341ms
+p50:          614.829151ms
+p95:          1.105718776s
+p99:          10.000730625s
+Max:          10.128493322s
+========================================
+Restarting crashed v before concurrency 1000 (prior failure retained)
+Testing v at concurrency 1000 for 30s
+unlimited v c1000: FAILED; rps=0.96; errors=210574
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     30.17s
+Requests:     29
+Errors:       210574
+Requests/sec: 0.96
+
+Average:      142.386268ms
+p50:          68.836514ms
+p95:          265.389443ms
+p99:          530.729612ms
+Max:          10.209702055s
+========================================
+Completed unlimited/v
+
+========== unlimited / nim ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing nim at concurrency 1 for 30s
+unlimited nim c1: PASS; rps=240.15; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.006s
+Requests:     7206
+Errors:       0
+Requests/sec: 240.15
+
+Average:      4.050751ms
+p50:          3.051643ms
+p95:          10.857309ms
+p99:          18.631064ms
+Max:          65.020559ms
+========================================
+Testing nim at concurrency 10 for 30s
+unlimited nim c10: PASS; rps=957.77; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.046s
+Requests:     28777
+Errors:       0
+Requests/sec: 957.77
+
+Average:      10.307481ms
+p50:          8.143107ms
+p95:          25.182992ms
+p99:          38.368253ms
+Max:          83.482371ms
+========================================
+Testing nim at concurrency 50 for 30s
+unlimited nim c50: PASS; rps=1560.15; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.036s
+Requests:     46860
+Errors:       0
+Requests/sec: 1560.15
+
+Average:      31.319128ms
+p50:          27.367986ms
+p95:          68.223909ms
+p99:          99.504644ms
+Max:          199.596172ms
+========================================
+Testing nim at concurrency 100 for 30s
+unlimited nim c100: PASS; rps=1833.61; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.079s
+Requests:     55154
+Errors:       0
+Requests/sec: 1833.61
+
+Average:      53.189247ms
+p50:          48.283468ms
+p95:          103.559854ms
+p99:          139.281052ms
+Max:          336.363178ms
+========================================
+Testing nim at concurrency 250 for 30s
+unlimited nim c250: PASS; rps=1841.75; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.147s
+Requests:     55524
+Errors:       0
+Requests/sec: 1841.75
+
+Average:      131.415085ms
+p50:          117.851048ms
+p95:          262.993595ms
+p99:          378.034728ms
+Max:          982.940574ms
+========================================
+Testing nim at concurrency 500 for 30s
+unlimited nim c500: FAILED; rps=711.05; errors=95812
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.209s
+Requests:     21480
+Errors:       95812
+Requests/sec: 711.05
+
+Average:      125.180236ms
+p50:          49.840027ms
+p95:          263.016924ms
+p99:          510.304052ms
+Max:          10.089382972s
+========================================
+Restarting crashed nim before concurrency 1000 (prior failure retained)
+Testing nim at concurrency 1000 for 30s
+unlimited nim c1000: FAILED; rps=442.53; errors=152456
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     30.31s
+Requests:     13413
+Errors:       152456
+Requests/sec: 442.53
+
+Average:      180.869947ms
+p50:          88.700153ms
+p95:          348.205616ms
+p99:          945.315235ms
+Max:          10.209173636s
+========================================
+Completed unlimited/nim
+
+========== unlimited / zig ==========
+Warm-up: 30s at concurrency 50
+Warmup errors: 0
+Testing zig at concurrency 1 for 30s
+unlimited zig c1: PASS; rps=227.64; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.003s
+Requests:     6830
+Errors:       0
+Requests/sec: 227.64
+
+Average:      4.2654ms
+p50:          2.717697ms
+p95:          12.802204ms
+p99:          22.083357ms
+Max:          105.64886ms
+========================================
+Testing zig at concurrency 10 for 30s
+unlimited zig c10: PASS; rps=740.04; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.108s
+Requests:     22281
+Errors:       0
+Requests/sec: 740.04
+
+Average:      13.378023ms
+p50:          9.526449ms
+p95:          38.634027ms
+p99:          62.084439ms
+Max:          161.175886ms
+========================================
+Testing zig at concurrency 50 for 30s
+unlimited zig c50: PASS; rps=1309.52; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.059s
+Requests:     39363
+Errors:       0
+Requests/sec: 1309.52
+
+Average:      37.576892ms
+p50:          28.085576ms
+p95:          104.538967ms
+p99:          160.179684ms
+Max:          348.672218ms
+========================================
+Testing zig at concurrency 100 for 30s
+unlimited zig c100: PASS; rps=2114.50; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  100
+Duration:     30.051s
+Requests:     63542
+Errors:       0
+Requests/sec: 2114.50
+
+Average:      46.358315ms
+p50:          37.408773ms
+p95:          117.190748ms
+p99:          173.845319ms
+Max:          471.544405ms
+========================================
+Testing zig at concurrency 250 for 30s
+unlimited zig c250: PASS; rps=2808.23; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  250
+Duration:     30.173s
+Requests:     84733
+Errors:       0
+Requests/sec: 2808.23
+
+Average:      86.793143ms
+p50:          77.549826ms
+p95:          178.376711ms
+p99:          262.727682ms
+Max:          1.187326211s
+========================================
+Testing zig at concurrency 500 for 30s
+unlimited zig c500: PASS; rps=2760.54; errors=0
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.225s
+Requests:     83437
+Errors:       0
+Requests/sec: 2760.54
+
+Average:      178.615472ms
+p50:          156.365419ms
+p95:          320.811866ms
+p99:          504.556879ms
+Max:          5.368306899s
+========================================
+Testing zig at concurrency 1000 for 30s
+unlimited zig c1000: FAILED; rps=2282.50; errors=558
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  1000
+Duration:     31.596s
+Requests:     72118
+Errors:       558
+Requests/sec: 2282.50
+
+Average:      412.893667ms
+p50:          292.558478ms
+p95:          543.239509ms
+p99:          6.957722888s
+Max:          10.327078522s
+========================================
+Completed unlimited/zig
+
+COMPLETED=2026-10-08T23:59:08+00:00
+FAILED_LEVELS=32
+RESULTS=/home/kwiener/development/api-benchmark/benchmark/results/mariadb_retest_20261008_210654
+Failures are retained as valid observations, not overwritten.

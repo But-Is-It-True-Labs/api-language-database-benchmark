@@ -1,0 +1,116 @@
+V benchmark API
+MariaDB pool size: 50
+[veb] Running multi-threaded app on http://localhost:8080/
+V benchmark API
+MariaDB pool size: 50
+[veb] Running multi-threaded app on http://localhost:8080/
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+listening on http://0.0.0.0:8080/
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+signal 11: segmentation fault
+backtrace_symbols is missing => printing backtraces is not available.
+Some libc implementations like musl simply do not provide it.
+V benchmark API
+MariaDB pool size: 50
+[veb] Running multi-threaded app on http://localhost:8080/
+listening on http://0.0.0.0:8080/
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available
+/opt/vlang/vlib/fasthttp/fasthttp_linux.v:175, fasthttp.handle_accept_loop
+Accept failed: No file descriptors available

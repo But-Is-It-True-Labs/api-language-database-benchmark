@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.05s
+Requests:     10487
+Errors:       0
+Requests/sec: 348.98
+
+Average:      28.255386ms
+p50:          22.423463ms
+p95:          68.019523ms
+p99:          105.372303ms
+Max:          704.89368ms
+========================================

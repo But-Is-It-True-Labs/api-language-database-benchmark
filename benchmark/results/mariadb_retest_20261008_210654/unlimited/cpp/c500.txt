@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_mariadb:8080/parent/50000
+Concurrency:  500
+Duration:     30.702s
+Requests:     21017
+Errors:       0
+Requests/sec: 684.54
+
+Average:      721.606009ms
+p50:          699.73564ms
+p95:          1.04810154s
+p99:          1.140973916s
+Max:          1.451752251s
+========================================

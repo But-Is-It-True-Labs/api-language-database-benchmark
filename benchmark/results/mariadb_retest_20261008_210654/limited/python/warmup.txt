@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.108s
+Requests:     10559
+Errors:       0
+Requests/sec: 350.70
+
+Average:      142.228323ms
+p50:          126.740264ms
+p95:          287.730877ms
+p99:          357.755357ms
+Max:          442.101127ms
+========================================

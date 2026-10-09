@@ -1,0 +1,1 @@
+Node/Fastify MariaDB benchmark API listening on :8080

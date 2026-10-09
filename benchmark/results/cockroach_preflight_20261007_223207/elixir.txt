@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_cockroach:8080/parent/50000
+Concurrency:  50
+Duration:     10.093s
+Requests:     4138
+Errors:       3729
+Requests/sec: 409.99
+
+Average:      119.176599ms
+p50:          92.239571ms
+p95:          274.341909ms
+p99:          981.253387ms
+Max:          1.0010793s
+========================================

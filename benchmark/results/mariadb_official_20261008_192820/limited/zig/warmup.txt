@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.035s
+Requests:     36647
+Errors:       0
+Requests/sec: 1220.14
+
+Average:      40.480535ms
+p50:          29.813312ms
+p95:          113.216105ms
+p99:          179.916277ms
+Max:          693.08827ms
+========================================

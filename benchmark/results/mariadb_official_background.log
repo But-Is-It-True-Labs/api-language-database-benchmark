@@ -1,0 +1,238 @@
+OFFICIAL MARIADB BENCHMARK
+Started: Thu Oct  8 19:28:20 UTC 2026
+Results: benchmark/results/mariadb_official_20261008_192820
+Stopping unrelated benchmark containers...
+MariaDB max_connections=2000
+
+==========================================
+PROFILE: limited
+==========================================
+CPU_NANO=4000000000 MEMORY=8589934592 SWAP=8589934592
+
+========== limited / go ==========
+Warming up go for 30s...
+Testing go / limited / concurrency 1
+go C=1: PASS - 157.73 req/sec, 0 errors
+Testing go / limited / concurrency 10
+go C=10: PASS - 768.26 req/sec, 0 errors
+Testing go / limited / concurrency 50
+go C=50: PASS - 1003.56 req/sec, 0 errors
+Testing go / limited / concurrency 100
+go C=100: PASS - 1429.60 req/sec, 0 errors
+Testing go / limited / concurrency 250
+go C=250: PASS - 1486.93 req/sec, 0 errors
+Testing go / limited / concurrency 500
+go C=500: PASS - 1760.06 req/sec, 0 errors
+Testing go / limited / concurrency 1000
+go C=1000: PASS - 1319.15 req/sec, 0 errors
+
+========== limited / rust ==========
+Warming up rust for 30s...
+Testing rust / limited / concurrency 1
+rust C=1: PASS - 187.36 req/sec, 0 errors
+Testing rust / limited / concurrency 10
+rust C=10: PASS - 726.64 req/sec, 0 errors
+Testing rust / limited / concurrency 50
+rust C=50: PASS - 1404.60 req/sec, 0 errors
+Testing rust / limited / concurrency 100
+rust C=100: PASS - 1308.76 req/sec, 0 errors
+Testing rust / limited / concurrency 250
+rust C=250: PASS - 1528.25 req/sec, 0 errors
+Testing rust / limited / concurrency 500
+rust C=500: PASS - 1406.35 req/sec, 0 errors
+Testing rust / limited / concurrency 1000
+rust C=1000: FAILED - 1293.76 req/sec, 149 errors
+Stopping remaining levels for rust due to failure.
+
+========== limited / node ==========
+Warming up node for 30s...
+Testing node / limited / concurrency 1
+node C=1: PASS - 124.66 req/sec, 0 errors
+Testing node / limited / concurrency 10
+node C=10: PASS - 320.67 req/sec, 0 errors
+Testing node / limited / concurrency 50
+node C=50: PASS - 512.85 req/sec, 0 errors
+Testing node / limited / concurrency 100
+node C=100: PASS - 654.68 req/sec, 0 errors
+Testing node / limited / concurrency 250
+node C=250: FAILED - 509.07 req/sec, 71 errors
+Stopping remaining levels for node due to failure.
+
+========== limited / python ==========
+Warming up python for 30s...
+Testing python / limited / concurrency 1
+python C=1: PASS - 139.48 req/sec, 0 errors
+Testing python / limited / concurrency 10
+python C=10: PASS - 246.99 req/sec, 0 errors
+Testing python / limited / concurrency 50
+python C=50: PASS - 248.92 req/sec, 0 errors
+Testing python / limited / concurrency 100
+python C=100: PASS - 244.96 req/sec, 0 errors
+Testing python / limited / concurrency 250
+python C=250: PASS - 224.16 req/sec, 0 errors
+Testing python / limited / concurrency 500
+python C=500: PASS - 236.06 req/sec, 0 errors
+Testing python / limited / concurrency 1000
+python C=1000: FAILED - 272.34 req/sec, 15874 errors
+Stopping remaining levels for python due to failure.
+
+========== limited / php ==========
+Warming up php for 30s...
+Testing php / limited / concurrency 1
+php C=1: PASS - 137.02 req/sec, 0 errors
+Testing php / limited / concurrency 10
+php C=10: PASS - 469.60 req/sec, 0 errors
+Testing php / limited / concurrency 50
+php C=50: PASS - 502.33 req/sec, 0 errors
+Testing php / limited / concurrency 100
+php C=100: PASS - 490.30 req/sec, 0 errors
+Testing php / limited / concurrency 250
+php C=250: PASS - 501.26 req/sec, 0 errors
+Testing php / limited / concurrency 500
+php C=500: PASS - 495.41 req/sec, 0 errors
+Testing php / limited / concurrency 1000
+php C=1000: PASS - 526.85 req/sec, 0 errors
+
+========== limited / cpp ==========
+Warming up cpp for 30s...
+Testing cpp / limited / concurrency 1
+cpp C=1: PASS - 127.84 req/sec, 0 errors
+Testing cpp / limited / concurrency 10
+cpp C=10: PASS - 407.71 req/sec, 0 errors
+Testing cpp / limited / concurrency 50
+cpp C=50: PASS - 387.01 req/sec, 0 errors
+Testing cpp / limited / concurrency 100
+cpp C=100: PASS - 424.23 req/sec, 0 errors
+Testing cpp / limited / concurrency 250
+cpp C=250: PASS - 383.77 req/sec, 0 errors
+Testing cpp / limited / concurrency 500
+cpp C=500: PASS - 429.85 req/sec, 0 errors
+Testing cpp / limited / concurrency 1000
+cpp C=1000: PASS - 437.60 req/sec, 0 errors
+
+========== limited / java ==========
+Warming up java for 30s...
+Testing java / limited / concurrency 1
+java C=1: PASS - 211.03 req/sec, 0 errors
+Testing java / limited / concurrency 10
+java C=10: PASS - 273.54 req/sec, 0 errors
+Testing java / limited / concurrency 50
+java C=50: PASS - 658.26 req/sec, 0 errors
+Testing java / limited / concurrency 100
+java C=100: PASS - 1021.99 req/sec, 0 errors
+Testing java / limited / concurrency 250
+java C=250: PASS - 809.31 req/sec, 0 errors
+Testing java / limited / concurrency 500
+java C=500: PASS - 1048.67 req/sec, 0 errors
+Testing java / limited / concurrency 1000
+java C=1000: PASS - 1180.79 req/sec, 0 errors
+
+========== limited / elixir ==========
+Warming up elixir for 30s...
+Testing elixir / limited / concurrency 1
+elixir C=1: PASS - 99.07 req/sec, 0 errors
+Testing elixir / limited / concurrency 10
+elixir C=10: PASS - 348.98 req/sec, 0 errors
+Testing elixir / limited / concurrency 50
+elixir C=50: PASS - 381.16 req/sec, 0 errors
+Testing elixir / limited / concurrency 100
+elixir C=100: PASS - 318.58 req/sec, 0 errors
+Testing elixir / limited / concurrency 250
+elixir C=250: PASS - 431.54 req/sec, 0 errors
+Testing elixir / limited / concurrency 500
+elixir C=500: FAILED - 450.49 req/sec, 2501 errors
+Stopping remaining levels for elixir due to failure.
+
+========== limited / ruby ==========
+Warming up ruby for 30s...
+Testing ruby / limited / concurrency 1
+ruby C=1: PASS - 175.65 req/sec, 0 errors
+Testing ruby / limited / concurrency 10
+ruby C=10: PASS - 304.18 req/sec, 0 errors
+Testing ruby / limited / concurrency 50
+ruby C=50: PASS - 373.88 req/sec, 0 errors
+Testing ruby / limited / concurrency 100
+ruby C=100: PASS - 340.12 req/sec, 0 errors
+Testing ruby / limited / concurrency 250
+ruby C=250: FAILED - 369.64 req/sec, 11 errors
+Stopping remaining levels for ruby due to failure.
+
+========== limited / csharp ==========
+Warming up csharp for 30s...
+Testing csharp / limited / concurrency 1
+csharp C=1: PASS - 97.77 req/sec, 0 errors
+Testing csharp / limited / concurrency 10
+csharp C=10: PASS - 524.16 req/sec, 0 errors
+Testing csharp / limited / concurrency 50
+csharp C=50: PASS - 843.51 req/sec, 0 errors
+Testing csharp / limited / concurrency 100
+csharp C=100: PASS - 868.88 req/sec, 0 errors
+Testing csharp / limited / concurrency 250
+csharp C=250: PASS - 831.06 req/sec, 0 errors
+Testing csharp / limited / concurrency 500
+csharp C=500: PASS - 1020.90 req/sec, 0 errors
+Testing csharp / limited / concurrency 1000
+csharp C=1000: PASS - 831.14 req/sec, 0 errors
+
+========== limited / v ==========
+Warming up v for 30s...
+WARMUP FAILED: v
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_v_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.022s
+Requests:     2141
+Errors:       66570
+Requests/sec: 71.32
+
+Average:      21.728314ms
+p50:          9.889247ms
+p95:          32.135709ms
+p99:          106.08981ms
+Max:          10.005665818s
+========================================
+
+========== limited / nim ==========
+Warming up nim for 30s...
+Testing nim / limited / concurrency 1
+nim C=1: PASS - 355.78 req/sec, 0 errors
+Testing nim / limited / concurrency 10
+nim C=10: PASS - 1307.69 req/sec, 0 errors
+Testing nim / limited / concurrency 50
+nim C=50: PASS - 2144.50 req/sec, 0 errors
+Testing nim / limited / concurrency 100
+nim C=100: PASS - 2196.61 req/sec, 0 errors
+Testing nim / limited / concurrency 250
+nim C=250: PASS - 2564.77 req/sec, 0 errors
+Testing nim / limited / concurrency 500
+nim C=500: PASS - 3138.01 req/sec, 0 errors
+Testing nim / limited / concurrency 1000
+nim C=1000: FAILED - 482.84 req/sec, 220019 errors
+Stopping remaining levels for nim due to failure.
+
+========== limited / zig ==========
+Warming up zig for 30s...
+Testing zig / limited / concurrency 1
+zig C=1: PASS - 349.98 req/sec, 0 errors
+Testing zig / limited / concurrency 10
+zig C=10: PASS - 849.94 req/sec, 0 errors
+Testing zig / limited / concurrency 50
+zig C=50: PASS - 1313.71 req/sec, 0 errors
+Testing zig / limited / concurrency 100
+zig C=100: PASS - 1534.27 req/sec, 0 errors
+Testing zig / limited / concurrency 250
+zig C=250: PASS - 1878.05 req/sec, 0 errors
+Testing zig / limited / concurrency 500
+zig C=500: PASS - 1709.38 req/sec, 0 errors
+Testing zig / limited / concurrency 1000
+zig C=1000: FAILED - 1277.12 req/sec, 546 errors
+Stopping remaining levels for zig due to failure.
+
+==========================================
+PROFILE: unlimited
+==========================================
+CPU_NANO=4000000000 MEMORY=8589934592 SWAP=-1
+ERROR: Database still has resource limits.

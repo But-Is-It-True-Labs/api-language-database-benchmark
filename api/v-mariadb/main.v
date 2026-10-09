@@ -13,7 +13,7 @@ pub struct Context {
 
 pub struct App {
 pub:
-	pool chan &mysql.DB
+	pool chan mysql.DB
 }
 
 pub struct ParentResponse {
@@ -36,11 +36,11 @@ fn parse_i64(value string) i64 {
 	return strconv.parse_int(value, 10, 64) or { 0 }
 }
 
-fn acquire(pool chan &mysql.DB) &mysql.DB {
+fn acquire(pool chan mysql.DB) mysql.DB {
 	return <-pool
 }
 
-fn release(pool chan &mysql.DB, db &mysql.DB) {
+fn release(pool chan mysql.DB, db mysql.DB) {
 	pool <- db
 }
 
@@ -100,14 +100,14 @@ fn main() {
 	password := os.getenv('MYSQLPASSWORD')
 	database_name := os.getenv('MYSQLDATABASE')
 
-	pool := chan &mysql.DB{
+	pool := chan mysql.DB{
 		cap: pool_size
 	}
 
 	for _ in 0 .. pool_size {
 		mut database := mysql.connect(mysql.Config{
 			host: host
-			port: port
+			port: u32(port)
 			username: user
 			password: password
 			dbname: database_name
@@ -115,7 +115,7 @@ fn main() {
 			panic(err)
 		}
 
-		pool <- &database
+		pool <- database
 	}
 
 	app := &App{

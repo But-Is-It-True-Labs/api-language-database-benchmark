@@ -26,6 +26,12 @@ class App < Roda
     end
   end
 
+  def self.parent_statement
+    Thread.current[:mysql_parent_statement] ||= connection.prepare(
+      "SELECT id, account_number, status, created_at, payload FROM benchmark_parent WHERE id = ?"
+    )
+  end
+
   route do |r|
     r.on "health" do
       r.get do
@@ -40,13 +46,7 @@ class App < Roda
     r.on "parent", Integer do |id|
       r.is do
         r.get do
-          result = self.class.connection.prepare(
-            <<~SQL
-              SELECT id, account_number, status, created_at, payload
-              FROM benchmark_parent
-              WHERE id = ?
-            SQL
-          ).execute(id)
+          result = self.class.parent_statement.execute(id)
 
           if result.count == 0
             response.status = 404

@@ -1,0 +1,9 @@
+V benchmark API
+MariaDB pool size: 50
+[veb] Running multi-threaded app on http://localhost:8080/
+V benchmark API
+MariaDB pool size: 50
+[veb] Running multi-threaded app on http://localhost:8080/
+V benchmark API
+MariaDB pool size: 50
+[veb] Running multi-threaded app on http://localhost:8080/

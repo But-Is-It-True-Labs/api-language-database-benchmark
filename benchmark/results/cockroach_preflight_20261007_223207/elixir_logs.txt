@@ -1,0 +1,30 @@
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+22:34:06.417 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+22:34:06.417 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+22:34:06.418 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+22:34:06.418 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+22:34:06.418 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+22:34:06.418 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+22:34:06.418 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []

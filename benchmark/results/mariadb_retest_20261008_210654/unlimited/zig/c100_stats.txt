@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+932f403b28c6   official_maria_20261008_210654_unlimited_zig   0.95%     30.16MiB / 94.3GiB   0.03%     164MB / 134MB    0B / 0B           51
+cc8d8f8e3a94   official_maria_20261008_210654_unlimited       0.02%     144.2MiB / 94.3GiB   0.15%     721MB / 2.43GB   71.6MB / 8.19kB   59

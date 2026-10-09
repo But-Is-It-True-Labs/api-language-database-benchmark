@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_cockroach:8080/parent/50000
+Concurrency:  50
+Duration:     10.13s
+Requests:     3099
+Errors:       0
+Requests/sec: 305.92
+
+Average:      162.458602ms
+p50:          144.864325ms
+p95:          349.659815ms
+p99:          515.975224ms
+Max:          807.515349ms
+========================================

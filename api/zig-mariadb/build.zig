@@ -25,13 +25,13 @@ pub fn build(b: *std.Build) void {
         }),
     });
 
-    exe.addCSourceFile(.{
+    exe.root_module.addCSourceFile(.{
         .file = b.path("src/mariadb_bridge.c"),
         .flags = &.{"-O3"},
     });
-    exe.addIncludePath(b.path("src"));
-    exe.linkSystemLibrary("mariadb");
-    exe.linkLibC();
+    exe.root_module.addIncludePath(b.path("src"));
+    exe.root_module.linkSystemLibrary("mariadb", .{});
+    exe.root_module.link_libc = true;
 
     b.installArtifact(exe);
 }

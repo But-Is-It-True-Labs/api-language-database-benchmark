@@ -179,6 +179,10 @@ public class BenchmarkApi {
     }
 
 
+
+    private static final java.util.concurrent.atomic.AtomicInteger
+        mariaDbErrors = new java.util.concurrent.atomic.AtomicInteger();
+
     private static void parent(
         RoutingContext ctx
     ) {
@@ -235,13 +239,13 @@ public class BenchmarkApi {
             );
         })
 
-        .onFailure(error ->
-            text(
-                ctx,
-                500,
-                "query failed"
-            )
-        );
+        .onFailure(error -> {
+            if (mariaDbErrors.incrementAndGet() <= 10) {
+                System.err.println("MARIADB QUERY FAILURE:");
+                error.printStackTrace(System.err);
+            }
+            text(ctx, 500, "query failed");
+        });
     }
 
 

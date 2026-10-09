@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                                            CPU %     MEM USAGE / LIMIT    MEM %     NET I/O           BLOCK I/O         PIDS
+917a0f5faba3   official_maria_20261008_210654_unlimited_java   0.26%     289.8MiB / 94.3GiB   0.30%     68.7MB / 39.5MB   0B / 430kB        30
+cc8d8f8e3a94   official_maria_20261008_210654_unlimited        0.01%     143.2MiB / 94.3GiB   0.15%     385MB / 1.32GB    71.6MB / 8.19kB   59

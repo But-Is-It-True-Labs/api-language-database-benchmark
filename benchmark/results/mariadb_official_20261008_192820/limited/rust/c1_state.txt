@@ -1,0 +1,1 @@
+STATUS=running OOM=false RESTARTS=0

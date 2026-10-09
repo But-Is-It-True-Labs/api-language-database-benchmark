@@ -32,6 +32,9 @@ RUN apt-get update \
        ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
+RUN ln -s /usr/lib/x86_64-linux-gnu/libmariadb.so.3 \
+    /usr/lib/x86_64-linux-gnu/libmysqlclient.so
+
 COPY --from=build \
     /out-benchmark-nim-api \
     /usr/local/bin/benchmark-nim-api

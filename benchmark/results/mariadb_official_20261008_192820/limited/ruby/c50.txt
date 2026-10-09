@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.264s
+Requests:     11315
+Errors:       0
+Requests/sec: 373.88
+
+Average:      133.15891ms
+p50:          128.11356ms
+p95:          200.536227ms
+p99:          246.808602ms
+Max:          894.91823ms
+========================================

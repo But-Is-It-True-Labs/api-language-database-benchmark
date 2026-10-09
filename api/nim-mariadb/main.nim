@@ -16,7 +16,7 @@ var threadDb {.threadvar.}: DbConn
 
 
 proc getDb(): DbConn {.gcsafe.} =
-  if threadDb == nil:
+  if cast[pointer](threadDb) == nil:
     threadDb = db_mysql.open(
       getEnv("MYSQLHOST", "benchmark_mariadb"),
       getEnv("MYSQLUSER", "benchmark"),

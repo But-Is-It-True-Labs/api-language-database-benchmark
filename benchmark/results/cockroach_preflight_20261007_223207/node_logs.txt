@@ -1,0 +1,30 @@
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'enforcer.go',
+  line: '405',
+  routine: 'MaybeFailIfThrottled'
+}
+error: No license installed. The maximum number of concurrently open transactions has been reached.
+    at /app/node_modules/pg-pool/index.js:45:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Object.<anonymous> (file:///app/server.js:99:20) {
+  length: 209,
+  severity: 'ERROR',
+  code: 'XXC02',
+  detail: undefined,
+  hint: 'Obtain and install a valid license to continue.',
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'enforcer.go',
+  line: '405',
+  routine: 'MaybeFailIfThrottled'
+}

@@ -88,3 +88,4 @@ database/cassandra/data/
 
 # Zig downloaded package cache
 api/zig/.cache/
+api/zig-cockroach/.cache/

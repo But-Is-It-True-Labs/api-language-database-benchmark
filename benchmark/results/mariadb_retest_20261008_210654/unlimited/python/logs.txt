@@ -1,0 +1,351 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+/usr/local/lib/python3.13/site-packages/fastapi/routing.py:151: FastAPIDeprecationWarning: ORJSONResponse is deprecated, FastAPI now serializes data directly to JSON bytes via Pydantic when a return type or response model is set, which is faster and doesn't need a custom response class. Read more in the FastAPI docs: https://fastapi.tiangolo.com/advanced/custom-response/#orjson-or-response-model and https://fastapi.tiangolo.com/tutorial/response-model/
+  response = await f(request)
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "asyncmy/connection.pyx", line 960, in asyncmy.connection.Connection.connect
+  File "asyncmy/connection.pyx", line 949, in asyncmy.connection.Connection.connect
+  File "/usr/local/lib/python3.13/asyncio/tasks.py", line 514, in wait_for
+  File "uvloop/loop.pyx", line 1979, in create_connection
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1215, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 96, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 676, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 1310, in handle
+    await super().handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 282, in handle
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 360, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 78, in get_parent
+    row = await fetchone("SELECT id, account_number, status, created_at, payload FROM benchmark_parent WHERE id = %s", (parent_id,))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 57, in fetchone
+    async with pool.acquire() as conn:
+               ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/asyncmy/contexts.py", line 84, in __aenter__
+  File "asyncmy/pool.pyx", line 136, in _acquire
+  File "asyncmy/pool.pyx", line 138, in asyncmy.pool.Pool._acquire
+  File "asyncmy/pool.pyx", line 185, in fill_free_pool
+  File "asyncmy/connection.pyx", line 2094, in _connect
+  File "asyncmy/connection.pyx", line 984, in connect
+asyncmy.errors.OperationalError: (2003, "Can't connect to MySQL server on 'benchmark_mariadb' ([Errno 24] Too many open files)")
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "asyncmy/connection.pyx", line 960, in asyncmy.connection.Connection.connect
+  File "asyncmy/connection.pyx", line 949, in asyncmy.connection.Connection.connect
+  File "/usr/local/lib/python3.13/asyncio/tasks.py", line 514, in wait_for
+  File "uvloop/loop.pyx", line 1979, in create_connection
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1215, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 96, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 676, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 1310, in handle
+    await super().handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 282, in handle
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 360, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 78, in get_parent
+    row = await fetchone("SELECT id, account_number, status, created_at, payload FROM benchmark_parent WHERE id = %s", (parent_id,))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 57, in fetchone
+    async with pool.acquire() as conn:
+               ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/asyncmy/contexts.py", line 84, in __aenter__
+  File "asyncmy/pool.pyx", line 136, in _acquire
+  File "asyncmy/pool.pyx", line 138, in asyncmy.pool.Pool._acquire
+  File "asyncmy/pool.pyx", line 185, in fill_free_pool
+  File "asyncmy/connection.pyx", line 2094, in _connect
+  File "asyncmy/connection.pyx", line 984, in connect
+asyncmy.errors.OperationalError: (2003, "Can't connect to MySQL server on 'benchmark_mariadb' ([Errno 24] Too many open files)")
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "asyncmy/connection.pyx", line 960, in asyncmy.connection.Connection.connect
+  File "asyncmy/connection.pyx", line 949, in asyncmy.connection.Connection.connect
+  File "/usr/local/lib/python3.13/asyncio/tasks.py", line 514, in wait_for
+  File "uvloop/loop.pyx", line 1979, in create_connection
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1215, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 96, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 676, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 1310, in handle
+    await super().handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 282, in handle
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 360, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 78, in get_parent
+    row = await fetchone("SELECT id, account_number, status, created_at, payload FROM benchmark_parent WHERE id = %s", (parent_id,))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 57, in fetchone
+    async with pool.acquire() as conn:
+               ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/asyncmy/contexts.py", line 84, in __aenter__
+  File "asyncmy/pool.pyx", line 136, in _acquire
+  File "asyncmy/pool.pyx", line 138, in asyncmy.pool.Pool._acquire
+  File "asyncmy/pool.pyx", line 185, in fill_free_pool
+  File "asyncmy/connection.pyx", line 2094, in _connect
+  File "asyncmy/connection.pyx", line 984, in connect
+asyncmy.errors.OperationalError: (2003, "Can't connect to MySQL server on 'benchmark_mariadb' ([Errno 24] Too many open files)")
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "asyncmy/connection.pyx", line 960, in asyncmy.connection.Connection.connect
+  File "asyncmy/connection.pyx", line 949, in asyncmy.connection.Connection.connect
+  File "/usr/local/lib/python3.13/asyncio/tasks.py", line 514, in wait_for
+  File "uvloop/loop.pyx", line 1979, in create_connection
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1215, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 96, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 676, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 1310, in handle
+    await super().handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 282, in handle
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 360, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 78, in get_parent
+    row = await fetchone("SELECT id, account_number, status, created_at, payload FROM benchmark_parent WHERE id = %s", (parent_id,))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 57, in fetchone
+    async with pool.acquire() as conn:
+               ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/asyncmy/contexts.py", line 84, in __aenter__
+  File "asyncmy/pool.pyx", line 136, in _acquire
+  File "asyncmy/pool.pyx", line 138, in asyncmy.pool.Pool._acquire
+  File "asyncmy/pool.pyx", line 185, in fill_free_pool
+  File "asyncmy/connection.pyx", line 2094, in _connect
+  File "asyncmy/connection.pyx", line 984, in connect
+asyncmy.errors.OperationalError: (2003, "Can't connect to MySQL server on 'benchmark_mariadb' ([Errno 24] Too many open files)")
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "asyncmy/connection.pyx", line 960, in asyncmy.connection.Connection.connect
+  File "asyncmy/connection.pyx", line 949, in asyncmy.connection.Connection.connect
+  File "/usr/local/lib/python3.13/asyncio/tasks.py", line 514, in wait_for
+  File "uvloop/loop.pyx", line 1979, in create_connection
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1215, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 96, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 676, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 1310, in handle
+    await super().handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 282, in handle
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 360, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 78, in get_parent
+    row = await fetchone("SELECT id, account_number, status, created_at, payload FROM benchmark_parent WHERE id = %s", (parent_id,))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 57, in fetchone
+    async with pool.acquire() as conn:
+               ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/asyncmy/contexts.py", line 84, in __aenter__
+  File "asyncmy/pool.pyx", line 136, in _acquire
+  File "asyncmy/pool.pyx", line 138, in asyncmy.pool.Pool._acquire
+  File "asyncmy/pool.pyx", line 185, in fill_free_pool
+  File "asyncmy/connection.pyx", line 2094, in _connect
+  File "asyncmy/connection.pyx", line 984, in connect
+asyncmy.errors.OperationalError: (2003, "Can't connect to MySQL server on 'benchmark_mariadb' ([Errno 24] Too many open files)")
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "asyncmy/connection.pyx", line 960, in asyncmy.connection.Connection.connect
+  File "asyncmy/connection.pyx", line 949, in asyncmy.connection.Connection.connect
+  File "/usr/local/lib/python3.13/asyncio/tasks.py", line 514, in wait_for
+  File "uvloop/loop.pyx", line 2040, in create_connection
+  File "uvloop/loop.pyx", line 2016, in uvloop.loop.Loop.create_connection
+  File "uvloop/handles/tcp.pyx", line 182, in uvloop.loop.TCPTransport.connect
+  File "uvloop/handles/tcp.pyx", line 204, in uvloop.loop._TCPConnectRequest.connect
+OSError: [Errno 24] Too many open files
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/httptools_impl.py", line 422, in run_asgi
+  File "/usr/local/lib/python3.13/site-packages/uvicorn/middleware/proxy_headers.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/applications.py", line 1215, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/applications.py", line 96, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 186, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/errors.py", line 164, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/telemetry/_asgi.py", line 151, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 676, in __call__
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 1310, in handle
+    await super().handle(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/routing.py", line 282, in handle
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/usr/local/lib/python3.13/site-packages/fastapi/routing.py", line 360, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 78, in get_parent
+    row = await fetchone("SELECT id, account_number, status, created_at, payload FROM benchmark_parent WHERE id = %s", (parent_id,))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/main.py", line 57, in fetchone
+    async with pool.acquire() as conn:
+               ~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/asyncmy/contexts.py", line 84, in __aenter__
+  File "asyncmy/pool.pyx", line 136, in _acquire
+  File "asyncmy/pool.pyx", line 138, in asyncmy.pool.Pool._acquire
+  File "asyncmy/pool.pyx", line 185, in fill_free_pool
+  File "asyncmy/connection.pyx", line 2094, in _connect
+  File "asyncmy/connection.pyx", line 984, in connect
+asyncmy.errors.OperationalError: (2003, "Can't connect to MySQL server on 'benchmark_mariadb' ([Errno 24] Too many open files)")

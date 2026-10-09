@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+c738242a4363   benchmark_php_mariadb   0.01%     39.6MiB / 2GiB      1.93%     36MB / 33.6MB    5.8MB / 4.1kB    34
+68b200ef121c   benchmark_mariadb       0.02%     192.7MiB / 8GiB     2.35%     511MB / 1.74GB   128MB / 32.8kB   143

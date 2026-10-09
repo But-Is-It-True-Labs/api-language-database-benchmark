@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_cockroach:8080/parent/50000
+Concurrency:  50
+Duration:     10.682s
+Requests:     2327
+Errors:       181
+Requests/sec: 217.84
+
+Average:      226.690556ms
+p50:          22.541013ms
+p95:          2.308739953s
+p99:          3.237921319s
+Max:          3.559315634s
+========================================

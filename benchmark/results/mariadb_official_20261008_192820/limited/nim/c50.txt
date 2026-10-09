@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.049s
+Requests:     64441
+Errors:       0
+Requests/sec: 2144.50
+
+Average:      22.885674ms
+p50:          19.552949ms
+p95:          49.253434ms
+p99:          75.678906ms
+Max:          180.259899ms
+========================================

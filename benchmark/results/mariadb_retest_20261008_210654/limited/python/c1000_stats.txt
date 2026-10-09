@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                                            CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O         PIDS
+ca6cdcc9ee61   official_maria_20261008_210654_limited_python   0.27%     74.31MiB / 2GiB     3.63%     80.4MB / 66.7MB   13.8MB / 12.3kB   5
+6838470e7a71   official_maria_20261008_210654_limited          0.01%     156.8MiB / 8GiB     1.91%     245MB / 866MB     87.8MB / 32.8kB   36

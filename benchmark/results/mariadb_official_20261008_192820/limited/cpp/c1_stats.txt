@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+938c2b3642a9   benchmark_cpp_mariadb   0.00%     10.91MiB / 2GiB     0.53%     23MB / 18.9MB    5.51MB / 0B      2
+68b200ef121c   benchmark_mariadb       0.02%     192.8MiB / 8GiB     2.35%     543MB / 1.82GB   128MB / 32.8kB   143
