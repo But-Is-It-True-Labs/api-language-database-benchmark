@@ -1,0 +1,21 @@
+========================================
+limited / postgres / nim / C1
+UTC: Sat Oct 10 02:22:36 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.007s
+Requests:     9014
+Errors:       0
+Requests/sec: 300.39
+
+Average:      3.237232ms
+p50:          1.7154ms
+p95:          8.959418ms
+p99:          19.489276ms
+Max:          110.756749ms
+========================================

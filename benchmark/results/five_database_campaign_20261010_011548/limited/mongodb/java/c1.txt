@@ -1,0 +1,21 @@
+========================================
+limited / mongodb / java / C1
+UTC: Sat Oct 10 07:28:03 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mongodb:8080/parent/50000
+Concurrency:  1
+Duration:     30.048s
+Requests:     1693
+Errors:       0
+Requests/sec: 56.34
+
+Average:      17.375053ms
+p50:          14.112532ms
+p95:          40.513989ms
+p99:          64.079274ms
+Max:          92.232949ms
+========================================

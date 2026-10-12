@@ -1,0 +1,200 @@
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+parent error: connection to server at "benchmark_yugabyte" (172.18.0.4), port 5433 failed: FATAL:  sorry, too many clients already
+
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Nim/Mummy benchmark API listening on :8080
+Worker threads: 50

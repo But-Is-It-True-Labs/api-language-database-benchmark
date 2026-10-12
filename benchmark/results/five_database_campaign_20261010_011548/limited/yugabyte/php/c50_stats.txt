@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+b7e209fe0391   benchmark_php_yugabyte   8.30%     70.88MiB / 2GiB     3.46%     18.1MB / 23.2MB   13MB / 4.1kB     61
+40e775d7c7e9   benchmark_yugabyte       35.28%    1.602GiB / 8GiB     20.03%    134MB / 277MB     458MB / 66.7MB   662

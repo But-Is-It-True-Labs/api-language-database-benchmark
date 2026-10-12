@@ -1,0 +1,21 @@
+========================================
+limited / mariadb / node / C1
+UTC: Sat Oct 10 02:49:05 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.014s
+Requests:     3119
+Errors:       0
+Requests/sec: 103.92
+
+Average:      9.269621ms
+p50:          6.951153ms
+p95:          22.86588ms
+p99:          34.292615ms
+Max:          157.462188ms
+========================================

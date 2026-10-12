@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / python / C50
+UTC: Sat Oct 10 05:43:03 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_yugabyte:8080/parent/50000
+Concurrency:  50
+Duration:     30.407s
+Requests:     5132
+Errors:       0
+Requests/sec: 168.78
+
+Average:      294.590388ms
+p50:          213.742555ms
+p95:          487.29229ms
+p99:          719.649946ms
+Max:          8.511187037s
+========================================

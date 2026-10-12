@@ -1,0 +1,200 @@
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 46}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93498.0>, 46, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.894 [error] Task #PID<0.93878.0> started from #PID<0.93501.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 47}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 47}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93501.0>, 47, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.894 [error] Task #PID<0.93879.0> started from #PID<0.93504.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 48}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 48}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93504.0>, 48, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.895 [error] Task #PID<0.93880.0> started from #PID<0.93507.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 49}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 49}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93507.0>, 49, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.895 [error] Task #PID<0.93881.0> started from #PID<0.93510.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 50}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 50}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93510.0>, 50, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.893 [error] Task #PID<0.93882.0> started from #PID<0.93513.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 51}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 51}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93513.0>, 51, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.894 [error] Task #PID<0.93883.0> started from #PID<0.93516.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 52}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 52}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93516.0>, 52, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.894 [error] Task #PID<0.93884.0> started from #PID<0.93519.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 53}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 53}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93519.0>, 53, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.894 [error] Task #PID<0.93885.0> started from #PID<0.93522.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 54}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 54}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93522.0>, 54, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.895 [error] Task #PID<0.93886.0> started from #PID<0.93525.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 55}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 55}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93525.0>, 55, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.895 [error] Task #PID<0.93887.0> started from #PID<0.93528.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 56}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 56}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93528.0>, 56, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.898 [error] Task #PID<0.93889.0> started from #PID<0.93393.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 11}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 11}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93393.0>, 11, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.899 [error] Task #PID<0.93890.0> started from #PID<0.93396.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 12}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 12}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93396.0>, 12, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.899 [error] Task #PID<0.93891.0> started from #PID<0.93372.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 4}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 4}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93372.0>, 4, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.900 [error] Task #PID<0.93892.0> started from #PID<0.93366.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 2}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 2}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93366.0>, 2, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.900 [error] Task #PID<0.93893.0> started from #PID<0.93369.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 3}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 3}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93369.0>, 3, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.908 [error] Task #PID<0.93894.0> started from #PID<0.93405.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 15}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 15}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93405.0>, 15, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.908 [error] Task #PID<0.93895.0> started from #PID<0.93375.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 5}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 5}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93375.0>, 5, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.908 [error] Task #PID<0.93896.0> started from #PID<0.93399.0> terminating
+** (stop) exited in: GenServer.call(nil, {:acceptor_info, 13}, 5000)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1121: GenServer.call/3
+    (thousand_island 1.5.0) lib/thousand_island/acceptor.ex:22: ThousandIsland.Acceptor.run/1
+    (elixir 1.18.4) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+Process Label: {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 13}}
+Function: &ThousandIsland.Acceptor.run/1
+    Args: [{#PID<0.224.0>, #PID<0.93399.0>, 13, %ThousandIsland.ServerConfig{port: 8080, transport_module: ThousandIsland.Transports.TCP, transport_options: [ip: {0, 0, 0, 0}], handler_module: Bandit.DelegatingHandler, handler_options: %{opts: %{http: [], http_1: [], http_2: [], websocket: []}, plug: {BenchmarkElixir.Endpoint, []}, handler_module: Bandit.InitialHandler, http_1_enabled: true, http_2_enabled: true}, genserver_options: [], supervisor_options: [], num_acceptors: 100, num_listen_sockets: 1, num_connections: 16384, max_connections_retry_count: 5, max_connections_retry_wait: 1000, read_timeout: 60000, shutdown_timeout: 15000, silent_terminate_on_error: false}}]
+
+07:40:24.918 [error] GenServer #PID<0.93663.0> terminating
+** (stop) exited in: GenServer.stop(nil, :normal, :infinity)
+    ** (EXIT) no process: the process is not alive or there's no process currently associated with the given name, possibly because its application isn't started
+    (elixir 1.18.4) lib/gen_server.ex:1079: GenServer.stop/3
+    (stdlib 7.3) gen_server.erl:2482: :gen_server.try_terminate/3
+    (stdlib 7.3) gen_server.erl:2733: :gen_server.terminate/9
+    (stdlib 7.3) proc_lib.erl:333: :proc_lib.init_p_do_apply/3
+Process Label: {:thousand_island, :shutdown_listener, {8080, Bandit.DelegatingHandler}}
+Last message: {:EXIT, #PID<0.224.0>, :shutdown}
+State: %{listener_pid: nil}
+
+07:40:24.960 [info] Running BenchmarkElixir.Endpoint with Bandit 1.12.5 at 0.0.0.0:8080 (http)

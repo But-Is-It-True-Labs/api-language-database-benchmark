@@ -1,0 +1,21 @@
+========================================
+limited / postgres / python / C50
+UTC: Sat Oct 10 01:39:57 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.075s
+Requests:     7281
+Errors:       0
+Requests/sec: 242.09
+
+Average:      206.175697ms
+p50:          157.383067ms
+p95:          448.035547ms
+p99:          1.371379111s
+Max:          3.083339751s
+========================================

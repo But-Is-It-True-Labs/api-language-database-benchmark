@@ -1,0 +1,21 @@
+========================================
+full / cassandra / node / C10
+UTC: Sat Oct 10 11:11:53 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_cassandra:8080/parent/50000
+Concurrency:  10
+Duration:     30.07s
+Requests:     10753
+Errors:       0
+Requests/sec: 357.59
+
+Average:      27.804268ms
+p50:          22.760992ms
+p95:          65.50732ms
+p99:          96.623249ms
+Max:          253.647617ms
+========================================

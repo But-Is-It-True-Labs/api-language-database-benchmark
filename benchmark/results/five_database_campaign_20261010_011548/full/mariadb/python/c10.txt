@@ -1,0 +1,21 @@
+========================================
+full / mariadb / python / C10
+UTC: Sat Oct 10 09:53:01 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mariadb:8080/parent/50000
+Concurrency:  10
+Duration:     30.046s
+Requests:     9886
+Errors:       0
+Requests/sec: 329.03
+
+Average:      30.22111ms
+p50:          25.324883ms
+p95:          69.627993ms
+p99:          90.173381ms
+Max:          118.713451ms
+========================================

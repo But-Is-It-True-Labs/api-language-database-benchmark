@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / java / C1
+UTC: Sat Oct 10 06:00:45 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.012s
+Requests:     1879
+Errors:       0
+Requests/sec: 62.61
+
+Average:      15.340915ms
+p50:          12.758141ms
+p95:          36.122559ms
+p99:          56.078054ms
+Max:          135.298601ms
+========================================

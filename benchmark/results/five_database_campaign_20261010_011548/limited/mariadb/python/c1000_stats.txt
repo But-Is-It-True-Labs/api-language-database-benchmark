@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+c6d35970ef79   benchmark_python_mariadb   0.37%     96.16MiB / 2GiB     4.70%     66.8MB / 55.2MB   36.8MB / 0B      5
+68b200ef121c   benchmark_mariadb          0.02%     185.6MiB / 8GiB     2.27%     226MB / 827MB     118MB / 32.8kB   66

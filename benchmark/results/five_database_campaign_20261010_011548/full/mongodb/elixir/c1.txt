@@ -1,0 +1,21 @@
+========================================
+full / mongodb / elixir / C1
+UTC: Sat Oct 10 14:28:42 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mongodb:8080/parent/50000
+Concurrency:  1
+Duration:     30.006s
+Requests:     2946
+Errors:       0
+Requests/sec: 98.18
+
+Average:      9.879179ms
+p50:          7.951964ms
+p95:          22.469685ms
+p99:          31.185526ms
+Max:          141.43048ms
+========================================

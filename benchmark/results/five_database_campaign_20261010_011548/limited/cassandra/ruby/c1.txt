@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / ruby / C1
+UTC: Sat Oct 10 04:53:22 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_cassandra:8080/parent/50000
+Concurrency:  1
+Duration:     30.038s
+Requests:     2148
+Errors:       0
+Requests/sec: 71.51
+
+Average:      13.834436ms
+p50:          11.198652ms
+p95:          32.523345ms
+p99:          47.333157ms
+Max:          85.198466ms
+========================================

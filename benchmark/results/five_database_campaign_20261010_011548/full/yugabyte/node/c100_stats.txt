@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+1417b6d4d1df   benchmark_node_yugabyte   0.00%     99.78MiB / 90GiB    0.11%     30.1MB / 37.7MB   52.5MB / 0B      11
+40e775d7c7e9   benchmark_yugabyte        17.24%    1.643GiB / 90GiB    1.83%     151MB / 311MB     506MB / 19.2MB   717

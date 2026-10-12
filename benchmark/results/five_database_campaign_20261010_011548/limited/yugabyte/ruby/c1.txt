@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / ruby / C1
+UTC: Sat Oct 10 06:13:41 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.001s
+Requests:     3182
+Errors:       0
+Requests/sec: 106.06
+
+Average:      9.270266ms
+p50:          6.826296ms
+p95:          20.043117ms
+p99:          35.266958ms
+Max:          496.773416ms
+========================================

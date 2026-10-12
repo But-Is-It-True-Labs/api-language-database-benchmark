@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+af7a21fbf9cb   benchmark_php_mongodb   9.70%     78.19MiB / 90GiB    0.08%     34.4MB / 41.7MB   21.8MB / 4.1kB   53
+b987d8b3539b   benchmark_mongodb       145.16%   502.5MiB / 90GiB    0.55%     192MB / 439MB     242MB / 12.3MB   107

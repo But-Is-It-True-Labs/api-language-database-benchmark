@@ -1,0 +1,21 @@
+========================================
+full / yugabyte / elixir / C1
+UTC: Sat Oct 10 13:01:36 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.009s
+Requests:     866
+Errors:       0
+Requests/sec: 28.86
+
+Average:      34.270139ms
+p50:          14.676582ms
+p95:          250.794829ms
+p99:          384.953304ms
+Max:          525.541284ms
+========================================

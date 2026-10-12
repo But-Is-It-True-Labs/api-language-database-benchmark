@@ -1,0 +1,200 @@
+
+04:52:10.190 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."]
+
+04:52:10.191 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+04:52:10.193 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+04:52:10.193 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.RuntimeError.beam. Function: read_file. "]
+
+04:52:39.621 [info]     supervisor: {<0.388.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.2993.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.259.0>,<0.388.0>,43,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          read_timeout => 60000,
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+04:52:10.193 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+04:52:10.193 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+04:52:10.195 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Exception.beam. Function: read_file. "]
+
+04:52:10.195 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/logger/ebin/Elixir.Logger.Translator.beam. Function: read_file. "]
+
+04:52:10.207 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."]
+
+04:52:10.217 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."]
+
+04:52:10.237 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.RuntimeError.beam. Function: read_file. "]
+
+04:52:09.706 [error] ** Task #PID<0.541.0> terminating
+** Process Label == {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 94}}
+** Started from #PID<0.543.0>
+** When function  == &ThousandIsland.Acceptor.run/1
+**      arguments == [
+  {#PID<0.259.0>, #PID<0.541.0>, 94,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {:"module could not be loaded",
+ [
+   {RuntimeError, :exception, ["Unexpected error in accept: :emfile"], []},
+   {ThousandIsland.Acceptor, :"-accept/6-fun-0-", 7,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 74]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+
+
+04:52:10.252 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+04:52:10.269 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Exception.beam. Function: read_file. Process: code_server."]
+
+04:52:10.288 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+04:52:39.622 [error]     supervisor: {<0.541.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: child_terminated
+    reason: {undef,
+                [{'Elixir.RuntimeError',exception,
+                     [<<"Unexpected error in accept: :emfile">>],
+                     []},
+                 {'Elixir.ThousandIsland.Acceptor','-accept/6-fun-0-',7,
+                     [{file,"lib/thousand_island/acceptor.ex"},{line,74}]},
+                 {'Elixir.Task.Supervised',invoke_mfa,2,
+                     [{file,"lib/task/supervised.ex"},{line,101}]}]}
+    offender: [{pid,<0.543.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.259.0>,<0.541.0>,94,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           read_timeout => 60000,
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+04:52:09.707 [error] ** Task #PID<0.325.0> terminating
+** Process Label == {:thousand_island, :acceptor, {{8080, Bandit.DelegatingHandler}, 22}}
+** Started from #PID<0.327.0>
+** When function  == &ThousandIsland.Acceptor.run/1
+**      arguments == [
+  {#PID<0.259.0>, #PID<0.325.0>, 22,
+   %ThousandIsland.ServerConfig{
+     port: 8080,
+     transport_module: ThousandIsland.Transports.TCP,
+     transport_options: [ip: {0, 0, 0, 0}],
+     handler_module: Bandit.DelegatingHandler,
+     handler_options: %{
+       opts: %{http: [], http_1: [], http_2: [], websocket: []},
+       plug: {BenchmarkElixir.Endpoint, []},
+       handler_module: Bandit.InitialHandler,
+       http_1_enabled: true,
+       http_2_enabled: true
+     },
+     genserver_options: [],
+     supervisor_options: [],
+     num_acceptors: 100,
+     num_listen_sockets: 1,
+     num_connections: 16384,
+     max_connections_retry_count: 5,
+     max_connections_retry_wait: 1000,
+     read_timeout: 60000,
+     shutdown_timeout: 15000,
+     silent_terminate_on_error: false
+   }}
+]
+** Reason for termination == 
+** {:"module could not be loaded",
+ [
+   {RuntimeError, :exception, ["Unexpected error in accept: :emfile"], []},
+   {ThousandIsland.Acceptor, :"-accept/6-fun-0-", 7,
+    [file: ~c"lib/thousand_island/acceptor.ex", line: 74]},
+   {Task.Supervised, :invoke_mfa, 2,
+    [file: ~c"lib/task/supervised.ex", line: 101]}
+ ]}
+
+
+04:52:10.297 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/elixir/ebin/Elixir.Exception.beam. Function: read_file. "]
+
+04:52:10.297 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Logger.Translator.beam. Function: read_file. Process: code_server."]
+
+04:52:10.310 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/consolidated/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."]
+
+04:52:10.332 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /usr/local/lib/elixir/bin/../lib/logger/ebin/Elixir.Logger.Translator.beam. Function: read_file. "]
+
+04:52:10.332 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.RuntimeError.beam. Function: read_file. Process: code_server."]

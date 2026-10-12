@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+617907e4599e   benchmark_ruby_mongodb   0.23%     85.69MiB / 2GiB     4.18%     7.41MB / 7.93MB   29.9MB / 0B      58
+b987d8b3539b   benchmark_mongodb        1.32%     250.9MiB / 8GiB     3.06%     212MB / 466MB     271MB / 22.8MB   79

@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O         BLOCK I/O        PIDS
+7a1ccc642448   benchmark_java_cassandra   0.40%     698.7MiB / 90GiB    0.76%     121MB / 138MB   16.6MB / 786kB   47
+0010348565e5   benchmark_cassandra        88.55%    4.57GiB / 90GiB     5.08%     205MB / 792MB   105MB / 19.2MB   237

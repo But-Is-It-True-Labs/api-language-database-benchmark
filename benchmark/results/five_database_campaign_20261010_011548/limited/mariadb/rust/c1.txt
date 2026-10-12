@@ -1,0 +1,21 @@
+========================================
+limited / mariadb / rust / C1
+UTC: Sat Oct 10 02:42:43 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.014s
+Requests:     6273
+Errors:       0
+Requests/sec: 209.01
+
+Average:      4.638826ms
+p50:          2.979541ms
+p95:          13.482282ms
+p99:          22.008197ms
+Max:          84.688733ms
+========================================

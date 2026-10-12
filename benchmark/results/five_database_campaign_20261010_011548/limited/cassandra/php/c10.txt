@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / php / C10
+UTC: Sat Oct 10 04:28:37 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_cassandra:8080/parent/50000
+Concurrency:  10
+Duration:     30.074s
+Requests:     7732
+Errors:       0
+Requests/sec: 257.10
+
+Average:      38.709872ms
+p50:          32.461096ms
+p95:          85.706393ms
+p99:          120.027911ms
+Max:          427.351433ms
+========================================

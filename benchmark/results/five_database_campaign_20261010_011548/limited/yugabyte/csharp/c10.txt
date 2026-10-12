@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / csharp / C10
+UTC: Sat Oct 10 06:40:57 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_yugabyte:8080/parent/50000
+Concurrency:  10
+Duration:     30.087s
+Requests:     3142
+Errors:       0
+Requests/sec: 104.43
+
+Average:      95.455521ms
+p50:          84.072467ms
+p95:          175.431529ms
+p99:          246.540471ms
+Max:          1.697790592s
+========================================

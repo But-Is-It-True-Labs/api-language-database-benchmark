@@ -1,0 +1,21 @@
+========================================
+limited / postgres / node / C1
+UTC: Sat Oct 10 01:31:55 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.043s
+Requests:     2228
+Errors:       0
+Requests/sec: 74.16
+
+Average:      12.980175ms
+p50:          10.393612ms
+p95:          30.323534ms
+p99:          43.993094ms
+Max:          160.261805ms
+========================================

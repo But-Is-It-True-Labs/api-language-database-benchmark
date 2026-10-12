@@ -1,0 +1,21 @@
+========================================
+limited / mariadb / csharp / C50
+UTC: Sat Oct 10 03:53:43 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mariadb:8080/parent/50000
+Concurrency:  50
+Duration:     30.143s
+Requests:     21491
+Errors:       0
+Requests/sec: 712.97
+
+Average:      69.564786ms
+p50:          61.937357ms
+p95:          144.682112ms
+p99:          199.531906ms
+Max:          684.571901ms
+========================================

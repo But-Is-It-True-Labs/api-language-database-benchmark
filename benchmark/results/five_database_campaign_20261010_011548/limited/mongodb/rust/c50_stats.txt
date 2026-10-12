@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+d4a448316ed9   benchmark_rust_mongodb   0.04%     11.01MiB / 2GiB     0.54%     50MB / 53.3MB    6.81MB / 0B      3
+b987d8b3539b   benchmark_mongodb        1.75%     352.4MiB / 8GiB     4.30%     83.7MB / 190MB   241MB / 4.29MB   60

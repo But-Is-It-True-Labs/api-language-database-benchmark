@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / rust / C1
+UTC: Sat Oct 10 05:28:33 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.038s
+Requests:     3696
+Errors:       0
+Requests/sec: 123.04
+
+Average:      7.845644ms
+p50:          5.880951ms
+p95:          18.868845ms
+p99:          30.689394ms
+Max:          81.880499ms
+========================================

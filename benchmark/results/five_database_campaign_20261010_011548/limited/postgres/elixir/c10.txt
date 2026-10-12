@@ -1,0 +1,21 @@
+========================================
+limited / postgres / elixir / C10
+UTC: Sat Oct 10 02:04:27 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.028s
+Requests:     10436
+Errors:       0
+Requests/sec: 347.55
+
+Average:      28.431331ms
+p50:          22.03074ms
+p95:          72.04088ms
+p99:          115.553568ms
+Max:          298.385432ms
+========================================

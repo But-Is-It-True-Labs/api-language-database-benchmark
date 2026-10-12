@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+8d0a6e32ef43   benchmark_ruby_postgres   0.05%     67.18MiB / 2GiB     3.28%     17.1MB / 18.9MB   26MB / 0B        56
+d668473a85e5   benchmark_postgres        0.00%     169.5MiB / 8GiB     2.07%     425MB / 766MB     29.6MB / 623kB   56

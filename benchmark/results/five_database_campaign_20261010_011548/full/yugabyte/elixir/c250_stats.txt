@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                        CPU %     MEM USAGE / LIMIT   MEM %     NET I/O         BLOCK I/O        PIDS
+9436754ba6ee   benchmark_elixir_yugabyte   8.98%     123.6MiB / 90GiB    0.13%     46.9MB / 49MB   21MB / 8.19kB    43
+40e775d7c7e9   benchmark_yugabyte          30.20%    1.66GiB / 90GiB     1.84%     364MB / 652MB   506MB / 82.4MB   717

@@ -1,0 +1,21 @@
+========================================
+limited / postgres / java / C1
+UTC: Sat Oct 10 01:57:16 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.024s
+Requests:     2838
+Errors:       0
+Requests/sec: 94.53
+
+Average:      10.120299ms
+p50:          7.852221ms
+p95:          27.286391ms
+p99:          37.489968ms
+Max:          127.48956ms
+========================================

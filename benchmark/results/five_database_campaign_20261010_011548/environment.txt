@@ -1,0 +1,40 @@
+UTC START: Sat Oct 10 01:15:48 UTC 2026
+Git commit: 8c5047ed9a370d1daf2e109e0e4e13890f89691c
+Concurrency: 1 10 50 100 250 500 1000
+Duration: 30s
+API settle: 15s
+Cooldown: 15s
+Database stabilization: 180s
+
+Linux tam.theaccomplishedmusician.com 6.8.0-85-generic #85-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep 18 15:26:59 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+12
+               total        used        free      shared  buff/cache   available
+Mem:            94Gi       4.7Gi        79Gi       309Mi        11Gi        89Gi
+Swap:             0B          0B          0B
+Client: Docker Engine - Community
+ Version:           29.8.1
+ API version:       1.56
+ Go version:        go1.26.8
+ Git commit:        4a63305
+ Built:             Tue Sep 15 16:26:01 2026
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          29.8.1
+  API version:      1.56 (minimum version 1.40)
+  Go version:       go1.26.8
+  Git commit:       464cd50
+  Built:            Tue Sep 15 16:26:01 2026
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          v2.3.6
+  GitCommit:        ee2735368117d2eb259779949d5e75cdafec9761
+ runc:
+  Version:          1.5.1
+  GitCommit:        v1.5.1-0-g8f2685a4
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0

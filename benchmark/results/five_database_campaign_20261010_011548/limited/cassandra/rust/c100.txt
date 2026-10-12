@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / rust / C100
+UTC: Sat Oct 10 04:10:59 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_cassandra:8080/parent/50000
+Concurrency:  100
+Duration:     30.074s
+Requests:     75320
+Errors:       0
+Requests/sec: 2504.47
+
+Average:      38.930341ms
+p50:          34.069794ms
+p95:          80.463579ms
+p99:          117.784505ms
+Max:          281.748927ms
+========================================

@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+90f87eed2572   benchmark_java_mariadb   0.23%     260.8MiB / 90GiB    0.28%     52.5MB / 29.9MB   37MB / 377kB     30
+68b200ef121c   benchmark_mariadb        0.01%     186.4MiB / 90GiB    0.20%     409MB / 1.46GB    118MB / 32.8kB   67

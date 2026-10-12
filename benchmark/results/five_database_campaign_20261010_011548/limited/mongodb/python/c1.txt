@@ -1,0 +1,21 @@
+========================================
+limited / mongodb / python / C1
+UTC: Sat Oct 10 07:08:49 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_mongodb:8080/parent/50000
+Concurrency:  1
+Duration:     30.007s
+Requests:     2298
+Errors:       0
+Requests/sec: 76.58
+
+Average:      12.187884ms
+p50:          10.668707ms
+p95:          25.05328ms
+p99:          34.642115ms
+Max:          56.025076ms
+========================================

@@ -1,0 +1,21 @@
+========================================
+full / postgres / ruby / C1
+UTC: Sat Oct 10 09:06:39 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.012s
+Requests:     4854
+Errors:       0
+Requests/sec: 161.73
+
+Average:      6.039631ms
+p50:          4.357941ms
+p95:          15.678831ms
+p99:          25.320005ms
+Max:          95.56704ms
+========================================

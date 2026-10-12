@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                        CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+e2e2d5cd2b10   benchmark_python_yugabyte   0.27%     82.42MiB / 90GiB    0.09%     58.1MB / 62.9MB   32.4MB / 0B      5
+40e775d7c7e9   benchmark_yugabyte          39.08%    1.661GiB / 90GiB    1.85%     186MB / 378MB     506MB / 73.3MB   773

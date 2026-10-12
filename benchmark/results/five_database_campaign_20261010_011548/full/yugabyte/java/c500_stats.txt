@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O         BLOCK I/O        PIDS
+e9ec08b91d01   benchmark_java_yugabyte   0.19%     999.3MiB / 90GiB    1.08%     107MB / 114MB   45.4MB / 659kB   30
+40e775d7c7e9   benchmark_yugabyte        43.33%    1.658GiB / 90GiB    1.84%     334MB / 601MB   506MB / 81.6MB   715

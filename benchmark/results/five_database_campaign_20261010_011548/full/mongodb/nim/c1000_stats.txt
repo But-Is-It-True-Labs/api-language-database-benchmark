@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT   MEM %     NET I/O         BLOCK I/O        PIDS
+7e684936a0b5   benchmark_nim_mongodb   0.01%     16.41MiB / 90GiB    0.02%     1.25MB / 1MB    0B / 0B          53
+b987d8b3539b   benchmark_mongodb       1.50%     358.7MiB / 90GiB    0.39%     400MB / 937MB   243MB / 29.9MB   114

@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / python / C1
+UTC: Sat Oct 10 04:21:20 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_cassandra:8080/parent/50000
+Concurrency:  1
+Duration:     30.021s
+Requests:     1770
+Errors:       0
+Requests/sec: 58.96
+
+Average:      16.281722ms
+p50:          14.212931ms
+p95:          34.502209ms
+p99:          44.197202ms
+Max:          72.953053ms
+========================================

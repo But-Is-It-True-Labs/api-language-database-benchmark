@@ -1,0 +1,59 @@
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+/usr/local/bundle/gems/mongo-2.26.0/lib/mongo.rb:20: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 4.0.0.
+You can add logger to your Gemfile or gemspec to silence this warning.
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+/usr/local/bundle/gems/mongo-2.26.0/lib/mongo.rb:20: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 4.0.0.
+You can add logger to your Gemfile or gemspec to silence this warning.
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+/usr/local/bundle/gems/mongo-2.26.0/lib/mongo.rb:20: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 4.0.0.
+You can add logger to your Gemfile or gemspec to silence this warning.
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+/usr/local/bundle/gems/mongo-2.26.0/lib/mongo.rb:20: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 4.0.0.
+You can add logger to your Gemfile or gemspec to silence this warning.
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+/usr/local/bundle/gems/mongo-2.26.0/lib/mongo.rb:20: warning: logger was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 4.0.0.
+You can add logger to your Gemfile or gemspec to silence this warning.
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop

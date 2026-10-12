@@ -1,0 +1,21 @@
+========================================
+full / yugabyte / elixir / C50
+UTC: Sat Oct 10 13:03:15 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_yugabyte:8080/parent/50000
+Concurrency:  50
+Duration:     30.095s
+Requests:     14921
+Errors:       0
+Requests/sec: 495.80
+
+Average:      99.415191ms
+p50:          84.52489ms
+p95:          220.831035ms
+p99:          337.027991ms
+Max:          893.053509ms
+========================================

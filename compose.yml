@@ -32,6 +32,7 @@ services:
     restart: unless-stopped
     command:
       - --max-recursive-iterations=1000000
+      - --max-connections=3000
     environment:
       MARIADB_DATABASE: benchmark
       MARIADB_USER: benchmark
