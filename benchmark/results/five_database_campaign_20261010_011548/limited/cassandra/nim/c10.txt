@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / nim / C10
+UTC: Sat Oct 10 05:07:18 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_cassandra:8080/parent/50000
+Concurrency:  10
+Duration:     30.067s
+Requests:     17583
+Errors:       0
+Requests/sec: 584.79
+
+Average:      16.957981ms
+p50:          13.947736ms
+p95:          39.380038ms
+p99:          55.642669ms
+Max:          176.032137ms
+========================================

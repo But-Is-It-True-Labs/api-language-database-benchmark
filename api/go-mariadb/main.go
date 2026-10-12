@@ -11,11 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jackc/pgx/v5/pgxpool"
+	"database/sql"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 type App struct {
-	db *pgxpool.Pool
+	db *sql.DB
 }
 
 type Parent struct {
@@ -82,7 +84,7 @@ func (a *App) health(w http.ResponseWriter, r *http.Request) {
 	ctx, cancel := context.WithTimeout(r.Context(), 2*time.Second)
 	defer cancel()
 
-	if err := a.db.Ping(ctx); err != nil {
+	if err := a.db.PingContext(ctx); err != nil {
 		writeJSON(w, http.StatusServiceUnavailable, map[string]string{
 			"status": "database unavailable",
 		})
@@ -103,12 +105,12 @@ func (a *App) parent(w http.ResponseWriter, r *http.Request) {
 
 	var p Parent
 
-	err = a.db.QueryRow(
+	err = a.db.QueryRowContext(
 		r.Context(),
 		`
 		SELECT id, account_number, status, created_at, payload
 		FROM benchmark_parent
-		WHERE id = $1
+		WHERE id = ?
 		`,
 		id,
 	).Scan(
@@ -134,12 +136,12 @@ func (a *App) children(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	rows, err := a.db.Query(
+	rows, err := a.db.QueryContext(
 		r.Context(),
 		`
 		SELECT id, parent_id, sequence_number, value_number, payload
 		FROM benchmark_child
-		WHERE parent_id = $1
+		WHERE parent_id = ?
 		ORDER BY id
 		`,
 		id,
@@ -180,12 +182,12 @@ func (a *App) events(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	rows, err := a.db.Query(
+	rows, err := a.db.QueryContext(
 		r.Context(),
 		`
 		SELECT id, parent_id, event_type, event_time, payload
 		FROM benchmark_event
-		WHERE parent_id = $1
+		WHERE parent_id = ?
 		ORDER BY event_time DESC, id DESC
 		LIMIT 20
 		`,
@@ -229,12 +231,12 @@ func (a *App) bundle(w http.ResponseWriter, r *http.Request) {
 
 	var result Bundle
 
-	err = a.db.QueryRow(
+	err = a.db.QueryRowContext(
 		r.Context(),
 		`
 		SELECT id, account_number, status, created_at, payload
 		FROM benchmark_parent
-		WHERE id = $1
+		WHERE id = ?
 		`,
 		id,
 	).Scan(
@@ -250,12 +252,12 @@ func (a *App) bundle(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	childRows, err := a.db.Query(
+	childRows, err := a.db.QueryContext(
 		r.Context(),
 		`
 		SELECT id, parent_id, sequence_number, value_number, payload
 		FROM benchmark_child
-		WHERE parent_id = $1
+		WHERE parent_id = ?
 		ORDER BY id
 		`,
 		id,
@@ -288,12 +290,12 @@ func (a *App) bundle(w http.ResponseWriter, r *http.Request) {
 
 	childRows.Close()
 
-	eventRows, err := a.db.Query(
+	eventRows, err := a.db.QueryContext(
 		r.Context(),
 		`
 		SELECT id, parent_id, event_type, event_time, payload
 		FROM benchmark_event
-		WHERE parent_id = $1
+		WHERE parent_id = ?
 		ORDER BY event_time DESC, id DESC
 		LIMIT 20
 		`,
@@ -337,12 +339,12 @@ func (a *App) accountParents(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	rows, err := a.db.Query(
+	rows, err := a.db.QueryContext(
 		r.Context(),
 		`
 		SELECT id, account_number, status, created_at, payload
 		FROM benchmark_parent
-		WHERE account_number = $1
+		WHERE account_number = ?
 		ORDER BY id
 		LIMIT 50
 		`,
@@ -385,12 +387,12 @@ func (a *App) createEvent(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	_, err := a.db.Exec(
+	_, err := a.db.ExecContext(
 		r.Context(),
 		`
 		INSERT INTO benchmark_event
 		(id, parent_id, event_type, event_time, payload)
-		VALUES ($1, $2, $3, CURRENT_TIMESTAMP, $4)
+		VALUES (?, ?, ?, CURRENT_TIMESTAMP, ?)
 		`,
 		req.ID,
 		req.ParentID,
@@ -432,22 +434,20 @@ func main() {
 		log.Fatal("DATABASE_URL is required")
 	}
 
-	config, err := pgxpool.ParseConfig(databaseURL)
+	db, err := sql.Open("mysql", databaseURL)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	config.MaxConns = 50
-	config.MinConns = 5
-	config.MaxConnLifetime = 30 * time.Minute
-	config.MaxConnIdleTime = 5 * time.Minute
+	db.SetMaxOpenConns(50)
+	db.SetMaxIdleConns(5)
+	db.SetConnMaxLifetime(30 * time.Minute)
+	db.SetConnMaxIdleTime(5 * time.Minute)
 
-	db, err := pgxpool.NewWithConfig(
-		context.Background(),
-		config,
-	)
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
 
-	if err != nil {
+	if err := db.PingContext(ctx); err != nil {
 		log.Fatal(err)
 	}
 

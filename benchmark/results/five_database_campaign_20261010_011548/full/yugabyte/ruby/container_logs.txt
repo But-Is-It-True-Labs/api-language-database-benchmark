@@ -1,0 +1,200 @@
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:33 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:34 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:34 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:32 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:30 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:34 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:34 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:34 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:30 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:34 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:31 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:34 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:35 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:37 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:36 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:39 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:38 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:41 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:31 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:42 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+2026-10-09 22:31:40 +0000 Rack app ("GET /parent/50000" - (172.18.0.35)): #<PG::ConnectionBad:"connection to server at \"172.18.0.4\", port 5433 failed: FATAL:  sorry, too many clients already\n">
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+:content_type_regexp option not provided to json_parser plugin, using /json/ for backwards compatibility, which may be insecure, using /\Aapplication\/json\b/i or /\Aapplication\/(?:vnd\.api\+)?json\b/i is recommended
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+:content_type_regexp option not provided to json_parser plugin, using /json/ for backwards compatibility, which may be insecure, using /\Aapplication\/json\b/i or /\Aapplication\/(?:vnd\.api\+)?json\b/i is recommended
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+:content_type_regexp option not provided to json_parser plugin, using /json/ for backwards compatibility, which may be insecure, using /\Aapplication\/json\b/i or /\Aapplication\/(?:vnd\.api\+)?json\b/i is recommended
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop
+- Gracefully stopping, waiting for requests to finish
+Puma starting in single mode...
+* Puma version: 8.0.2 ("Into the Arena")
+* Ruby version: ruby 3.4.11 (2026-09-23 revision 592f1ffdb3) +PRISM [x86_64-linux]
+*  Min threads: 5
+*  Max threads: 50
+*  Environment: production
+*          PID: 1
+:content_type_regexp option not provided to json_parser plugin, using /json/ for backwards compatibility, which may be insecure, using /\Aapplication\/json\b/i or /\Aapplication\/(?:vnd\.api\+)?json\b/i is recommended
+* Listening on http://0.0.0.0:8080
+Use Ctrl-C to stop

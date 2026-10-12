@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O         PIDS
+2083c8daae9d   benchmark_elixir_mariadb   2.46%     86.98MiB / 2GiB     4.25%     35.1MB / 17.4MB   25.9MB / 8.19kB   43
+68b200ef121c   benchmark_mariadb          0.04%     186.1MiB / 8GiB     2.27%     334MB / 1.18GB    118MB / 32.8kB    66

@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / cpp / C1
+UTC: Sat Oct 10 05:54:13 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.009s
+Requests:     1211
+Errors:       0
+Requests/sec: 40.35
+
+Average:      24.573288ms
+p50:          9.260957ms
+p95:          40.911857ms
+p99:          388.722177ms
+Max:          485.840775ms
+========================================

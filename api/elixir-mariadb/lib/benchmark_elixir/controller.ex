@@ -5,7 +5,7 @@ defmodule BenchmarkElixir.Controller do
   alias BenchmarkElixir.DB
 
   def health(conn, _params) do
-    case Postgrex.query(DB, "SELECT 1", []) do
+    case MyXQL.query(DB, "SELECT 1", []) do
       {:ok, _} ->
         json(conn, %{status: "ok"})
 
@@ -22,12 +22,12 @@ defmodule BenchmarkElixir.Controller do
     with {parent_id, ""} <-
            Integer.parse(id),
          {:ok, result} <-
-           Postgrex.query(
+           MyXQL.query(
              DB,
              """
              SELECT id, account_number, status, created_at, payload
              FROM benchmark_parent
-             WHERE id = $1
+             WHERE id = ?
              """,
              [parent_id]
            ),
@@ -55,12 +55,12 @@ defmodule BenchmarkElixir.Controller do
       String.to_integer(id)
 
     {:ok, result} =
-      Postgrex.query(
+      MyXQL.query(
         DB,
         """
         SELECT id, parent_id, sequence_number, value_number, payload
         FROM benchmark_child
-        WHERE parent_id = $1
+        WHERE parent_id = ?
         ORDER BY id
         """,
         [parent_id]
@@ -80,12 +80,12 @@ defmodule BenchmarkElixir.Controller do
       String.to_integer(id)
 
     {:ok, result} =
-      Postgrex.query(
+      MyXQL.query(
         DB,
         """
         SELECT id, parent_id, event_type, event_time, payload
         FROM benchmark_event
-        WHERE parent_id = $1
+        WHERE parent_id = ?
         ORDER BY event_time DESC, id DESC
         LIMIT 20
         """,
@@ -110,12 +110,12 @@ defmodule BenchmarkElixir.Controller do
       String.to_integer(id)
 
     {:ok, result} =
-      Postgrex.query(
+      MyXQL.query(
         DB,
         """
         SELECT id, account_number, status, created_at, payload
         FROM benchmark_parent
-        WHERE account_number = $1
+        WHERE account_number = ?
         ORDER BY id
         LIMIT 50
         """,
@@ -136,12 +136,12 @@ defmodule BenchmarkElixir.Controller do
       String.to_integer(id)
 
     {:ok, parents} =
-      Postgrex.query(
+      MyXQL.query(
         DB,
         """
         SELECT id, account_number, status, created_at, payload
         FROM benchmark_parent
-        WHERE id = $1
+        WHERE id = ?
         """,
         [parent_id]
       )
@@ -157,24 +157,24 @@ defmodule BenchmarkElixir.Controller do
       [parent] ->
 
         {:ok, children} =
-          Postgrex.query(
+          MyXQL.query(
             DB,
             """
             SELECT id, parent_id, sequence_number, value_number, payload
             FROM benchmark_child
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY id
             """,
             [parent_id]
           )
 
         {:ok, events} =
-          Postgrex.query(
+          MyXQL.query(
             DB,
             """
             SELECT id, parent_id, event_type, event_time, payload
             FROM benchmark_event
-            WHERE parent_id = $1
+            WHERE parent_id = ?
             ORDER BY event_time DESC, id DESC
             LIMIT 20
             """,
@@ -209,12 +209,12 @@ defmodule BenchmarkElixir.Controller do
     event_type = params["event_type"]
     payload = params["payload"]
 
-    case Postgrex.query(
+    case MyXQL.query(
            DB,
            """
            INSERT INTO benchmark_event
            (id, parent_id, event_type, event_time, payload)
-           VALUES ($1, $2, $3, CURRENT_TIMESTAMP, $4)
+           VALUES (?, ?, ?, CURRENT_TIMESTAMP, ?)
            """,
            [
              id,

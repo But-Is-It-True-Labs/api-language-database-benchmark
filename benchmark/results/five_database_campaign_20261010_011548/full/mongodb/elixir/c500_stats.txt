@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+42c748443de7   benchmark_elixir_mongodb   2.03%     178.9MiB / 90GiB    0.19%     61.8MB / 64.3MB   34MB / 8.19kB    43
+b987d8b3539b   benchmark_mongodb          5.61%     356.5MiB / 90GiB    0.39%     293MB / 664MB     243MB / 21.2MB   113

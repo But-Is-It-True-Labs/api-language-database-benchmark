@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+338cc6902bcb   benchmark_rust_postgres   0.00%     2.914MiB / 2GiB     0.14%     6.91MB / 7.41MB   2.13MB / 0B      3
+d668473a85e5   benchmark_postgres        17.17%    106MiB / 8GiB       1.29%     84.6MB / 237MB    25.5MB / 623kB   13

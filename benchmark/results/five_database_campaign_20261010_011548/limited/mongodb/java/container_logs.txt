@@ -1,0 +1,8 @@
+Oct 09, 2026 9:16:46 PM com.mongodb.internal.diagnostics.logging.Loggers shouldUseSLF4J
+WARNING: SLF4J not found on the classpath.  Logging is disabled for the 'org.mongodb.driver' component
+Oct 09, 2026 10:58:17 PM com.mongodb.internal.diagnostics.logging.Loggers shouldUseSLF4J
+WARNING: SLF4J not found on the classpath.  Logging is disabled for the 'org.mongodb.driver' component
+Oct 09, 2026 11:23:42 PM com.mongodb.internal.diagnostics.logging.Loggers shouldUseSLF4J
+WARNING: SLF4J not found on the classpath.  Logging is disabled for the 'org.mongodb.driver' component
+Oct 10, 2026 7:27:39 AM com.mongodb.internal.diagnostics.logging.Loggers shouldUseSLF4J
+WARNING: SLF4J not found on the classpath.  Logging is disabled for the 'org.mongodb.driver' component

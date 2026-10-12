@@ -1,0 +1,200 @@
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 301.2844ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 337.1624ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 343.2402ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 347.0805ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 357.2950ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 337.7790ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 343.1074ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 341.0091ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 346.7727ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 514.5645ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 344.5875ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 343.8537ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 335.0748ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 342.2072ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 304.7419ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 343.4743ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 337.5524ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 340.9852ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 296.1502ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 350.9084ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 352.7192ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 367.9242ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 314.6954ms
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[1]
+      Setting HTTP status code 200.
+info: Microsoft.AspNetCore.Http.Result.OkObjectResult[3]
+      Writing value of type '<>f__AnonymousType1`5' as Json.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'HTTP: GET /parent/{id:long}'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 359.1452ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://benchmark_csharp_mongodb:8080/parent/50000 - 200 - application/json;+charset=utf-8 370.1151ms

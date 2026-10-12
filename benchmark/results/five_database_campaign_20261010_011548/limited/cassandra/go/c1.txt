@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / go / C1
+UTC: Sat Oct 10 04:02:19 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_go_cassandra:8080/parent/50000
+Concurrency:  1
+Duration:     30.006s
+Requests:     2226
+Errors:       0
+Requests/sec: 74.18
+
+Average:      13.328197ms
+p50:          10.269685ms
+p95:          31.310292ms
+p99:          48.64776ms
+Max:          120.114972ms
+========================================

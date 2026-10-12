@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+1d16dc937ec9   benchmark_go_postgres   0.00%     26.58MiB / 90GiB    0.03%     101MB / 99.1MB    9.78MB / 0B      24
+d668473a85e5   benchmark_postgres      0.00%     198.1MiB / 90GiB    0.21%     25.8MB / 75.2MB   40.3MB / 647kB   56

@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / nim / C1
+UTC: Sat Oct 10 06:26:45 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.02s
+Requests:     1009
+Errors:       0
+Requests/sec: 33.61
+
+Average:      29.651712ms
+p50:          4.993772ms
+p95:          33.404551ms
+p99:          568.13059ms
+Max:          799.684504ms
+========================================

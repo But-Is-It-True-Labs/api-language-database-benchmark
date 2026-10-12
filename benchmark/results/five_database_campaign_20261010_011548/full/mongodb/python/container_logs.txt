@@ -1,0 +1,200 @@
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files
+socket.accept() out of system resource
+socket: <asyncio.TransportSocket fd=7, family=2, type=1, proto=6, laddr=('0.0.0.0', 8080)>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/asyncio/selector_events.py", line 178, in _accept_connection
+  File "/usr/local/lib/python3.13/socket.py", line 295, in accept
+OSError: [Errno 24] Too many open files

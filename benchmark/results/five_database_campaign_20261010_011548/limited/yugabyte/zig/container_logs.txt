@@ -1,0 +1,54 @@
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+Zig/Zap benchmark API listening on :8080
+PostgreSQL pool: 50
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+
+error(pg): connect error: error.HostUnreachable
+error: HostUnreachable
+
+error(pg): connect error: error.ConnectionRefused
+error: ConnectionRefused
+

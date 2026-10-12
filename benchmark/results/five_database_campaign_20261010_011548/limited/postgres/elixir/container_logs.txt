@@ -1,0 +1,200 @@
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+02:09:14.092 [error]     supervisor: {<0.571.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: child_terminated
+    reason: {undef,
+                [{'Elixir.RuntimeError',exception,
+                     [<<"Unexpected error in accept: :emfile">>],
+                     []},
+                 {'Elixir.ThousandIsland.Acceptor','-accept/6-fun-0-',7,
+                     [{file,"lib/thousand_island/acceptor.ex"},{line,74}]},
+                 {'Elixir.Task.Supervised',invoke_mfa,2,
+                     [{file,"lib/task/supervised.ex"},{line,101}]}]}
+    offender: [{pid,<0.573.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.273.0>,<0.571.0>,99,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           read_timeout => 60000,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+02:09:14.093 [info]     supervisor: {<0.466.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.3102.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.273.0>,<0.466.0>,64,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+02:09:14.093 [info]     supervisor: {<0.571.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.3103.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.273.0>,<0.571.0>,99,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+02:09:14.103 [error]     supervisor: {<0.295.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: child_terminated
+    reason: {undef,
+                [{'Elixir.RuntimeError',exception,
+                     [<<"Unexpected error in accept: :emfile">>],
+                     []},
+                 {'Elixir.ThousandIsland.Acceptor','-accept/6-fun-0-',7,
+                     [{file,"lib/thousand_island/acceptor.ex"},{line,74}]},
+                 {'Elixir.Task.Supervised',invoke_mfa,2,
+                     [{file,"lib/task/supervised.ex"},{line,101}]}]}
+    offender: [{pid,<0.297.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.273.0>,<0.295.0>,7,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           read_timeout => 60000,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+02:09:14.103 [info]     supervisor: {<0.295.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    started: [{pid,<0.3104.0>},
+              {id,acceptor},
+              {mfargs,
+                  {'Elixir.ThousandIsland.Acceptor',start_link,
+                      [{<0.273.0>,<0.295.0>,7,
+                        #{port => 8080,shutdown_timeout => 15000,
+                          num_acceptors => 100,
+                          '__struct__' => 'Elixir.ThousandIsland.ServerConfig',
+                          transport_options => [{ip,{0,0,0,0}}],
+                          handler_module => 'Elixir.Bandit.DelegatingHandler',
+                          transport_module =>
+                              'Elixir.ThousandIsland.Transports.TCP',
+                          handler_options =>
+                              #{opts =>
+                                    #{http => [],http_1 => [],http_2 => [],
+                                      websocket => []},
+                                plug => {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                handler_module =>
+                                    'Elixir.Bandit.InitialHandler',
+                                http_1_enabled => true,http_2_enabled => true},
+                          genserver_options => [],
+                          max_connections_retry_count => 5,
+                          max_connections_retry_wait => 1000,
+                          num_connections => 16384,num_listen_sockets => 1,
+                          read_timeout => 60000,
+                          silent_terminate_on_error => false,
+                          supervisor_options => []}}]}},
+              {restart_type,transient},
+              {significant,false},
+              {shutdown,5000},
+              {child_type,worker}]
+
+
+02:08:47.487 [error] [label: {:erl_prim_loader, :file_error}, report: ~c"File operation error: emfile. Target: /app/_build/prod/lib/benchmark_elixir_api/ebin/Elixir.Exception.beam. Function: read_file. Process: code_server."]

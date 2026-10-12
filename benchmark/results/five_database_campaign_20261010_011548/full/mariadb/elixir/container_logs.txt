@@ -1,0 +1,200 @@
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+10:22:57.245 [error]     supervisor: {<0.5196.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: child_terminated
+    reason: {noproc,{'Elixir.GenServer',call,[nil,{acceptor_info,24},5000]}}
+    offender: [{pid,<0.5701.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.274.0>,<0.5196.0>,24,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           read_timeout => 60000,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+10:22:57.247 [error]     supervisor: {<0.5181.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: child_terminated
+    reason: {noproc,{'Elixir.GenServer',call,[nil,{acceptor_info,19},5000]}}
+    offender: [{pid,<0.5700.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.274.0>,<0.5181.0>,19,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           read_timeout => 60000,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+10:22:57.247 [error]     supervisor: {<0.5313.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: shutdown
+    reason: reached_max_restart_intensity
+    offender: [{pid,<0.5663.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.274.0>,<0.5313.0>,63,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           read_timeout => 60000,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+10:22:57.245 [error]     supervisor: {<0.5253.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: child_terminated
+    reason: {noproc,{'Elixir.GenServer',call,[nil,{acceptor_info,43},5000]}}
+    offender: [{pid,<0.5699.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.274.0>,<0.5253.0>,43,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           read_timeout => 60000,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+
+
+10:22:57.246 [error]     supervisor: {<0.5235.0>,'Elixir.ThousandIsland.AcceptorSupervisor'}
+    errorContext: child_terminated
+    reason: {noproc,{'Elixir.GenServer',call,[nil,{acceptor_info,37},5000]}}
+    offender: [{pid,<0.5696.0>},
+               {id,acceptor},
+               {mfargs,
+                   {'Elixir.ThousandIsland.Acceptor',start_link,
+                       [{<0.274.0>,<0.5235.0>,37,
+                         #{port => 8080,shutdown_timeout => 15000,
+                           num_acceptors => 100,
+                           '__struct__' =>
+                               'Elixir.ThousandIsland.ServerConfig',
+                           transport_options => [{ip,{0,0,0,0}}],
+                           handler_module => 'Elixir.Bandit.DelegatingHandler',
+                           transport_module =>
+                               'Elixir.ThousandIsland.Transports.TCP',
+                           handler_options =>
+                               #{opts =>
+                                     #{http => [],http_1 => [],http_2 => [],
+                                       websocket => []},
+                                 plug =>
+                                     {'Elixir.BenchmarkElixir.Endpoint',[]},
+                                 handler_module =>
+                                     'Elixir.Bandit.InitialHandler',
+                                 http_1_enabled => true,
+                                 http_2_enabled => true},
+                           genserver_options => [],
+                           max_connections_retry_count => 5,
+                           max_connections_retry_wait => 1000,
+                           num_connections => 16384,num_listen_sockets => 1,
+                           read_timeout => 60000,
+                           silent_terminate_on_error => false,
+                           supervisor_options => []}}]}},
+               {restart_type,transient},
+               {significant,false},
+               {shutdown,5000},
+               {child_type,worker}]
+

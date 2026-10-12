@@ -1,0 +1,21 @@
+========================================
+limited / mongodb / csharp / C1
+UTC: Sat Oct 10 08:06:40 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_csharp_mongodb:8080/parent/50000
+Concurrency:  1
+Duration:     30.027s
+Requests:     3296
+Errors:       0
+Requests/sec: 109.77
+
+Average:      8.341768ms
+p50:          6.301291ms
+p95:          21.119737ms
+p99:          33.878083ms
+Max:          104.23318ms
+========================================

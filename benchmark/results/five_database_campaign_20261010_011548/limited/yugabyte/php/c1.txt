@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / php / C1
+UTC: Sat Oct 10 05:47:45 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_php_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.006s
+Requests:     1923
+Errors:       0
+Requests/sec: 64.09
+
+Average:      15.469061ms
+p50:          11.280832ms
+p95:          33.478339ms
+p99:          54.621178ms
+Max:          711.791952ms
+========================================

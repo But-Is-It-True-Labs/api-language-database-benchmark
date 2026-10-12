@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                    CPU %     MEM USAGE / LIMIT   MEM %     NET I/O          BLOCK I/O        PIDS
+d8cdf5be1459   benchmark_zig_mariadb   2.11%     49.48MiB / 2GiB     2.42%     277MB / 229MB    4.71MB / 0B      51
+68b200ef121c   benchmark_mariadb       0.01%     186.1MiB / 8GiB     2.27%     486MB / 1.71GB   118MB / 32.8kB   66

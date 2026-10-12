@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / elixir / C10
+UTC: Sat Oct 10 04:47:52 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_cassandra:8080/parent/50000
+Concurrency:  10
+Duration:     30.087s
+Requests:     7246
+Errors:       0
+Requests/sec: 240.83
+
+Average:      41.069416ms
+p50:          34.780292ms
+p95:          94.311718ms
+p99:          141.817329ms
+Max:          313.419004ms
+========================================

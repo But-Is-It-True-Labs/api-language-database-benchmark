@@ -1,0 +1,21 @@
+========================================
+limited / mariadb / elixir / C1
+UTC: Sat Oct 10 03:20:45 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.032s
+Requests:     2216
+Errors:       0
+Requests/sec: 73.79
+
+Average:      13.027186ms
+p50:          10.727692ms
+p95:          30.481047ms
+p99:          41.736723ms
+Max:          93.217103ms
+========================================

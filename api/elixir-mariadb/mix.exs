@@ -22,7 +22,7 @@ defmodule BenchmarkElixir.MixProject do
     [
       {:phoenix, "~> 1.8"},
       {:bandit, "~> 1.8"},
-      {:postgrex, "~> 0.21"},
+      {:myxql, "~> 0.9"},
       {:jason, "~> 1.4"}
     ]
   end

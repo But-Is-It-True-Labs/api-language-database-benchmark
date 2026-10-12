@@ -1,0 +1,21 @@
+========================================
+limited / mongodb / rust / C1
+UTC: Sat Oct 10 06:55:51 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_mongodb:8080/parent/50000
+Concurrency:  1
+Duration:     30.02s
+Requests:     5703
+Errors:       0
+Requests/sec: 189.97
+
+Average:      5.051354ms
+p50:          3.034563ms
+p95:          14.496529ms
+p99:          25.007527ms
+Max:          68.065491ms
+========================================

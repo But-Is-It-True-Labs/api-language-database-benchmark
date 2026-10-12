@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+f365e5d48676   benchmark_node_mariadb   0.00%     70.57MiB / 2GiB     3.45%     29.2MB / 22.1MB   7MB / 0B         11
+68b200ef121c   benchmark_mariadb        0.02%     185.5MiB / 8GiB     2.26%     204MB / 728MB     118MB / 32.8kB   66

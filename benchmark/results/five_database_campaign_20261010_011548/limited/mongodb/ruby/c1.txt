@@ -1,0 +1,21 @@
+========================================
+limited / mongodb / ruby / C1
+UTC: Sat Oct 10 07:41:07 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mongodb:8080/parent/50000
+Concurrency:  1
+Duration:     30.007s
+Requests:     2062
+Errors:       0
+Requests/sec: 68.72
+
+Average:      14.200139ms
+p50:          11.809004ms
+p95:          30.136138ms
+p99:          41.955811ms
+Max:          66.737933ms
+========================================

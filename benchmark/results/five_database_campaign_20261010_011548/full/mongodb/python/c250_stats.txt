@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+d11d53217415   benchmark_python_mongodb   0.44%     55.17MiB / 90GiB    0.06%     15.5MB / 18.3MB   20.7MB / 0B      37
+b987d8b3539b   benchmark_mongodb          1.81%     351.7MiB / 90GiB    0.38%     177MB / 408MB     242MB / 10.3MB   82

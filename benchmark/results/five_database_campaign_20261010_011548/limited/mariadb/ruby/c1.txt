@@ -1,0 +1,21 @@
+========================================
+limited / mariadb / ruby / C1
+UTC: Sat Oct 10 03:27:02 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.022s
+Requests:     4473
+Errors:       0
+Requests/sec: 148.99
+
+Average:      6.538891ms
+p50:          4.847568ms
+p95:          16.534165ms
+p99:          25.396597ms
+Max:          126.700558ms
+========================================

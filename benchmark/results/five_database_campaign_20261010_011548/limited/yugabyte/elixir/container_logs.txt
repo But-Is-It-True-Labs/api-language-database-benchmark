@@ -1,0 +1,200 @@
+
+06:12:39.003 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.003 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.004 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.004 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.004 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.004 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.004 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.004 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.005 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.005 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.005 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.005 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.005 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.094 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.113 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.113 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.113 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.114 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.114 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.114 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.114 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.114 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.114 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.114 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.115 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.115 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.115 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.115 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.116 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.128 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.128 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.128 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.129 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.134 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.134 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.135 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.135 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.135 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.135 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.155 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.156 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.156 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.156 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.166 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.166 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.167 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.174 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.202 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.203 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []
+
+06:12:39.203 [debug] Processing with BenchmarkElixir.Controller.parent/2
+  Parameters: %{"id" => "50000"}
+  Pipelines: []

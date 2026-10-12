@@ -1,0 +1,21 @@
+========================================
+limited / yugabyte / node / C1
+UTC: Sat Oct 10 05:35:03 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_node_yugabyte:8080/parent/50000
+Concurrency:  1
+Duration:     30.035s
+Requests:     2212
+Errors:       0
+Requests/sec: 73.65
+
+Average:      13.135144ms
+p50:          10.752848ms
+p95:          29.219162ms
+p99:          48.506115ms
+Max:          152.849729ms
+========================================

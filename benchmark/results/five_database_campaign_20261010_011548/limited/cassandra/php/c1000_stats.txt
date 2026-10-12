@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+32884e1f4cdd   benchmark_php_cassandra   18.39%    284.5MiB / 2GiB     13.89%    55.1MB / 62.5MB   32.5MB / 4.1kB   350
+0010348565e5   benchmark_cassandra       105.32%   4.543GiB / 8GiB     56.78%    117MB / 501MB     112MB / 18.4MB   163

@@ -13,8 +13,8 @@ import Data.Int
 import Data.Text (Text)
 import Data.Time (LocalTime)
 
-import Database.PostgreSQL.Simple
-import Database.PostgreSQL.Simple.FromRow
+import Database.MySQL.Simple
+import Database.MySQL.Simple.FromRow
 
 import Network.HTTP.Types.Status
 import System.Environment (getEnv)
@@ -26,12 +26,12 @@ data DbPool =
     DbPool (Chan Connection)
 
 
-createPool :: BS.ByteString -> Int -> IO DbPool
-createPool connectionString size = do
+createPool :: ConnectInfo -> Int -> IO DbPool
+createPool connectInfo size = do
     chan <- newChan
 
     replicateM_ size $ do
-        conn <- connectPostgreSQL connectionString
+        conn <- connect connectInfo
         writeChan chan conn
 
     pure (DbPool chan)
@@ -151,11 +151,24 @@ instance FromJSON EventInput where
 
 main :: IO ()
 main = do
-    databaseUrl <- getEnv "DATABASE_URL"
+    host <- getEnv "MYSQLHOST"
+    portText <- getEnv "MYSQLPORT"
+    user <- getEnv "MYSQLUSER"
+    password <- getEnv "MYSQLPASSWORD"
+    database <- getEnv "MYSQLDATABASE"
+
+    let connectInfo =
+            defaultConnectInfo
+                { connectHost = host
+                , connectPort = read portText
+                , connectUser = user
+                , connectPassword = password
+                , connectDatabase = database
+                }
 
     pool <-
         createPool
-            (BS.pack databaseUrl)
+            connectInfo
             50
 
     scotty 8080 $ do

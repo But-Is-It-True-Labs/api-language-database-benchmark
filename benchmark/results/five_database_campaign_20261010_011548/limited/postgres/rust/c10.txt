@@ -1,0 +1,21 @@
+========================================
+limited / postgres / rust / C10
+UTC: Sat Oct 10 01:26:20 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.029s
+Requests:     28493
+Errors:       0
+Requests/sec: 948.84
+
+Average:      10.448759ms
+p50:          7.711672ms
+p95:          27.709489ms
+p99:          44.482503ms
+Max:          242.612021ms
+========================================

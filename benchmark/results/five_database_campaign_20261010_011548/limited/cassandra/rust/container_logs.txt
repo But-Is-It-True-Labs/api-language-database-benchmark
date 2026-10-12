@@ -1,0 +1,5 @@
+Rust Cassandra benchmark API listening on 0.0.0.0:8080
+Rust Cassandra benchmark API listening on 0.0.0.0:8080
+Rust Cassandra benchmark API listening on 0.0.0.0:8080
+Rust Cassandra benchmark API listening on 0.0.0.0:8080
+Rust Cassandra benchmark API listening on 0.0.0.0:8080

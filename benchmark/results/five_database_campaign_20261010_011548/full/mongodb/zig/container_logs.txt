@@ -1,0 +1,200 @@
+2026/10/09 22:37:18.0851: [   28]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:18.0851: [   49]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:18.0853: [   37]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:18.0853: [   44]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:18.0853: [   50]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:18.0867: [   53]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:18.0871: [   32]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:18.0871: [   21]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0130: [   31]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0132: [   54]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0150: [   12]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0664: [   53]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0665: [   26]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0665: [   54]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0666: [   27]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0676: [   29]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0679: [   36]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0679: [   11]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0684: [   51]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0684: [   34]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0685: [   17]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0687: [   23]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0687: [   27]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0702: [   14]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0715: [   31]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0737: [   14]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:19.0762: [   31]:  WARNING:       stream: Failed to buffer 4 bytes
+2026/10/09 22:37:15.0880: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:20.0052: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:20.0567: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:21.0070: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:21.0578: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:22.0094: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:22.0604: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:23.0117: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:23.0635: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:24.0138: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:24.0642: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:25.0158: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:25.0663: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:26.0215: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:26.0720: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:27.0222: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:27.0744: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:28.0257: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:28.0769: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:29.0280: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:29.0800: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:30.0310: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:30.0835: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:31.0402: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:31.0917: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:32.0421: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:32.0931: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:33.0434: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:33.0939: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:34.0445: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:34.0973: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:35.0478: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:35.0989: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:36.0592: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:37.0096: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:37.0601: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:38.0144: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:38.0648: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:39.0159: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:39.0661: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:40.0199: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:40.0702: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:41.0207: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:41.0712: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:42.0215: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:42.0735: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:43.0246: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:43.0751: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:44.0264: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:44.0776: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:45.0300: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:45.0803: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:46.0306: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:46.0811: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:47.0328: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:47.0850: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:48.0360: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:48.0871: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:49.0386: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:49.0900: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:50.0421: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:50.0940: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:51.0447: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:51.0950: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:52.0455: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:52.0962: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:53.0477: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:53.0995: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:54.0514: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:55.0018: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:55.0522: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:56.0047: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:56.0564: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:57.0315: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:57.0821: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:58.0336: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:58.0844: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:59.0389: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:37:59.0926: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:00.0452: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:00.0957: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:01.0488: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:02.0078: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:02.0580: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:03.0095: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:03.0634: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:04.0148: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:04.0653: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:05.0184: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:05.0781: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:06.0288: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:06.0820: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:07.0362: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:07.0866: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:08.0370: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:08.0873: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:09.0383: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:09.0896: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:10.0404: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:10.0906: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:11.0412: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:11.0924: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:12.0426: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:12.0929: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:13.0439: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:13.0964: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:14.0467: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:14.0988: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:15.0496: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:15.0999: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:16.0544: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:17.0048: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:17.0555: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:18.0065: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:18.0572: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:19.0097: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:19.0632: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:20.0135: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:30.0179: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:40.0189: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:38:50.0194: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:39:00.0212: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:39:10.0241: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:39:20.0242: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:39:30.0248: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:39:40.0277: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:39:50.0284: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:40:00.0295: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:40:10.0332: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:40:20.0349: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:40:30.0425: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:40:40.0432: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:40:50.0478: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:41:00.0480: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:41:10.0482: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:41:20.0504: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:41:30.0538: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:41:40.0560: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:41:50.0571: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:42:00.0591: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:42:10.0595: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:42:20.0607: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:42:30.0609: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:42:40.0622: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:42:50.0624: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:43:00.0634: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:43:10.0651: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:43:20.0675: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:43:30.0701: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:43:40.0703: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:43:50.0750: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:44:00.0752: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:44:10.0753: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:44:20.0764: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:44:30.0770: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:44:40.0776: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:44:50.0783: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:45:00.0798: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:45:10.0811: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:45:20.0827: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:45:30.0851: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:45:40.0857: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:45:50.0866: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:46:00.0957: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:46:10.0959: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:46:20.0965: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:46:30.0968: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:46:41.0012: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+2026/10/09 22:46:51.0054: [   56]:    DEBUG:      monitor: [benchmark_mongodb:27017] command or network error occurred: Failed to read 4 bytes: socket error or timeout
+
+
+
+

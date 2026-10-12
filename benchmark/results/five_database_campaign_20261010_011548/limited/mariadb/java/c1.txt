@@ -1,0 +1,21 @@
+========================================
+limited / mariadb / java / C1
+UTC: Sat Oct 10 03:14:22 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_mariadb:8080/parent/50000
+Concurrency:  1
+Duration:     30.004s
+Requests:     2632
+Errors:       0
+Requests/sec: 87.72
+
+Average:      10.964499ms
+p50:          8.565852ms
+p95:          26.509981ms
+p99:          40.596865ms
+Max:          136.280506ms
+========================================

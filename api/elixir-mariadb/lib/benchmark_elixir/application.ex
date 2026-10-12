@@ -23,10 +23,10 @@ defmodule BenchmarkElixir.Application do
 
     children = [
       {
-        Postgrex,
+        MyXQL,
         [
           hostname: uri.host,
-          port: uri.port || 5432,
+          port: uri.port || 3306,
           username: username,
           password: password,
           database: database,

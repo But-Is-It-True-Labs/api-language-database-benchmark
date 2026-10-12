@@ -1,0 +1,200 @@
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Dropped response to disconnected client
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+free(): invalid pointer
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]
+free(): invalid pointer
+SIGSEGV: Illegal storage access. (Attempt to read from nil?)
+Maximum number of descriptors is exhausted!
+selectors.nim(285)       raiseIOSelectorsError
+
+mummy.nim(1470)          serve
+Error: unhandled exception: selectors.nim(285)       raiseIOSelectorsError
+Maximum number of descriptors is exhausted! [MummyError]

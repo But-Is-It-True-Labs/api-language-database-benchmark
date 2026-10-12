@@ -2,7 +2,7 @@ FROM nimlang/nim:2.2.4 AS build
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       libpq-dev \
+       default-libmysqlclient-dev \
        gcc \
        git \
     && rm -rf /var/lib/apt/lists/*
@@ -28,9 +28,12 @@ FROM debian:bookworm-slim
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-       libpq5 \
+       libmariadb3 \
        ca-certificates \
     && rm -rf /var/lib/apt/lists/*
+
+RUN ln -s /usr/lib/x86_64-linux-gnu/libmariadb.so.3 \
+    /usr/lib/x86_64-linux-gnu/libmysqlclient.so
 
 COPY --from=build \
     /out-benchmark-nim-api \

@@ -1,0 +1,21 @@
+========================================
+limited / postgres / cpp / C1
+UTC: Sat Oct 10 01:50:52 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.008s
+Requests:     3422
+Errors:       0
+Requests/sec: 114.03
+
+Average:      8.577168ms
+p50:          6.876581ms
+p95:          19.990449ms
+p99:          28.502266ms
+Max:          87.315253ms
+========================================

@@ -10,8 +10,6 @@ pub fn build(b: *std.Build) void {
         .openssl = false,
     });
 
-    const pg_module = b.dependency("pg", .{}).module("pg");
-
     const exe = b.addExecutable(.{
         .name = "benchmark-zig-api",
         .root_module = b.createModule(.{
@@ -23,13 +21,17 @@ pub fn build(b: *std.Build) void {
                     .name = "zap",
                     .module = zap_dep.module("zap"),
                 },
-                .{
-                    .name = "pg",
-                    .module = pg_module,
-                },
             },
         }),
     });
+
+    exe.root_module.addCSourceFile(.{
+        .file = b.path("src/mariadb_bridge.c"),
+        .flags = &.{"-O3"},
+    });
+    exe.root_module.addIncludePath(b.path("src"));
+    exe.root_module.linkSystemLibrary("mariadb", .{});
+    exe.root_module.link_libc = true;
 
     b.installArtifact(exe);
 }

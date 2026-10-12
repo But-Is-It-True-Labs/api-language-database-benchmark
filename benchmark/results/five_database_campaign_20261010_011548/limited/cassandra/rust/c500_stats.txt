@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                       CPU %     MEM USAGE / LIMIT   MEM %     NET I/O         BLOCK I/O        PIDS
+3a6578fadb1e   benchmark_rust_cassandra   0.03%     27.63MiB / 2GiB     1.35%     242MB / 241MB   8.13MB / 0B      3
+0010348565e5   benchmark_cassandra        4.52%     4.517GiB / 8GiB     56.46%    61MB / 305MB    112MB / 17.4MB   160

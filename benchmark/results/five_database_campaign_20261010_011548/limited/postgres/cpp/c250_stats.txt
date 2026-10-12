@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+52708868933a   benchmark_cpp_postgres   0.00%     13.13MiB / 2GiB     0.64%     65.4MB / 85.1MB   7.68MB / 0B      2
+d668473a85e5   benchmark_postgres       0.01%     168.5MiB / 8GiB     2.06%     325MB / 603MB     28.4MB / 623kB   56

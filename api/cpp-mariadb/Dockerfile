@@ -4,7 +4,7 @@ RUN apt-get update \
     && apt-get install -y \
        build-essential \
        cmake \
-       libpq-dev \
+       libmariadb-dev \
        libmicrohttpd-dev \
        nlohmann-json3-dev \
     && rm -rf /var/lib/apt/lists/*
@@ -27,7 +27,7 @@ FROM debian:bookworm-slim
 
 RUN apt-get update \
     && apt-get install -y \
-       libpq5 \
+       libmariadb3 \
        libmicrohttpd12 \
     && rm -rf /var/lib/apt/lists/*
 

@@ -1,0 +1,21 @@
+========================================
+limited / cassandra / cpp / C10
+UTC: Sat Oct 10 04:34:53 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_cassandra:8080/parent/50000
+Concurrency:  10
+Duration:     30.056s
+Requests:     7522
+Errors:       0
+Requests/sec: 250.27
+
+Average:      39.805953ms
+p50:          25.950147ms
+p95:          120.869374ms
+p99:          187.91589ms
+Max:          303.755736ms
+========================================

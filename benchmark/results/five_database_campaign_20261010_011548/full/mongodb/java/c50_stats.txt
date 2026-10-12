@@ -1,0 +1,3 @@
+CONTAINER ID   NAME                     CPU %     MEM USAGE / LIMIT   MEM %     NET I/O           BLOCK I/O        PIDS
+c29b74a52d84   benchmark_java_mongodb   0.26%     731.3MiB / 90GiB    0.79%     19.1MB / 19.8MB   52.3MB / 397kB   54
+b987d8b3539b   benchmark_mongodb        1.86%     354.8MiB / 90GiB    0.38%     252MB / 577MB     243MB / 17.6MB   64

@@ -1,0 +1,30 @@
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 87.800538ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 150.772179ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 123.292037ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 148.23833ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 135.762748ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 108.463888ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 153.486888ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 107.883823ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 118.315539ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 125.158191ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 154.320523ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 153.247763ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 153.925106ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 139.47226ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 131.847915ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 125.930859ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 154.233146ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 154.018173ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 150.88961ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 154.299934ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 154.576265ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 154.239714ms
+2026/10/09 23:02:15 canceled while checking out a connection from connection pool: context canceled; total connections: 9, maxPoolSize: 50, idle connections: 0, wait duration: 149.035999ms
+2026/10/09 23:02:15 context canceled
+2026/10/09 23:02:15 context canceled
+2026/10/09 23:02:15 context canceled
+2026/10/09 23:02:15 context canceled
+2026/10/09 23:02:15 context canceled
+2026/10/09 23:02:15 context canceled
+2026/10/09 23:02:15 connection(benchmark_mongodb:27017[-4]) incomplete read of message header: context canceled

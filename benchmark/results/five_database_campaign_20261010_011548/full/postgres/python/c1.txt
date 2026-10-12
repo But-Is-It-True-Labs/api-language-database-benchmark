@@ -1,0 +1,21 @@
+========================================
+full / postgres / python / C1
+UTC: Sat Oct 10 08:34:50 UTC 2026
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.037s
+Requests:     2771
+Errors:       0
+Requests/sec: 92.25
+
+Average:      10.38151ms
+p50:          7.884977ms
+p95:          25.931179ms
+p99:          39.166554ms
+Max:          65.535457ms
+========================================
